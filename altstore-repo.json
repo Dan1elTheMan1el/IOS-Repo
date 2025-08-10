@@ -23,6 +23,13 @@
       ],
       "versions": [
         {
+          "version": "1.1",
+          "date": "2025-08-10T15:14:00-07:00",
+          "localizedDescription": "Manual Redirect Option",
+          "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.1/LiveRedirect1.1.ipa",
+          "size": 643000
+        },
+        {
           "version": "1.0",
           "date": "2025-08-08T18:30:00-07:00",
           "localizedDescription": "Initial Release",
