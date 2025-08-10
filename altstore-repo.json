@@ -1,0 +1,40 @@
+{
+  "name": "DanielTheManiel's Repo",
+  "subtitle": "i make things",
+  "iconURL": "https://avatars.githubusercontent.com/u/179581632",
+  "website": "https://github.com/Dan1elTheMan1el",
+  "tintColor": "#de1fe5",
+  "featuredApps": [
+    "danielthemaniel.DynamicRedirect"
+  ],
+  "apps": [
+    {
+      "name": "LiveRedirect",
+      "bundleIdentifier": "danielthemaniel.DynamicRedirect",
+      "developerName": "Daniel Friedman",
+      "subtitle": "Redirect any URLs to LiveContainer!",
+      "localizedDescription": "Open matching webpages in LiveContainer from Safari on iOS using a lightweight Safari Web Extension.\n\nWhat it does:\n• Lets you maintain a list of URL or domain patterns (e.g., discord.com/invite, youtube.com).\n• When a visited page matches, the content script encodes the full URL as Base64 and redirects to: livecontainer://open-web-page?url=<base64>\n• Manage patterns directly in the extension popup (add, delete, import, export).\n\nUsing the extension:\nImportant: Sideload with app extensions enabled to use extension!\n• Add a pattern such as discord.com/invite or just github.com.\n• Visit a matching page; you should be redirected to the LiveContainer URL.\n• Import/Export via clipboard (JSON or newline list). The popup performs clipboard reads/writes only on user action.",
+      "iconURL": "https://i.imgur.com/1n8CjkG.png",
+      "tintColor": "#04a49c",
+      "category": "utilities",
+      "screenshots": [
+        "https://i.imgur.com/SSKSeKd.png",
+        "https://i.imgur.com/8VReFy8.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2025-08-09T15:30:00-07:00",
+          "localizedDescription": "Initial Release",
+          "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.0/LiveRedirect1.0.ipa",
+          "size": 652000
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
