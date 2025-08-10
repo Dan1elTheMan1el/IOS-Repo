@@ -29,11 +29,7 @@
           "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.0/LiveRedirect1.0.ipa",
           "size": 652000
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
+      ]
     }
   ],
   "news": []
