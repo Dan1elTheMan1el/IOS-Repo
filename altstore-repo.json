@@ -31,7 +31,7 @@
         },
         {
           "version": "1.0",
-          "date": "2025-08-08T18:30:00-07:00",
+          "date": "2025-08-0 q8T18:30:00-07:00",
           "localizedDescription": "Initial Release",
           "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.0/LiveRedirect1.0.ipa",
           "size": 652000
@@ -39,5 +39,17 @@
       ]
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "LiveRedirector Solution for iOS 26!",
+      "identifier": "news_wzotos79y8",
+      "caption": "Fix broken sideloaded Safari extension using Userscripts + Shortcuts",
+      "date": "2025-09-26T11:39",
+      "tintColor": "#04a49c",
+      "imageURL": "",
+      "notify": true,
+      "url": "https://www.reddit.com/r/sideloaded/comments/1nr93xd/update_liveredirector_on_ios_26/",
+      "appID": "danielthemaniel.DynamicRedirect"
+    }
+  ]
 }
