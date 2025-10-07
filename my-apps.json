@@ -1,0 +1,53 @@
+{
+    "name": "DanielTheManiel's Repo",
+    "subtitle": "i make things",
+    "iconURL": "https://avatars.githubusercontent.com/u/179581632",
+    "website": "https://github.com/Dan1elTheMan1el/IOS-Repo",
+    "tintColor": "#de1fe5",
+    "featuredApps": [
+        "danielthemaniel.DynamicRedirect"
+    ],
+    "apps": [
+        {
+            "name": "LiveRedirect",
+            "bundleIdentifier": "danielthemaniel.DynamicRedirect",
+            "developerName": "DanielTheManiel",
+            "subtitle": "Redirect any URLs to LiveContainer!",
+            "localizedDescription": "Open matching webpages in LiveContainer from Safari on iOS using a lightweight Safari Web Extension.\n\nWhat it does:\n• Lets you maintain a list of URL or domain patterns (e.g., discord.com/invite, youtube.com).\n• When a visited page matches, the content script encodes the full URL as Base64 and redirects to: livecontainer://open-web-page?url=<base64>\n• Manage patterns directly in the extension popup (add, delete, import, export).\n\nUsing the extension:\nImportant: Sideload with app extensions enabled to use extension!\n• Add a pattern such as discord.com/invite or just github.com.\n• Visit a matching page; you should be redirected to the LiveContainer URL.\n• Import/Export via clipboard (JSON or newline list). The popup performs clipboard reads/writes only on user action.",
+            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/refs/heads/main/DynamicRedirect%20Extension/images/icon-256.png",
+            "tintColor": "#04a49c",
+            "category": "utilities",
+            "screenshots": [
+                "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector1.png",
+                "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector2.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2025-08-10T15:14:00-07:00",
+                    "localizedDescription": "Manual Redirect Option",
+                    "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.1/LiveRedirect1.1.ipa",
+                    "size": 643000
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-08-08T18:30:00-07:00",
+                    "localizedDescription": "Initial Release",
+                    "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.0/LiveRedirect1.0.ipa",
+                    "size": 652000
+                }
+            ]
+        }
+    ],
+    "news": [
+        {
+            "title": "LiveRedirector Solution for iOS 26!",
+            "identifier": "news_wzotos79y8",
+            "caption": "Fix broken sideloaded Safari extension using Userscripts + Shortcuts",
+            "date": "2025-09-26T11:39:00-07:00",
+            "tintColor": "#04a49c",
+            "url": "https://www.reddit.com/r/sideloaded/comments/1nr93xd/update_liveredirector_on_ios_26/",
+            "appID": "danielthemaniel.DynamicRedirect"
+        }
+    ]
+}
