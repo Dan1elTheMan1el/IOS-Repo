@@ -38,7 +38,7 @@ for repo in repos:
     
     app = {
         "name": name,
-        "bundleId": "com.test.com",
+        "bundleIdentifier": "com.test.com",
         "developerName": author,
         "subtitle": subtitle,
         "localizedDescription": localizedDescription,
