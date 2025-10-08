@@ -1,98 +1,95 @@
 {
-    "name": "DanielTheManiel's Repo",
-    "subtitle": "i make things",
-    "iconURL": "https://avatars.githubusercontent.com/u/179581632",
-    "website": "https://github.com/Dan1elTheMan1el/IOS-Repo",
-    "tintColor": "#de1fe5",
-    "featuredApps": [
-        "danielthemaniel.DynamicRedirect"
-    ],
-    "apps": [
+  "name": "DanielTheManiel's Repo",
+  "subtitle": "i make things",
+  "iconURL": "https://avatars.githubusercontent.com/u/179581632",
+  "website": "https://github.com/Dan1elTheMan1el/IOS-Repo",
+  "tintColor": "#de1fe5",
+  "apps": [
+    {
+      "name": "LiveRedirect",
+      "bundleIdentifier": "danielthemaniel.DynamicRedirect",
+      "developerName": "DanielTheManiel",
+      "subtitle": "Redirect any URLs to LiveContainer! (iOS <26)",
+      "localizedDescription": "Open matching webpages in LiveContainer from Safari on iOS using a lightweight Safari Web Extension.\n\nWhat it does:\n\u2022 Lets you maintain a list of URL or domain patterns (e.g., discord.com/invite, youtube.com).\n\u2022 When a visited page matches, the content script encodes the full URL as Base64 and redirects to: livecontainer://open-web-page?url=<base64>\n\u2022 Manage patterns directly in the extension popup (add, delete, import, export).\n\nUsing the extension:\nImportant: Sideload with app extensions enabled to use extension!\n\u2022 Add a pattern such as discord.com/invite or just github.com.\n\u2022 Visit a matching page; you should be redirected to the LiveContainer URL.\n\u2022 Import/Export via clipboard (JSON or newline list). The popup performs clipboard reads/writes only on user action.",
+      "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/refs/heads/main/DynamicRedirect%20Extension/images/icon-256.png",
+      "tintColor": "#04a49c",
+      "category": "utilities",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector1.png",
+        "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector2.png"
+      ],
+      "versions": [
         {
-            "name": "LiveRedirect",
-            "bundleIdentifier": "danielthemaniel.DynamicRedirect",
-            "developerName": "DanielTheManiel",
-            "subtitle": "Redirect any URLs to LiveContainer! (iOS <26)",
-            "localizedDescription": "Open matching webpages in LiveContainer from Safari on iOS using a lightweight Safari Web Extension.\n\nWhat it does:\n\u2022 Lets you maintain a list of URL or domain patterns (e.g., discord.com/invite, youtube.com).\n\u2022 When a visited page matches, the content script encodes the full URL as Base64 and redirects to: livecontainer://open-web-page?url=<base64>\n\u2022 Manage patterns directly in the extension popup (add, delete, import, export).\n\nUsing the extension:\nImportant: Sideload with app extensions enabled to use extension!\n\u2022 Add a pattern such as discord.com/invite or just github.com.\n\u2022 Visit a matching page; you should be redirected to the LiveContainer URL.\n\u2022 Import/Export via clipboard (JSON or newline list). The popup performs clipboard reads/writes only on user action.",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/refs/heads/main/DynamicRedirect%20Extension/images/icon-256.png",
-            "tintColor": "#04a49c",
-            "category": "utilities",
-            "screenshots": [
-                "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector1.png",
-                "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector2.png"
-            ],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2025-08-10T15:14:00-07:00",
-                    "localizedDescription": "Manual Redirect Option",
-                    "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.1/LiveRedirect1.1.ipa",
-                    "size": 643000
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-08-08T18:30:00-07:00",
-                    "localizedDescription": "Initial Release",
-                    "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.0/LiveRedirect1.0.ipa",
-                    "size": 652000
-                }
-            ]
+          "version": "1.1",
+          "date": "2025-08-10T15:14:00-07:00",
+          "localizedDescription": "Manual Redirect Option",
+          "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.1/LiveRedirect1.1.ipa",
+          "size": 643000
         },
         {
-            "name": "Pocket Poster",
-            "bundleIdentifier": "com.lemin.Pocket-Poster",
-            "developerName": "leminlimez",
-            "subtitle": "Custom PosterBoard Wallpapers for iOS 17+",
-            "localizedDescription": "# Pocket Poster\nCustom PosterBoard animated wallpapers for iOS 17.0+\n\nCommunity-made wallpapers can be found on the [official Cowabun.ga site](https://cowabun.ga/wallpapers). Join the [Cowabunga Discord Server](https://discord.gg/cowabunga) for additional help.\n\n## Getting Started\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\n\nDownload [Nugget](https://github.com/leminlimez/Nugget) on your computer and plug in your phone. Then, navigate to the `Settings` page and click the `Pocket Poster Helper` button. Inside Pocket Poster, click the `Detect` button inside of settings.\n\n## Credits\n- Translations crowdsourced using [POEditor][POEditorJoin]. Thank you everyone who assisted in the translation effort!\n- [PosterRestore][PosterRestoreDiscord] for their help with PosterBoard\n- [dootskyre][dootskyreX] for the fallback shortcut\n- [Nathan](https://github.com/verygenericname) and [DuyKhanhTran](https://github.com/khanhduytran0) for the exploit\n\n[POEditorJoin]: https://poeditor.com/join/project/MPZOsunwVj\n[PosterRestoreDiscord]: https://discord.gg/gWtzTVhMvh\n[dootskyreX]: https://x.com/dootskyre\n",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png",
-            "versions": [
-                {
-                    "version": "3.0",
-                    "date": "2025-08-29T21:35:36Z",
-                    "localizedDescription": "# Features\r\n- Added an in-app explore page for finding and downloading wallpapers\r\n- Added custom CarPlay wallpapers (will not work on iOS 26.0)\r\n- *Preliminary* iOS 16 support (not all wallpapers will work)\r\n- Improved certain error messages\r\n\r\n# Bug Fixes\r\n- Fixed the aspect ratio/rotation of imported custom videos\r\n- Fixed the update API not being called correctly\r\n- Fixed issues with some alerts not popping up\r\n- Other various app stability improvements",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
-                    "size": 13686800
-                },
-                {
-                    "version": "2.0.2",
-                    "date": "2025-07-14T19:56:32Z",
-                    "localizedDescription": "- Changed how the app hash is gotten (Requires [Nugget v6.1.1 or newer](https://github.com/leminlimez/Nugget/releases/latest))\r\n- Pocket Poster now prompts when there is an update available\r\n- Reset Collections button now falls back to the tutorial screen from v1.0 on iOS 17.0\r\n- Added new languages:\r\n  - Bulgarian\r\n  - Chinese (simplified)\r\n  - French (LU)\r\n  - Italian",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.2/Pocket_Poster.ipa",
-                    "size": 13551473
-                },
-                {
-                    "version": "2.0.1",
-                    "date": "2025-06-30T01:52:10Z",
-                    "localizedDescription": "- Fixed a bug where the app hash would be pasted incorrectly",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.1/Pocket.Poster.ipa",
-                    "size": 13531471
-                },
-                {
-                    "version": "2.0",
-                    "date": "2025-06-23T17:30:12Z",
-                    "localizedDescription": "This version is outdated, you can find the latest version [here](https://github.com/leminlimez/Pocket-Poster/releases/latest).\r\n\r\n# Features\r\n- Added video wallpapers! Select videos from your camera roll and use them as wallpapers.\r\n- The \"Reset Collections\" button now works automatically\r\n- Added translations for 21 new languages!\r\n  - Available languages: Arabic, Arabic (Saudi Arabia), Arabic (Egypt), Chinese (Traditional), Czech, Dutch, French, French (Belgium), French (Canada), French (Switzerland), German, Hungarian, Japanese, Korean, Polish, Russian, Spanish, Spanish (Mexico), Thai, Turkish, Vietnamese\r\n  - Thank you to all the amazing translators who helped make this project more accessible! This would not have been possible without you!\r\n  - If you would like to help translate, you can join the effort over on [POEditor](https://poeditor.com/join/project/MPZOsunwVj)\r\n- Improved the UI\r\n- Prepared for CarPlay hash (coming in v3.0)\r\n\r\n# Bug Fixes\r\n- Improved backend handling of the app\r\n- Fixed problems with alert popups not showing\r\n- Improved error messages\r\n- Improved cache clean up\r\n- Fixed memory leak when applying that would lead to a crash",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0/Pocket.Poster.ipa",
-                    "size": 13530628
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-06-08T16:14:08Z",
-                    "localizedDescription": "- Initial Release\r\n  - Only .tendies files are currently supported. Configuration-based tendies will not work, however those are rare.\r\n\r\n**Note:** You will need [Nugget v5.2.3 or newer](https://github.com/leminlimez/Nugget) to get the app hash.",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v1.0/Pocket_Poster.ipa",
-                    "size": 13385000
-                }
-            ]
+          "version": "1.0",
+          "date": "2025-08-08T18:30:00-07:00",
+          "localizedDescription": "Initial Release",
+          "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.0/LiveRedirect1.0.ipa",
+          "size": 652000
         }
-    ],
-    "news": [
+      ]
+    },
+    {
+      "name": "Pocket Poster",
+      "bundleIdentifier": "com.lemin.Pocket-Poster",
+      "developerName": "leminlimez",
+      "subtitle": "Custom PosterBoard Wallpapers for iOS 17+",
+      "localizedDescription": "# Pocket Poster\nCustom PosterBoard animated wallpapers for iOS 17.0+\n\nCommunity-made wallpapers can be found on the [official Cowabun.ga site](https://cowabun.ga/wallpapers). Join the [Cowabunga Discord Server](https://discord.gg/cowabunga) for additional help.\n\n## Getting Started\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\n\nDownload [Nugget](https://github.com/leminlimez/Nugget) on your computer and plug in your phone. Then, navigate to the `Settings` page and click the `Pocket Poster Helper` button. Inside Pocket Poster, click the `Detect` button inside of settings.\n\n## Credits\n- Translations crowdsourced using [POEditor][POEditorJoin]. Thank you everyone who assisted in the translation effort!\n- [PosterRestore][PosterRestoreDiscord] for their help with PosterBoard\n- [dootskyre][dootskyreX] for the fallback shortcut\n- [Nathan](https://github.com/verygenericname) and [DuyKhanhTran](https://github.com/khanhduytran0) for the exploit\n\n[POEditorJoin]: https://poeditor.com/join/project/MPZOsunwVj\n[PosterRestoreDiscord]: https://discord.gg/gWtzTVhMvh\n[dootskyreX]: https://x.com/dootskyre\n",
+      "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png",
+      "versions": [
         {
-            "title": "LiveRedirector Solution for iOS 26!",
-            "identifier": "news_wzotos79y8",
-            "caption": "Fix broken sideloaded Safari extension using Userscripts + Shortcuts",
-            "date": "2025-09-26T11:39:00-07:00",
-            "tintColor": "#04a49c",
-            "url": "https://www.reddit.com/r/sideloaded/comments/1nr93xd/update_liveredirector_on_ios_26/",
-            "appID": "danielthemaniel.DynamicRedirect"
+          "version": "3.0",
+          "date": "2025-08-29T21:35:36Z",
+          "localizedDescription": "# Features\r\n- Added an in-app explore page for finding and downloading wallpapers\r\n- Added custom CarPlay wallpapers (will not work on iOS 26.0)\r\n- *Preliminary* iOS 16 support (not all wallpapers will work)\r\n- Improved certain error messages\r\n\r\n# Bug Fixes\r\n- Fixed the aspect ratio/rotation of imported custom videos\r\n- Fixed the update API not being called correctly\r\n- Fixed issues with some alerts not popping up\r\n- Other various app stability improvements",
+          "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
+          "size": 13686800
+        },
+        {
+          "version": "2.0.2",
+          "date": "2025-07-14T19:56:32Z",
+          "localizedDescription": "- Changed how the app hash is gotten (Requires [Nugget v6.1.1 or newer](https://github.com/leminlimez/Nugget/releases/latest))\r\n- Pocket Poster now prompts when there is an update available\r\n- Reset Collections button now falls back to the tutorial screen from v1.0 on iOS 17.0\r\n- Added new languages:\r\n  - Bulgarian\r\n  - Chinese (simplified)\r\n  - French (LU)\r\n  - Italian",
+          "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.2/Pocket_Poster.ipa",
+          "size": 13551473
+        },
+        {
+          "version": "2.0.1",
+          "date": "2025-06-30T01:52:10Z",
+          "localizedDescription": "- Fixed a bug where the app hash would be pasted incorrectly",
+          "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.1/Pocket.Poster.ipa",
+          "size": 13531471
+        },
+        {
+          "version": "2.0",
+          "date": "2025-06-23T17:30:12Z",
+          "localizedDescription": "This version is outdated, you can find the latest version [here](https://github.com/leminlimez/Pocket-Poster/releases/latest).\r\n\r\n# Features\r\n- Added video wallpapers! Select videos from your camera roll and use them as wallpapers.\r\n- The \"Reset Collections\" button now works automatically\r\n- Added translations for 21 new languages!\r\n  - Available languages: Arabic, Arabic (Saudi Arabia), Arabic (Egypt), Chinese (Traditional), Czech, Dutch, French, French (Belgium), French (Canada), French (Switzerland), German, Hungarian, Japanese, Korean, Polish, Russian, Spanish, Spanish (Mexico), Thai, Turkish, Vietnamese\r\n  - Thank you to all the amazing translators who helped make this project more accessible! This would not have been possible without you!\r\n  - If you would like to help translate, you can join the effort over on [POEditor](https://poeditor.com/join/project/MPZOsunwVj)\r\n- Improved the UI\r\n- Prepared for CarPlay hash (coming in v3.0)\r\n\r\n# Bug Fixes\r\n- Improved backend handling of the app\r\n- Fixed problems with alert popups not showing\r\n- Improved error messages\r\n- Improved cache clean up\r\n- Fixed memory leak when applying that would lead to a crash",
+          "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0/Pocket.Poster.ipa",
+          "size": 13530628
+        },
+        {
+          "version": "1.0",
+          "date": "2025-06-08T16:14:08Z",
+          "localizedDescription": "- Initial Release\r\n  - Only .tendies files are currently supported. Configuration-based tendies will not work, however those are rare.\r\n\r\n**Note:** You will need [Nugget v5.2.3 or newer](https://github.com/leminlimez/Nugget) to get the app hash.",
+          "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v1.0/Pocket_Poster.ipa",
+          "size": 13385000
         }
-    ]
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "LiveRedirector Solution for iOS 26!",
+      "identifier": "news_wzotos79y8",
+      "caption": "Fix broken sideloaded Safari extension using Userscripts + Shortcuts",
+      "date": "2025-09-26T11:39:00-07:00",
+      "tintColor": "#04a49c",
+      "url": "https://www.reddit.com/r/sideloaded/comments/1nr93xd/update_liveredirector_on_ios_26/",
+      "appID": "danielthemaniel.DynamicRedirect"
+    }
+  ]
 }

@@ -4,9 +4,6 @@
     "iconURL": "https://avatars.githubusercontent.com/u/179581632",
     "website": "https://github.com/Dan1elTheMan1el/IOS-Repo",
     "tintColor": "#de1fe5",
-    "featuredApps": [
-        "danielthemaniel.DynamicRedirect"
-    ],
     "apps": [
         {
             "name": "LiveRedirect",
