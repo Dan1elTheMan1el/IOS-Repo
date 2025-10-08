@@ -3,6 +3,7 @@ import json
 import zipfile
 import os
 import plistlib
+import pyipng
 
 myApps = json.load(open("my-apps.json"))
 
@@ -15,10 +16,10 @@ for repo in repos:
     author = data["owner"]["login"]
     subtitle = data["description"]
     localizedDescription = readme
-    iconURL = data["owner"]["avatar_url"] # Maybe change to app icon later
     versions = []
 
     releases = requests.get(f"https://api.github.com/repos/{repo}/releases").json()
+    latestVersion = releases[0]["tag_name"]
 
     for release in releases:
         version = release["tag_name"]
@@ -53,6 +54,7 @@ for repo in repos:
         key=lambda icon: os.path.getsize(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", icon))
     )
     icon = open(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", largest_icon), "rb").read()
+    icon = pyipng.convert(icon)
     with open(f"scrapedIcons/{bundleID}.png", "wb") as f:
         f.write(icon)
     iconURL = f"https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/{bundleID}.png"
@@ -67,9 +69,9 @@ for repo in repos:
         "versions": versions
     }
 
-    myApps["apps"].append(app)
-
     os.remove("latest.ipa")
     os.system("rm -rf latest_ipa_unzipped")
 
+    myApps["apps"].append(app)
+    
 json.dump(myApps, open("test-repo.json", "w"), indent=4)
