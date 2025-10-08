@@ -7,7 +7,7 @@ import pyipng
 
 myApps = json.load(open("my-apps.json"))
 
-repos = ["leminlimez/Pocket-Poster"]
+repos = ["leminlimez/Pocket-Poster", "hugeBlack/GetMoreRam"]
 
 for repo in repos:
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
@@ -46,17 +46,22 @@ for repo in repos:
 
     plist = plistlib.load(open(f"latest_ipa_unzipped/Payload/{app_dirs}/Info.plist", "rb"))
     bundleID = plist["CFBundleIdentifier"]
+    version = plist["CFBundleShortVersionString"]
+    versions[0]["version"] = version
 
     icons = [f for f in os.listdir(f"latest_ipa_unzipped/Payload/{app_dirs}") if f.endswith(".png")]
-    largest_icon = max(
-        icons,
-        key=lambda icon: os.path.getsize(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", icon))
-    )
-    icon = open(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", largest_icon), "rb").read()
-    icon = pyipng.convert(icon)
-    with open(f"scrapedIcons/{bundleID}.png", "wb") as f:
-        f.write(icon)
-    iconURL = f"https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/{bundleID}.png"
+    if len(icons) == 0:
+        iconURL = "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png"
+    else:
+        largest_icon = max(
+            icons,
+            key=lambda icon: os.path.getsize(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", icon))
+        )
+        icon = open(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", largest_icon), "rb").read()
+        icon = pyipng.convert(icon)
+        with open(f"scrapedIcons/{bundleID}.png", "wb") as f:
+            f.write(icon)
+        iconURL = f"https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/{bundleID}.png"
 
     app = {
         "name": name,
