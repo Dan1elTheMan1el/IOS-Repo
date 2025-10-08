@@ -19,10 +19,9 @@ for repo in repos:
     versions = []
 
     releases = requests.get(f"https://api.github.com/repos/{repo}/releases").json()
-    latestVersion = releases[0]["tag_name"]
 
     for release in releases:
-        version = release["tag_name"]
+        version = release["tag_name"].replace("v", "")
         date = release["published_at"]
         changelog = release["body"]
         downloadURL = release["assets"][0]["browser_download_url"]
@@ -74,4 +73,4 @@ for repo in repos:
 
     myApps["apps"].append(app)
     
-json.dump(myApps, open("test-repo.json", "w"), indent=4)
+json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
