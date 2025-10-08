@@ -39,12 +39,12 @@
             ]
         },
         {
-            "name": "Pocket-Poster",
-            "bundleIdentifier": "com.test.com",
+            "name": "Pocket Poster",
+            "bundleIdentifier": "com.lemin.Pocket-Poster",
             "developerName": "leminlimez",
             "subtitle": "Custom PosterBoard Wallpapers for iOS 17+",
             "localizedDescription": "# Pocket Poster\nCustom PosterBoard animated wallpapers for iOS 17.0+\n\nCommunity-made wallpapers can be found on the [official Cowabun.ga site](https://cowabun.ga/wallpapers). Join the [Cowabunga Discord Server](https://discord.gg/cowabunga) for additional help.\n\n## Getting Started\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\n\nDownload [Nugget](https://github.com/leminlimez/Nugget) on your computer and plug in your phone. Then, navigate to the `Settings` page and click the `Pocket Poster Helper` button. Inside Pocket Poster, click the `Detect` button inside of settings.\n\n## Credits\n- Translations crowdsourced using [POEditor][POEditorJoin]. Thank you everyone who assisted in the translation effort!\n- [PosterRestore][PosterRestoreDiscord] for their help with PosterBoard\n- [dootskyre][dootskyreX] for the fallback shortcut\n- [Nathan](https://github.com/verygenericname) and [DuyKhanhTran](https://github.com/khanhduytran0) for the exploit\n\n[POEditorJoin]: https://poeditor.com/join/project/MPZOsunwVj\n[PosterRestoreDiscord]: https://discord.gg/gWtzTVhMvh\n[dootskyreX]: https://x.com/dootskyre\n",
-            "iconURL": "https://avatars.githubusercontent.com/u/59540996?v=4",
+            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png",
             "versions": [
                 {
                     "version": "v3.0",

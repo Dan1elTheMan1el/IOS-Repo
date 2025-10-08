@@ -1,5 +1,8 @@
 import requests
 import json
+import zipfile
+import os
+import plistlib
 
 myApps = json.load(open("my-apps.json"))
 
@@ -9,15 +12,10 @@ for repo in repos:
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
     readme = requests.get(f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md").text
 
-    name = data["name"]
-    # bundleId
     author = data["owner"]["login"]
     subtitle = data["description"]
     localizedDescription = readme
     iconURL = data["owner"]["avatar_url"] # Maybe change to app icon later
-    # tintColor
-    # category
-    # screenshots
     versions = []
 
     releases = requests.get(f"https://api.github.com/repos/{repo}/releases").json()
@@ -36,9 +34,32 @@ for repo in repos:
             "size": size
         })
     
+    latestURL = releases[0]["assets"][0]["browser_download_url"]
+    ipaFile = requests.get(latestURL)
+    with open("latest.ipa", "wb") as f:
+        f.write(ipaFile.content)
+    with zipfile.ZipFile("latest.ipa", "r") as zip_ref:
+        zip_ref.extractall("latest_ipa_unzipped")
+    
+    app_dirs = [f for f in os.listdir("latest_ipa_unzipped/Payload/") if f.endswith(".app")][0]
+    name = app_dirs.replace(".app", "")
+
+    plist = plistlib.load(open(f"latest_ipa_unzipped/Payload/{app_dirs}/Info.plist", "rb"))
+    bundleID = plist["CFBundleIdentifier"]
+
+    icons = [f for f in os.listdir(f"latest_ipa_unzipped/Payload/{app_dirs}") if f.endswith(".png")]
+    largest_icon = max(
+        icons,
+        key=lambda icon: os.path.getsize(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", icon))
+    )
+    icon = open(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", largest_icon), "rb").read()
+    with open(f"scrapedIcons/{bundleID}.png", "wb") as f:
+        f.write(icon)
+    iconURL = f"https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/{bundleID}.png"
+
     app = {
         "name": name,
-        "bundleIdentifier": "com.test.com",
+        "bundleIdentifier": bundleID,
         "developerName": author,
         "subtitle": subtitle,
         "localizedDescription": localizedDescription,
@@ -47,5 +68,8 @@ for repo in repos:
     }
 
     myApps["apps"].append(app)
+
+    os.remove("latest.ipa")
+    os.system("rm -rf latest_ipa_unzipped")
 
 json.dump(myApps, open("test-repo.json", "w"), indent=4)
