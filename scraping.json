@@ -1,0 +1,19 @@
+[
+    {
+        "github": "leminlimez/Pocket-Poster",
+        "bundleID": "com.lemin.Pocket-Poster",
+        "name": "Pocket Poster",
+        "iconURL": "https://raw.githubusercontent.com/leminlimez/Pocket-Poster/refs/heads/main/Pocket%20Poster/Assets.xcassets/AppIcon.appiconset/pocket_poster.png"
+    },
+    {
+        "github": "hugeBlack/GetMoreRam",
+        "bundleID": "com.stos.Entitlement",
+        "name": "Get More Ram"
+    },
+    {
+        "github": "level3tjg/RedditFilter",
+        "bundleID": "com.reddit.Reddit",
+        "name": "Reddit Filter",
+        "iconURL": "https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/icons/com.reddit.Reddit.png"
+    }
+]

@@ -36,7 +36,7 @@
             ]
         },
         {
-            "name": "Pocket-Poster",
+            "name": "Pocket Poster",
             "bundleIdentifier": "com.lemin.Pocket-Poster",
             "developerName": "leminlimez",
             "subtitle": "Custom PosterBoard Wallpapers for iOS 17+",
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "name": "GetMoreRam",
+            "name": "Get More Ram",
             "bundleIdentifier": "com.stos.Entitlement",
             "developerName": "hugeBlack",
             "subtitle": "A simple AltSign wrapper app that allows you to enable \"Increased Memory Limit\" to your sideloaded apps without using Xcode",
@@ -89,7 +89,7 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png",
             "versions": [
                 {
-                    "version": "1.0",
+                    "version": "nightly",
                     "date": "2025-03-31T04:27:11Z",
                     "localizedDescription": "This is a nightly release [created automatically with GitHub Actions workflow](https://github.com/hugeBlack/GetMoreRam/actions/runs/14164044325/attempts/1).",
                     "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/Entitlement.ipa",
@@ -98,7 +98,7 @@
             ]
         },
         {
-            "name": "RedditFilter",
+            "name": "Reddit Filter",
             "bundleIdentifier": "com.reddit.Reddit",
             "developerName": "level3tjg",
             "subtitle": "iOS Tweak - Filter out unwanted content from your Reddit feed",
@@ -106,7 +106,7 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.reddit.Reddit.png",
             "versions": [
                 {
-                    "version": "2025.37.0",
+                    "version": "2025.37.0-1.1.8",
                     "date": "2025-09-26T09:29:45Z",
                     "localizedDescription": "# RedditFilter v2025.37.0-1.1.8\r\n\r\n## Changes\r\n\r\n- Fix app crash (@NicholasBly)\r\n- Fix ad comments showing under posts (@Laitinlok)\r\n- Fix popular feed not showing with recommendations disabled\r\n- Move RedditFilter settings to the user drawer / side bar (accessed by tapping the profile picture in the top right)\r\n\r\n## SHA256\r\n\r\n- `1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3`  packages/RedditFilter_2025.37.0-1.1.8.ipa\r\n- `1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb\r\n- `e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",

@@ -1,20 +1,15 @@
 import requests
 import json
-import zipfile
-import os
-import plistlib
-# import pyipng
-import shutil
 
 myApps = json.load(open("my-apps.json"))
+scraping = json.load(open("scraping.json"))
 
-repos = ["leminlimez/Pocket-Poster", "hugeBlack/GetMoreRam", "level3tjg/RedditFilter"]
-
-for repo in repos:
+for repo_info in scraping:
+    repo = repo_info["github"]
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
     readme = requests.get(f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md").text
 
-    name = data["name"]
+    name = repo_info["name"]
     author = data["owner"]["login"]
     subtitle = data["description"]
     localizedDescription = readme
@@ -38,37 +33,16 @@ for repo in repos:
             "downloadURL": downloadURL,
             "size": size
         })
-    
-    latestURL = versions[0]["downloadURL"]
-    ipaFile = requests.get(latestURL)
-    with open("latest.ipa", "wb") as f:
-        f.write(ipaFile.content)
-    with zipfile.ZipFile("latest.ipa", "r") as zip_ref:
-        zip_ref.extractall("latest_ipa_unzipped")
-    
-    app_dirs = [f for f in os.listdir("latest_ipa_unzipped/Payload/") if f.endswith(".app")][0]
-    # name = app_dirs.replace(".app", "")
 
-    plist = plistlib.load(open(f"latest_ipa_unzipped/Payload/{app_dirs}/Info.plist", "rb"))
-    bundleID = plist["CFBundleIdentifier"]
-    version = plist["CFBundleShortVersionString"]
-    versions[0]["version"] = version
+    bundleID = repo_info["bundleID"]
 
-    icons = [f for f in os.listdir(f"latest_ipa_unzipped/Payload/{app_dirs}") if f.endswith(".png")]
-    if len(icons) == 0:
-        iconURL = "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png"
+    if "iconURL" in repo_info:
+        icon = requests.get(repo_info["iconURL"]).content
+        with open("scrapedIcons/" + bundleID + ".png", "wb") as f:
+            f.write(icon)
+        iconURL = "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/" + bundleID + ".png"
     else:
-        largest_icon = max(
-            icons,
-            key=lambda icon: os.path.getsize(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", icon))
-        )
-        src = os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", largest_icon)
-        os.makedirs("scrapedIcons", exist_ok=True)
-        dst = os.path.join("scrapedIcons", f"{bundleID}.png")
-        if os.path.exists(dst):
-            os.remove(dst)
-        shutil.move(src, dst)
-        iconURL = f"https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/{bundleID}.png"
+        iconURL = "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png"
 
     app = {
         "name": name,
@@ -79,9 +53,6 @@ for repo in repos:
         "iconURL": iconURL,
         "versions": versions
     }
-
-    os.remove("latest.ipa")
-    os.system("rm -rf latest_ipa_unzipped")
 
     myApps["apps"].append(app)
     
