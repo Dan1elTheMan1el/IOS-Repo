@@ -14,6 +14,7 @@ for repo in repos:
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
     readme = requests.get(f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md").text
 
+    name = data["name"]
     author = data["owner"]["login"]
     subtitle = data["description"]
     localizedDescription = readme
@@ -46,7 +47,7 @@ for repo in repos:
         zip_ref.extractall("latest_ipa_unzipped")
     
     app_dirs = [f for f in os.listdir("latest_ipa_unzipped/Payload/") if f.endswith(".app")][0]
-    name = app_dirs.replace(".app", "")
+    # name = app_dirs.replace(".app", "")
 
     plist = plistlib.load(open(f"latest_ipa_unzipped/Payload/{app_dirs}/Info.plist", "rb"))
     bundleID = plist["CFBundleIdentifier"]

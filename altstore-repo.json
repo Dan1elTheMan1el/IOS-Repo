@@ -36,7 +36,7 @@
             ]
         },
         {
-            "name": "Pocket Poster",
+            "name": "Pocket-Poster",
             "bundleIdentifier": "com.lemin.Pocket-Poster",
             "developerName": "leminlimez",
             "subtitle": "Custom PosterBoard Wallpapers for iOS 17+",
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "name": "Entitlement",
+            "name": "GetMoreRam",
             "bundleIdentifier": "com.stos.Entitlement",
             "developerName": "hugeBlack",
             "subtitle": "A simple AltSign wrapper app that allows you to enable \"Increased Memory Limit\" to your sideloaded apps without using Xcode",
@@ -98,7 +98,7 @@
             ]
         },
         {
-            "name": "RedditApp",
+            "name": "RedditFilter",
             "bundleIdentifier": "com.reddit.Reddit",
             "developerName": "level3tjg",
             "subtitle": "iOS Tweak - Filter out unwanted content from your Reddit feed",
