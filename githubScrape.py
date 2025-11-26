@@ -3,11 +3,12 @@ import json
 import zipfile
 import os
 import plistlib
-import pyipng
+# import pyipng
+import shutil
 
 myApps = json.load(open("my-apps.json"))
 
-repos = ["leminlimez/Pocket-Poster", "hugeBlack/GetMoreRam"]
+repos = ["leminlimez/Pocket-Poster", "hugeBlack/GetMoreRam", "level3tjg/RedditFilter"]
 
 for repo in repos:
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
@@ -24,8 +25,11 @@ for repo in repos:
         version = release["tag_name"].replace("v", "")
         date = release["published_at"]
         changelog = release["body"]
-        downloadURL = release["assets"][0]["browser_download_url"]
-        size = release["assets"][0]["size"]
+        for asset in release["assets"]:
+            if asset["browser_download_url"].endswith(".ipa"):
+                downloadURL = asset["browser_download_url"]
+                size = asset["size"]
+                break
         versions.append({
             "version": version,
             "date": date,
@@ -34,7 +38,7 @@ for repo in repos:
             "size": size
         })
     
-    latestURL = releases[0]["assets"][0]["browser_download_url"]
+    latestURL = versions[0]["downloadURL"]
     ipaFile = requests.get(latestURL)
     with open("latest.ipa", "wb") as f:
         f.write(ipaFile.content)
@@ -57,10 +61,12 @@ for repo in repos:
             icons,
             key=lambda icon: os.path.getsize(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", icon))
         )
-        icon = open(os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", largest_icon), "rb").read()
-        icon = pyipng.convert(icon)
-        with open(f"scrapedIcons/{bundleID}.png", "wb") as f:
-            f.write(icon)
+        src = os.path.join(f"latest_ipa_unzipped/Payload/{app_dirs}", largest_icon)
+        os.makedirs("scrapedIcons", exist_ok=True)
+        dst = os.path.join("scrapedIcons", f"{bundleID}.png")
+        if os.path.exists(dst):
+            os.remove(dst)
+        shutil.move(src, dst)
         iconURL = f"https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/{bundleID}.png"
 
     app = {
