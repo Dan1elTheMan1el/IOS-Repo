@@ -12,3 +12,4 @@
 - [Pocket Poster](https://github.com/leminlimez/Pocket-Poster) (Auto scraped)
 - [Get More Ram](https://github.com/hugeBlack/GetMoreRam) (Auto scraped)
 - [RedditFilter](https://github.com/level3tjg/RedditFilter) (Auto scraped)
+- [Ksign](https://github.com/Nyasami/Ksign) (Auto scraped)
