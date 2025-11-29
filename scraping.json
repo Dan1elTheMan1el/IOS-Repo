@@ -15,5 +15,11 @@
         "bundleID": "com.reddit.Reddit",
         "name": "Reddit Filter",
         "iconURL": "https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/icons/com.reddit.Reddit.png"
+    },
+    {
+        "github": "Nyasami/Ksign",
+        "bundleID": "nya.asami.ksign",
+        "name": "Ksign",
+        "iconURL": "https://private-user-images.githubusercontent.com/80683081/479763119-986892f9-c32f-448d-a24e-ba8659203fbf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQzNzQ3NjAsIm5iZiI6MTc2NDM3NDQ2MCwicGF0aCI6Ii84MDY4MzA4MS80Nzk3NjMxMTktOTg2ODkyZjktYzMyZi00NDhkLWEyNGUtYmE4NjU5MjAzZmJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTI5VDAwMDEwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlhOTBlNTk0ZTM3OTFlZjg5NTg2NGFhZWZiMWQwMDgxYTE3MGMwODQyNGE3Y2YzZGJkYjJmMDVhM2RkZWIzZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Zxgt900hVExdLrSpOhDEmaDrRD-zq9LnYbZ8fnCjPUk"
     }
 ]
