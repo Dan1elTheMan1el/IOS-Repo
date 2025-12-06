@@ -221,6 +221,58 @@
                     "size": 10641633
                 }
             ]
+        },
+        {
+            "name": "BTLoader (Discord)",
+            "bundleIdentifier": "com.hammerandchisel.discord",
+            "developerName": "CloudySn0w",
+            "subtitle": "\ud83d\udca7 BTLoader! The Future For iOS.",
+            "localizedDescription": "# \ud83d\udca7 BTLoader\n\nTweak to inject [Ra1n](https://github.com/ra1ncord/ra1n) into Discord and perform various tasks.\n\n**We at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.**\n\n## Installation\n\nThe latest builds can be found in the [Releases](https://github.com/CloudySn0w/BTLoader/releases) tab.\n\n## Legacy Of BTLoader\n\nRead about our history here at [The Legacy Of BTLoader](TheLegacyOfBT.md).\n",
+            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.hammerandchisel.discord.png",
+            "versions": [
+                {
+                    "version": "307.2",
+                    "date": "2025-12-05T15:19:27Z",
+                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\n\n## Downloads\n\n- **bound.ipa**: BTLoader with Bound name and icon\n- **discord.ipa**: BTLoader with original Discord name and icon\n- **DEB**: Rootless package for jailbroken devices\n\n## Versions\n\n- Discord: v307.2\n- BTLoader: v1.0.2\n\n## Features\n\n- TrollStore compatibility  \n- Optimized for size and performance\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v307.2/bound.ipa",
+                    "size": 98520566
+                },
+                {
+                    "version": "305.0",
+                    "date": "2025-11-17T22:58:47Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.0/bound.ipa",
+                    "size": 99213527
+                },
+                {
+                    "version": "303.0",
+                    "date": "2025-11-03T23:29:45Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!_\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v303.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v303.0/bound.ipa",
+                    "size": 95698547
+                },
+                {
+                    "version": "301.0",
+                    "date": "2025-10-14T21:32:57Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v301.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v301.0/bound.ipa",
+                    "size": 94377178
+                },
+                {
+                    "version": "297.0",
+                    "date": "2025-09-15T19:50:59Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v297.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v297.0/bound.ipa",
+                    "size": 93338979
+                },
+                {
+                    "version": "294.0",
+                    "date": "2025-08-26T16:32:50Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n*PS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.*\r\n\r\n*Also I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.*\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v294.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
+                    "size": 93827160
+                }
+            ]
         }
     ],
     "news": [
