@@ -21,5 +21,11 @@
         "bundleID": "nya.asami.ksign",
         "name": "Ksign",
         "iconURL": "https://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/Ksign/Resources/Assets.xcassets/AppIcon.appiconset/Ksign-default.png"
+    },
+    {
+        "github": "CloudySn0w/BTLoader",
+        "bundleID": "com.hammerandchisel.discord",
+        "name": "BTLoader (Discord)",
+        "iconURL": "https://raw.githubusercontent.com/CloudySn0w/BTLoader/refs/heads/main/assets/logo/icon.png"
     }
 ]
