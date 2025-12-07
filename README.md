@@ -3,11 +3,11 @@
 </p>
 
 # DanielTheManiel's Repo
-[View Source Online](https://therealfoxster.github.io/altsource-viewer/view/?source=https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/altstore-repo.json)
+<a href="https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/altstore-repo.json" target="_blank">
+   <img src="https://github.com/CelloSerenity/altdirect/blob/main/assets/png/AltSource_Blue.png?raw=true" alt="Add AltSource" width="200">
+</a>
 
-[Open Source URL Manually](https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/altstore-repo.json)
-
-## Current Apps:
+## My Apps:
 - [LiveRedirector](https://github.com/Dan1elTheMan1el/LiveRedirect)
 
 ## Auto scraped:
