@@ -16,3 +16,4 @@
 - [RedditFilter](https://github.com/level3tjg/RedditFilter)
 - [Ksign](https://github.com/Nyasami/Ksign)
 - [Bound](https://github.com/CloudySn0w/BTLoader)
+- [Ferrite](https://github.com/Ferrite-iOS/Ferrite)

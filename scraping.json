@@ -27,5 +27,11 @@
         "bundleID": "com.hammerandchisel.discord",
         "name": "BTLoader (Discord)",
         "iconURL": "https://raw.githubusercontent.com/CloudySn0w/BTLoader/refs/heads/main/assets/logo/icon.png"
+    },
+    {
+        "github": "Ferrite-iOS/Ferrite",
+        "bundleID": "me.kingbri.ferrite",
+        "name": "Ferrite",
+        "iconURL": "https://raw.githubusercontent.com/Ferrite-iOS/Ferrite/refs/heads/next/Ferrite/Assets.xcassets/AppIcon.appiconset/Ferrite-lg.png"
     }
 ]
