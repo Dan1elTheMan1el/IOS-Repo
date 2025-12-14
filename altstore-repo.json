@@ -273,6 +273,128 @@
                     "size": 93827160
                 }
             ]
+        },
+        {
+            "name": "Ferrite",
+            "bundleIdentifier": "me.kingbri.ferrite",
+            "developerName": "Ferrite-iOS",
+            "subtitle": "A media search engine for iOS with debrid support",
+            "localizedDescription": "404: Not Found",
+            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/me.kingbri.ferrite.png",
+            "versions": [
+                {
+                    "version": "0.7.4",
+                    "date": "2025-11-28T20:33:01Z",
+                    "localizedDescription": "Ferrite v0.7.4 has been released.\r\n\r\nDownloading from releases? Get the zip file. The ipa file may not work!\r\n\r\nChangelog:\r\n\r\n- Fix encoding URLs with POST queries. The app was not percent encoding URLEncoded POST request bodies. Fix this to avoid errors from websites expecting these encoded strings.\r\n- Temporarily disable liquid glass. Liquid glass breaks some parts of Ferrite's UI. Disable it for now and fix this in the future.\r\n- Make TorBox a more prominent debrid option. TorBox is a way better service and API than RealDebrid at this point and should get more traction.",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
+                    "size": 93827160
+                },
+                {
+                    "version": "0.7.3",
+                    "date": "2024-11-28T04:37:03Z",
+                    "localizedDescription": "Ferrite v0.7.3 has been released.\r\n\r\nDownloading from releases? Get the zip file. The ipa file may not work!\r\n\r\nNotes: RealDebrid and AllDebrid's APIs have drastically changed. It is now impossible to retrieve if an item is cached within their database. Ferrite relies on this type of endpoint for rich display of instantly available magnets.\r\n\r\nThe workaround: A user's magnet library now serves as the instant availability cache. There is now a manual `Download to Debrid` button on the context menu for each search result and bookmark so a user can manually queue a magnet for downloading. If the magnet is instantly available, it'll show the file contents as before and add the magnet to the user's instant availability cache (making the debrid badge green!).\r\n\r\nHere's a picture showing where this new button is located:\r\n![Simulator Screenshot - iPhone 16 Pro - 2024-11-27 at 23 24 38](https://github.com/user-attachments/assets/85735a40-2a4b-4aea-bbfa-b0ba0049b3ec)\r\n\r\nAt this time, I do not recommend using RealDebrid or AllDebrid. However, the above workaround makes these services useable. This UI will improve with upcoming releases.\r\n\r\nChangelog:\r\n- Add a context menu button to manually cache a search result/bookmark to debrid\r\n- Adapt to RealDebrid and AllDebrid's API changes\r\n- Fix settings menu showing if a debrid is enabled or disabled\r\n",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.3/Ferrite-iOS_v0.7.3.ipa",
+                    "size": 1616467
+                },
+                {
+                    "version": "0.7.2",
+                    "date": "2024-07-14T21:56:30Z",
+                    "localizedDescription": "Ferrite v0.7.2 has been released as a hotfix.\r\n\r\nDownloading from releases? Get the **zip** file. The ipa file may not work!\r\n\r\nChangelog:\r\n- Fix RealDebrid to adhere to their new API spec. Rich display for a user's cloud magnets is no longer supported due to these changes\r\n- Add some extra cleanup handlers for the debrid manager. This should fix some undefined errors.",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.3/Ferrite-iOS_v0.7.3.ipa",
+                    "size": 1616467
+                },
+                {
+                    "version": "0.7.1",
+                    "date": "2024-06-19T21:42:23Z",
+                    "localizedDescription": "Ferrite v0.7.1 has been released.\r\n\r\n**This is the last release for iOS 15**\r\n\r\nDownloading from releases? Get the **zip** file. The ipa file may not work!\r\n\r\nChangelog:\r\n- Overhauled the internal logic for Debrid services\r\n- Added support for sources that include \"library-like\" listings via the {queryFirstLetter} param\r\n- Add TorBox and OffCloud support\r\n- Fixed seeder list with htmlParser\r\n- Add the ability to set request headers and body in a Plugin\r\n- Cleanup and fix bugs + UI issues",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
+                    "size": 1671340
+                },
+                {
+                    "version": "0.7.0",
+                    "date": "2023-04-23T20:31:15Z",
+                    "localizedDescription": "Ferrite v0.7.0 has been released.\r\n\r\nChangelog:\r\n- Overhaul the app to support iOS 15 min version APIs\r\n- Add filters to the searchbar. These include sources, debrid options, debrid cache status, and sorting. The UI is inspired from GitHub's iOS app\r\n- Fix scope bar not showing up on iOS 16.4 and above\r\n- Switch plugin system to primarily use the YAML markup language. YAML is more flexible to work with compared to JSON files which can feel rigid. JSON can still be used, but YAML is the preferred plugin language and JSON is considered to be deprecated.\r\n- Add the ability to manually refresh library cloud and plugin views\r\n- Fix searching for some sources that use an API. I over-hardened the scraping system\r\n- Make search URL request timeouts configurable with the option to disable them if needed. This is helpful for slower networks and if a website gets a large amount of traffic and slows down result fetching.\r\n- Add about and website options for plugins. These supersede the baseURL parameters in sources\r\n\r\n**Versions for 0.7 and up only support iOS 15**",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
+                    "size": 1671340
+                },
+                {
+                    "version": "0.6.4",
+                    "date": "2023-03-28T16:19:21Z",
+                    "localizedDescription": "v0.6.4 has been released as a hotfix\r\n\r\n**This version supports iOS 14**\r\n\r\nChangelog:\r\n- Fix plugin install bug which crashes Ferrite on devices running iOS 14",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
+                    "size": 1671340
+                },
+                {
+                    "version": "0.6.3",
+                    "date": "2023-03-24T21:42:34Z",
+                    "localizedDescription": "Version 0.6.3 has been released as a hotfix. \r\n\r\n**This version supports iOS 14**\r\n\r\nChangelog:\r\n- Fix plugin button appearance\r\n- Show what plugin list a plugin came from in the catalog before installing\r\n- Change how the install button looks and works (no longer have to tap the cell to install a plugin)\r\n- Change source settings to plugin options which shows the information for any installed plugin\r\n- Fix animation when showing plugin options sheet",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
+                    "size": 1671340
+                },
+                {
+                    "version": "0.6.2",
+                    "date": "2023-03-23T16:07:44Z",
+                    "localizedDescription": "Ferrite v0.6.2 has been released.\r\n\r\nChangelog:\r\n\r\n- External playback support via Kodi has been added. Multiple servers can be used.\r\n- Actions now differentiate based on a user's OS\r\n- All fetching is done in parallel which increases the speed of grabbing results from various requests\r\n- A logging window has been added to aggregate logs together in the event of issues (necessary for parallel fetching)\r\n- The autocorrect searchbar option has been properly fixed\r\n- Default actions have been fixed to include user-added and hardcoded actions\r\n- The Ferrite updater is now restricted to a minimum OS version (ex. v0.7 will be for iOS 15 and up which means that iOS 14 won't get update notifications)\r\n- Various iOS 14 fixes have been added to enhance the experience for users still on that version\r\n\r\n**This is the last release that supports iOS 14. Please update your iDevice to iOS 15 or higher for v0.7 and up!**\r\nv0.6.2 will always be available in the releases page for those who use iOS 14.\r\n",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
+                    "size": 1671340
+                },
+                {
+                    "version": "0.6.1",
+                    "date": "2023-03-02T16:52:58Z",
+                    "localizedDescription": "Ferrite v0.6.1 has been released.\r\n\r\nChangelog:\r\n- Sources are now called \"Plugins\" since they encompass both Sources and Actions. Source Lists are now called \"Plugin Lists\"\r\n- Actions are here! These are user-programmable plugins that allow a user to open links (debrid or magnet) in the app of their choice. Actions can be installed from the plugins catalog in Ferrite\r\n- Refactored the UI to have greater consistency and fluidity (iOS 15/16)\r\n- Fixed some source parsing issues and made the parsers more efficient\r\n- Fixed plugin catalogs having problems when deleting/updating entries\r\n- Plugins now have tag support\r\n- subName has been added for aggregate sources that grab information from other websites\r\n- More bugs squashed and improvements",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
+                    "size": 1671340
+                },
+                {
+                    "version": "0.6.0",
+                    "date": "2023-01-07T23:58:49Z",
+                    "localizedDescription": "Version 0.6.0 has been released\r\n\r\nChangelog:\r\n\r\n- Added support for AllDebrid and Premiumize. To switch between debrids, select the button on the top-right corner in library or search. This is also present while searching.\r\n  \r\n- Added the ability to view, play, and edit a user's debrid cloud (torrents, downloads, items, etc) depending on the service\r\n  \r\n- Library is now searchable! Bookmarks, history, and a user's debrid cloud can be searched to find a specific query\r\n  \r\n- Add more indications in the about view regarding which commit and build type a user is on (Stable, Nightly, or Debug)\r\n  \r\n- Further improvements and bugfixes",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.6.0/Ferrite-iOS_v0.6.0.ipa",
+                    "size": 5377974
+                },
+                {
+                    "version": "0.5.1",
+                    "date": "2022-11-19T22:32:05Z",
+                    "localizedDescription": "Version 0.5.1 has been released as a hotfix.\r\n\r\nFixes an error where backup restoration from files does not create a prompt in Ferrite and causes the app to not open.\r\nAll other features are the same as the v0.5.0 release.\r\n\r\nDonations are welcome at: https://ko-fi.com/kingbri",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.5.1/Ferrite-iOS_v0.5.1.ipa",
+                    "size": 5212578
+                },
+                {
+                    "version": "0.5.0",
+                    "date": "2022-11-19T18:02:53Z",
+                    "localizedDescription": "Version 0.5.0 has been released.\r\n\r\nChangelog:\r\n\r\n- Added bookmarks and history functionality\r\n- Information about the played result is shown when selecting a player\r\n- A limit has been added to search results to display a maximum of 4 lines\r\n- Real debrid fetch and recache times have been improved to check if the media is cached instead of redownloading every time\r\n- If Real debrid decides to remove cache for media, Ferrite lets the user know of an API mismatch\r\n- Massive UI improvements\r\n- Backups support (uses .feb which is analogous to a JSON file)\r\n- Scraping errors now say which source is the problem\r\n\r\nDonations are welcome at: https://ko-fi.com/kingbri",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.5.0/Ferrite-iOS_v0.5.0.ipa",
+                    "size": 5212581
+                },
+                {
+                    "version": "0.4.0",
+                    "date": "2022-09-01T03:07:12Z",
+                    "localizedDescription": "Version 0.4.0 has been released.\r\n\r\nImportant: A reinstall is *required* for this version of Ferrite. This is due to a full rewrite of the underlying database.\r\n\r\nChangelog:\r\n- Sources now support the use of website JSON APIs (http get requests only!)\r\n- An in-app updater has been added to let users know when there's an app update and to view all previous versions\r\n- A loading indicator has been added for debrid because it takes time to queue up a video depending on the network connection\r\n- Fallback URLs can be added to a source if the existing URL fails. This does not work with the rssUrl and apiUrl parameters\r\n- Fix issues with iOS versions <14.5\r\n\r\nDonations are welcome at: https://ko-fi.com/kingbri",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.4.0/Ferrite-iOS_v0.4.0.ipa",
+                    "size": 4807000
+                },
+                {
+                    "version": "0.3.3",
+                    "date": "2022-08-16T18:26:44Z",
+                    "localizedDescription": "Version 0.3.3 has been released.\r\n\r\nChangelog:\r\n- Add iOS 14 support\r\n- Fix iPad searchbar randomly closing on keypress\r\n- Fix the saving of modified source lists\r\n- Add more software improvements",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.3.3/Ferrite-iOS_v0.3.3.ipa",
+                    "size": 4669643
+                },
+                {
+                    "version": "0.3.2",
+                    "date": "2022-08-12T18:48:04Z",
+                    "localizedDescription": "Version 0.3.2 has been released.\r\n\r\nChangelog:\r\n- Add default actions for search results. These can be configured via settings.\r\n- Allow for self-hosted sources to be created\r\n- Fixup backend for searching and scraping to make the app smoother\r\n- Tell the user when there's no results from a search\r\n",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.3.3/Ferrite-iOS_v0.3.3.ipa",
+                    "size": 4669643
+                },
+                {
+                    "version": "0.3.1",
+                    "date": "2022-08-09T19:06:35Z",
+                    "localizedDescription": "Version 0.3.1 has been released.\r\n\r\nChangelog (includes v0.3.0)\r\n- Add RSS support for sources\r\n- Make source information prettier and allow users to choose the fetcher (scraping/RSS)\r\n- Editable source lists to preserve updates across different URLs\r\n- Add source update mechanisms when a developer releases a new version\r\n- New app icon!\r\n- Make sure searches only run one at a time\r\n- Alert a user when copying a link in the choice sheet\r\n- Other stuff that I probably forgot to mention",
+                    "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.3.3/Ferrite-iOS_v0.3.3.ipa",
+                    "size": 4669643
+                }
+            ]
         }
     ],
     "news": [
