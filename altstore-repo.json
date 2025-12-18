@@ -231,13 +231,6 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.hammerandchisel.discord.png",
             "versions": [
                 {
-                    "version": "308.0",
-                    "date": "2025-12-11T12:47:38Z",
-                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\n\n## Downloads\n\n- **bound.ipa**: BTLoader with Bound name and icon\n- **discord.ipa**: BTLoader with original Discord name and icon\n- **DEB**: Rootless package for jailbroken devices\n\n## Versions\n\n- Discord: v308.0\n- BTLoader: v1.0.2\n\n## Features\n\n- TrollStore compatibility  \n- Optimized for size and performance\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v308.0/bound.ipa",
-                    "size": 98592379
-                },
-                {
                     "version": "305.0",
                     "date": "2025-11-17T22:58:47Z",
                     "localizedDescription": "\u2705 | Download the latest stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
