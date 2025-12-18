@@ -165,6 +165,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/nya.asami.ksign.png",
             "versions": [
                 {
+                    "version": "1.5.1",
+                    "date": "2025-12-18T06:21:59Z",
+                    "localizedDescription": "Hawwo everywan its been a while since last update so here's a small update for this time !\r\n\r\n## What's Changed\r\n* Notification when finished downloading in background (you can enable in App Features settings) \r\n* Button that filled bundle ID with certificate's App ID\r\n* add share button to export and by @Am1nCmd in https://github.com/Nyasami/Ksign/pull/59\r\n* remove support of ksign certificate file\r\n* prefix / suffix for app name in signing config\r\n* refactored the IPA Downloader to just Downloads and new features\r\n* some UI changes and better UX\r\n\r\n## New Contributors\r\n* @Am1nCmd made their first contribution in https://github.com/Nyasami/Ksign/pull/59\r\n\r\n**Full Changelog**: https://github.com/Nyasami/Ksign/compare/v1.5...v1.5.1",
+                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.5.1/Ksign.ipa",
+                    "size": 14029179
+                },
+                {
                     "version": "1.5",
                     "date": "2025-10-11T20:16:06Z",
                     "localizedDescription": "Hawwo everywan! The next big update is here, thank you for all your feature request!\r\n\r\n## What's Changed\r\n* Bulk Signing (select multiple apps and click on the sign icon)\r\n* Ksign can be run in background now finally! (helpful with downloading ipas and installing them) \r\n* Logs tab so you can see what's going on under the hood!\r\n* Added experiments signing option from Feather\r\n* Reset cache and storage in reset tab\r\n* Ability to bundle default certificate with app\r\n* Ability to edit text files and make a new one in file manager\r\n* A few small UI changes\r\n##\r\n> [!TIP]\r\n> If you ever wanted to bundle a certificate with Ksign, you can unpack Ksign and adding certificate with example directory tree (with cert.txt is certificate password in plain text):\r\n> ```ts\r\n> Ksign.app\r\n> |__ signing-assets\r\n>      |__ example\r\n>          |__ cert.p12\r\n>          |__ cert.mobileprovision\r\n>          |__ cert.txt\r\n>      |__ example2\r\n>          |__ cert.p12\r\n>          |__ cert.mobileprovision\r\n>          |__ cert.txt\r\n> ```\r\n> Bundle a certificate cannot be easier as Ksign already has all the tools you need!\r\n##\r\n**Full Changelog**: https://github.com/Nyasami/Ksign/compare/v1.4.1...v1.5",
