@@ -35,9 +35,9 @@
         "iconURL": "https://raw.githubusercontent.com/Ferrite-iOS/Ferrite/refs/heads/next/Ferrite/Assets.xcassets/AppIcon.appiconset/Ferrite-lg.png"
     },
     {
-        "github": "jailbreakdotparty/PancakeStore"
-        "bundleID": "com.jbdotparty.PancakeStore"
-        "name": "PancakeStore"
+        "github": "jailbreakdotparty/PancakeStore",
+        "bundleID": "com.jbdotparty.PancakeStore",
+        "name": "PancakeStore",
         "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/refs/heads/main/MuffinStoreJailed/Assets.xcassets/AppIcon.appiconset/PancakeStoreIconLight.png"
     }
 ]
