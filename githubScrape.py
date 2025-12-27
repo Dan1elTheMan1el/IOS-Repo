@@ -5,16 +5,18 @@ myApps = json.load(open("my-apps.json"))
 scraping = json.load(open("scraping.json"))
 
 for repo_info in scraping:
+    print(f"Scraping {repo_info['name']}...")
     repo = repo_info["github"]
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
     readme = requests.get(f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md").text
 
     name = repo_info["name"]
-    author = data["owner"]["login"]
+    author = data["owner"]["login"] if "owner" in data and "login" in data["owner"] else "Unknown"
     subtitle = data["description"]
     localizedDescription = readme
     versions = []
 
+    print("Getting latest release...")
     releases = requests.get(f"https://api.github.com/repos/{repo}/releases").json()
 
     for release in releases:
@@ -36,6 +38,7 @@ for repo_info in scraping:
 
     bundleID = repo_info["bundleID"]
 
+    print("Downloading icon...")
     if "iconURL" in repo_info:
         icon = requests.get(repo_info["iconURL"]).content
         with open("scrapedIcons/" + bundleID + ".png", "wb") as f:
@@ -55,5 +58,6 @@ for repo_info in scraping:
     }
 
     myApps["apps"].append(app)
-    
+
+print("Saving altstore-repo.json...")
 json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
