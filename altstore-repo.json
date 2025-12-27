@@ -405,6 +405,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.jbdotparty.PancakeStore.png",
             "versions": [
                 {
+                    "version": "1.0.1",
+                    "date": "2025-12-26T16:26:45Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
+                    "size": 777601
+                },
+                {
                     "version": "1.0",
                     "date": "2025-12-20T20:14:48Z",
                     "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
