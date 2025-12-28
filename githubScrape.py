@@ -1,5 +1,7 @@
 import requests
 import json
+import markdown
+from bs4 import BeautifulSoup
 
 myApps = json.load(open("my-apps.json"))
 scraping = json.load(open("scraping.json"))
@@ -8,12 +10,15 @@ for repo_info in scraping:
     print(f"Scraping {repo_info['name']}...")
     repo = repo_info["github"]
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
+
     readme = requests.get(f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md").text
+    html = markdown.markdown(readme)
+    soup = BeautifulSoup(html, 'html.parser')
 
     name = repo_info["name"]
     author = data["owner"]["login"] if "owner" in data and "login" in data["owner"] else "Unknown"
     subtitle = data["description"]
-    localizedDescription = readme
+    localizedDescription = soup.get_text(separator="\n")
     versions = []
 
     print("Getting latest release...")
@@ -22,7 +27,8 @@ for repo_info in scraping:
     for release in releases:
         version = release["tag_name"].replace("v", "")
         date = release["published_at"]
-        changelog = release["body"]
+        markdown_body = markdown.markdown(release["body"])
+        html_body = BeautifulSoup(markdown_body, 'html.parser')
         for asset in release["assets"]:
             if asset["browser_download_url"].endswith(".ipa"):
                 downloadURL = asset["browser_download_url"]
@@ -31,7 +37,7 @@ for repo_info in scraping:
         versions.append({
             "version": version,
             "date": date,
-            "localizedDescription": changelog,
+            "localizedDescription": html_body.get_text(separator="\n"),
             "downloadURL": downloadURL,
             "size": size
         })
