@@ -40,41 +40,41 @@
             "bundleIdentifier": "com.lemin.Pocket-Poster",
             "developerName": "leminlimez",
             "subtitle": "Custom PosterBoard Wallpapers for iOS 17+",
-            "localizedDescription": "Pocket Poster\n\n\nCustom PosterBoard animated wallpapers for iOS 17.0+\n\n\nCommunity-made wallpapers can be found on the \nofficial Cowabun.ga site\n. Join the \nCowabunga Discord Server\n for additional help.\n\n\nGetting Started\n\n\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\n\n\nDownload \nNugget\n on your computer and plug in your phone. Then, navigate to the \nSettings\n page and click the \nPocket Poster Helper\n button. Inside Pocket Poster, click the \nDetect\n button inside of settings.\n\n\nCredits\n\n\n\n\nTranslations crowdsourced using \nPOEditor\n. Thank you everyone who assisted in the translation effort!\n\n\nPosterRestore\n for their help with PosterBoard\n\n\ndootskyre\n for the fallback shortcut\n\n\nNathan\n and \nDuyKhanhTran\n for the exploit\n\n",
+            "localizedDescription": "Pocket Poster\nCustom PosterBoard animated wallpapers for iOS 17.0+\nCommunity-made wallpapers can be found on the official Cowabun.ga site. Join the Cowabunga Discord Server for additional help.\nGetting Started\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\nDownload Nugget on your computer and plug in your phone. Then, navigate to the Settings page and click the Pocket Poster Helper button. Inside Pocket Poster, click the Detect button inside of settings.\nCredits\n\nTranslations crowdsourced using POEditor. Thank you everyone who assisted in the translation effort!\nPosterRestore for their help with PosterBoard\ndootskyre for the fallback shortcut\nNathan and DuyKhanhTran for the exploit\n",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png",
             "versions": [
                 {
                     "version": "3.0",
                     "date": "2025-08-29T21:35:36Z",
-                    "localizedDescription": "Features\n\n\n\n\nAdded an in-app explore page for finding and downloading wallpapers\n\n\nAdded custom CarPlay wallpapers (will not work on iOS 26.0)\n\n\nPreliminary\n iOS 16 support (not all wallpapers will work)\n\n\nImproved certain error messages\n\n\n\n\nBug Fixes\n\n\n\n\nFixed the aspect ratio/rotation of imported custom videos\n\n\nFixed the update API not being called correctly\n\n\nFixed issues with some alerts not popping up\n\n\nOther various app stability improvements\n\n",
+                    "localizedDescription": "Features\n\nAdded an in-app explore page for finding and downloading wallpapers\nAdded custom CarPlay wallpapers (will not work on iOS 26.0)\nPreliminary iOS 16 support (not all wallpapers will work)\nImproved certain error messages\n\nBug Fixes\n\nFixed the aspect ratio/rotation of imported custom videos\nFixed the update API not being called correctly\nFixed issues with some alerts not popping up\nOther various app stability improvements\n",
                     "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
                     "size": 13686800
                 },
                 {
                     "version": "2.0.2",
                     "date": "2025-07-14T19:56:32Z",
-                    "localizedDescription": "\n\nChanged how the app hash is gotten (Requires \nNugget v6.1.1 or newer\n)\n\n\nPocket Poster now prompts when there is an update available\n\n\nReset Collections button now falls back to the tutorial screen from v1.0 on iOS 17.0\n\n\nAdded new languages:\n\n\nBulgarian\n\n\nChinese (simplified)\n\n\nFrench (LU)\n\n\nItalian\n\n",
+                    "localizedDescription": "\nChanged how the app hash is gotten (Requires Nugget v6.1.1 or newer)\nPocket Poster now prompts when there is an update available\nReset Collections button now falls back to the tutorial screen from v1.0 on iOS 17.0\nAdded new languages:\nBulgarian\nChinese (simplified)\nFrench (LU)\nItalian\n",
                     "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.2/Pocket_Poster.ipa",
                     "size": 13551473
                 },
                 {
                     "version": "2.0.1",
                     "date": "2025-06-30T01:52:10Z",
-                    "localizedDescription": "\n\nFixed a bug where the app hash would be pasted incorrectly\n\n",
+                    "localizedDescription": "\nFixed a bug where the app hash would be pasted incorrectly\n",
                     "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.1/Pocket.Poster.ipa",
                     "size": 13531471
                 },
                 {
                     "version": "2.0",
                     "date": "2025-06-23T17:30:12Z",
-                    "localizedDescription": "This version is outdated, you can find the latest version \nhere\n.\n\n\nFeatures\n\n\n\n\nAdded video wallpapers! Select videos from your camera roll and use them as wallpapers.\n\n\nThe \"Reset Collections\" button now works automatically\n\n\nAdded translations for 21 new languages!\n\n\nAvailable languages: Arabic, Arabic (Saudi Arabia), Arabic (Egypt), Chinese (Traditional), Czech, Dutch, French, French (Belgium), French (Canada), French (Switzerland), German, Hungarian, Japanese, Korean, Polish, Russian, Spanish, Spanish (Mexico), Thai, Turkish, Vietnamese\n\n\nThank you to all the amazing translators who helped make this project more accessible! This would not have been possible without you!\n\n\nIf you would like to help translate, you can join the effort over on \nPOEditor\n\n\nImproved the UI\n\n\nPrepared for CarPlay hash (coming in v3.0)\n\n\n\n\nBug Fixes\n\n\n\n\nImproved backend handling of the app\n\n\nFixed problems with alert popups not showing\n\n\nImproved error messages\n\n\nImproved cache clean up\n\n\nFixed memory leak when applying that would lead to a crash\n\n",
+                    "localizedDescription": "This version is outdated, you can find the latest version here.\nFeatures\n\nAdded video wallpapers! Select videos from your camera roll and use them as wallpapers.\nThe \"Reset Collections\" button now works automatically\nAdded translations for 21 new languages!\nAvailable languages: Arabic, Arabic (Saudi Arabia), Arabic (Egypt), Chinese (Traditional), Czech, Dutch, French, French (Belgium), French (Canada), French (Switzerland), German, Hungarian, Japanese, Korean, Polish, Russian, Spanish, Spanish (Mexico), Thai, Turkish, Vietnamese\nThank you to all the amazing translators who helped make this project more accessible! This would not have been possible without you!\nIf you would like to help translate, you can join the effort over on POEditor\nImproved the UI\nPrepared for CarPlay hash (coming in v3.0)\n\nBug Fixes\n\nImproved backend handling of the app\nFixed problems with alert popups not showing\nImproved error messages\nImproved cache clean up\nFixed memory leak when applying that would lead to a crash\n",
                     "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0/Pocket.Poster.ipa",
                     "size": 13530628
                 },
                 {
                     "version": "1.0",
                     "date": "2025-06-08T16:14:08Z",
-                    "localizedDescription": "\n\nInitial Release\n\n\nOnly .tendies files are currently supported. Configuration-based tendies will not work, however those are rare.\n\n\n\n\nNote:\n You will need \nNugget v5.2.3 or newer\n to get the app hash.",
+                    "localizedDescription": "\nInitial Release\nOnly .tendies files are currently supported. Configuration-based tendies will not work, however those are rare.\n\nNote: You will need Nugget v5.2.3 or newer to get the app hash.",
                     "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v1.0/Pocket_Poster.ipa",
                     "size": 13385000
                 }
@@ -85,13 +85,13 @@
             "bundleIdentifier": "com.stos.Entitlement",
             "developerName": "hugeBlack",
             "subtitle": "A simple AltSign wrapper app that allows you to enable \"Increased Memory Limit\" to your sideloaded apps without using Xcode",
-            "localizedDescription": "Get More Ram\n\n\nA simple \nStosSign\n wrapper app that allows you to enable \"Increased Memory Limit\" for your sideloaded apps without using Xcode.\n\n\nHow to use\n\n\n\n\nSideload this app\n\n\nGo to settings, sign in your account that you used to sign the app you want to enable \"Increased Memory Limit\"\n\n\nGo to \"App IDs\" page\n\n\nTap Refresh\n\n\nTap the app you want to enable \"Increased Memory Limit\"\n\n\nTap \"Add Increased Memory Limit\"\n\n\nReinstall the app from SideStore/AltStore\n\n\nCheck if you have \"Increased Memory Limit\"\n\n\n\n\nCredits\n\n\nStossy11 - For StosSign.\nSideStore -\u00a0Anisette Data fetching codes are stolen from SideStore",
+            "localizedDescription": "Get More Ram\nA simple StosSign wrapper app that allows you to enable \"Increased Memory Limit\" for your sideloaded apps without using Xcode.\nHow to use\n\nSideload this app\nGo to settings, sign in your account that you used to sign the app you want to enable \"Increased Memory Limit\"\nGo to \"App IDs\" page\nTap Refresh\nTap the app you want to enable \"Increased Memory Limit\"\nTap \"Add Increased Memory Limit\"\nReinstall the app from SideStore/AltStore\nCheck if you have \"Increased Memory Limit\"\n\nCredits\nStossy11 - For StosSign.\nSideStore -\u00a0Anisette Data fetching codes are stolen from SideStore",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png",
             "versions": [
                 {
                     "version": "nightly",
                     "date": "2025-03-31T04:27:11Z",
-                    "localizedDescription": "This is a nightly release \ncreated automatically with GitHub Actions workflow\n.",
+                    "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/Entitlement.ipa",
                     "size": 2613093
                 }
@@ -108,49 +108,49 @@
                 {
                     "version": "2025.37.0-1.1.8",
                     "date": "2025-09-26T09:29:45Z",
-                    "localizedDescription": "RedditFilter v2025.37.0-1.1.8\n\n\nChanges\n\n\n\n\nFix app crash (@NicholasBly)\n\n\nFix ad comments showing under posts (@Laitinlok)\n\n\nFix popular feed not showing with recommendations disabled\n\n\nMove RedditFilter settings to the user drawer / side bar (accessed by tapping the profile picture in the top right)\n\n\n\n\nSHA256\n\n\n\n\n1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3\n  packages/RedditFilter_2025.37.0-1.1.8.ipa\n\n\n1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83\n  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb\n\n\ne871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12\n  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb\n\n",
+                    "localizedDescription": "RedditFilter v2025.37.0-1.1.8\nChanges\n\nFix app crash (@NicholasBly)\nFix ad comments showing under posts (@Laitinlok)\nFix popular feed not showing with recommendations disabled\nMove RedditFilter settings to the user drawer / side bar (accessed by tapping the profile picture in the top right)\n\nSHA256\n\n1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3  packages/RedditFilter_2025.37.0-1.1.8.ipa\n1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb\ne871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb\n",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
                     "size": 137114565
                 },
                 {
                     "version": "2025.07.1-1.1.7",
                     "date": "2025-02-27T14:16:51Z",
-                    "localizedDescription": "RedditFilter v2025.07.1-1.1.7\n\n\nChanges\n\n\n\n\nFixed feed filter settings not appearing in app settings\n\n\nFixed missing feed filter settings icon\n\n\nFixed some recommendations still showing up in the home feed\n\n",
+                    "localizedDescription": "RedditFilter v2025.07.1-1.1.7\nChanges\n\nFixed feed filter settings not appearing in app settings\nFixed missing feed filter settings icon\nFixed some recommendations still showing up in the home feed\n",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.07.1-1.1.7/RedditFilter_2025.07.1-1.1.7.ipa",
                     "size": 139065345
                 },
                 {
                     "version": "2024.44.2-1.1.6",
                     "date": "2024-11-04T23:02:42Z",
-                    "localizedDescription": "RedditFilter v2024.44.2-1.1.6\n\n\nChanges\n\n\n\n\nFixed \"Incorrect username or password\" error when logging in with correct username and password\n\n",
+                    "localizedDescription": "RedditFilter v2024.44.2-1.1.6\nChanges\n\nFixed \"Incorrect username or password\" error when logging in with correct username and password\n",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.44.2-1.1.6/RedditFilter_2024.44.2-1.1.6.ipa",
                     "size": 155673791
                 },
                 {
                     "version": "2024.26.0-1.1.6",
                     "date": "2024-06-26T19:34:52Z",
-                    "localizedDescription": "RedditFilter v2024.26.0-1.1.6\n\n\nChanges\n\n\n\n\nFixed a crash occurring during some web requests\n\n\nFixed NSFW icon not appearing in feed filter settings\n\n",
+                    "localizedDescription": "RedditFilter v2024.26.0-1.1.6\nChanges\n\nFixed a crash occurring during some web requests\nFixed NSFW icon not appearing in feed filter settings\n",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.26.0-1.1.6/RedditFilter_2024.26.0-1.1.6.ipa",
                     "size": 126529082
                 },
                 {
                     "version": "2024.18.0-1.1.5",
                     "date": "2024-05-04T01:31:09Z",
-                    "localizedDescription": "RedditFilter v2024.18.0-1.1.5\n\n\nChanges\n\n\n\n\nUpdated Reddit app to 2024.18.0\n\n\nFixed issues when logging in using username and password\n\n\nFixed awards toggle image not appearing \n\n",
+                    "localizedDescription": "RedditFilter v2024.18.0-1.1.5\nChanges\n\nUpdated Reddit app to 2024.18.0\nFixed issues when logging in using username and password\nFixed awards toggle image not appearing \n",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.18.0-1.1.5/RedditFilter_2024.18.0-1.1.5.ipa",
                     "size": 118009474
                 },
                 {
                     "version": "2024.17.0-1.1.4",
                     "date": "2024-04-24T05:46:48Z",
-                    "localizedDescription": "RedditFilter v2024.17.0-1.1.4\n\n\nChanges\n\n\n\n\nUpdated Reddit app to 2024.17.0\n\n\nFix promoted content showing in News and Popular feeds\n\n\nRemove version spoof code added in 1.1.2\n\n",
+                    "localizedDescription": "RedditFilter v2024.17.0-1.1.4\nChanges\n\nUpdated Reddit app to 2024.17.0\nFix promoted content showing in News and Popular feeds\nRemove version spoof code added in 1.1.2\n",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.17.0-1.1.4/RedditFilter_2024.17.0-1.1.4.ipa",
                     "size": 116196230
                 },
                 {
                     "version": "2024.12.0-1.1.3",
                     "date": "2024-03-29T20:31:10Z",
-                    "localizedDescription": "RedditFilter 2024.12.0-1.1.3\n\n\nChanges\n\n\n\n\nFix promoted content still showing in comments\n\n",
+                    "localizedDescription": "RedditFilter 2024.12.0-1.1.3\nChanges\n\nFix promoted content still showing in comments\n",
                     "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.12.0-1.1.3/RedditFilter_2024.12.0-1.1.3.ipa",
                     "size": 114612031
                 }
@@ -161,55 +161,55 @@
             "bundleIdentifier": "nya.asami.ksign",
             "developerName": "Nyasami",
             "subtitle": "The \"cleaner\" Esign app.",
-            "localizedDescription": "\n\nKsign\n\n\n\n\n\n\nYet another codesigning app, have you ever wondered what if Feather and Esign had a child?\n\n\nWhy?\n\n\nSince Esign is end of service so people been moving to other signing apps, but Esign was a really big part of the community, so with the help of Feather as the base app, I tried to recreate Esign as close as possible so you guys can easier to get familiar and less app switching for smooth sideloading.\n\n\nAnother reason is this app was built specifically for Khoindvn to share his certificates, allowing more people to access to sideloading without even have to buy a certificate!\n\n\nHelp\n\n\nYou can create your Issue at \nIssue\n, this will also be the place for you to request a new feature so feel free to make one!\n\n\nYou can also join Ksign Discord \nhere\n for better communication.\n\n\nDownload\n\n\nGo to \nReleases\n and download the newest ipa from there.\n\n\nStar History\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpecial thanks\n\n\n\n\n\n\nFeather by \nkhcrysalis\n \n\n\n\n\n\n\nProduct manager Khoindvn\n\n\n\n\n\n\nAnd you! for using the app \u2764\ufe0f\n\n\n\n\n\n\nDisclaimer\n\n\nThis project is maintained here, on GitHub. Releases are distributed here, on GitHub. We do not currently have a project website outside of this repository. Please make sure to avoid any sites that host our software as they are often malicious and are there to mislead to user.",
+            "localizedDescription": "\nKsign\n\n\nYet another codesigning app, have you ever wondered what if Feather and Esign had a child?\nWhy?\nSince Esign is end of service so people been moving to other signing apps, but Esign was a really big part of the community, so with the help of Feather as the base app, I tried to recreate Esign as close as possible so you guys can easier to get familiar and less app switching for smooth sideloading.\nAnother reason is this app was built specifically for Khoindvn to share his certificates, allowing more people to access to sideloading without even have to buy a certificate!\nHelp\nYou can create your Issue at Issue, this will also be the place for you to request a new feature so feel free to make one!\nYou can also join Ksign Discord here for better communication.\nDownload\nGo to Releases and download the newest ipa from there.\nStar History\n\n\n\n\n\n\n\nSpecial thanks\n\n\nFeather by khcrysalis \n\n\nProduct manager Khoindvn\n\n\nAnd you! for using the app \u2764\ufe0f\n\n\nDisclaimer\nThis project is maintained here, on GitHub. Releases are distributed here, on GitHub. We do not currently have a project website outside of this repository. Please make sure to avoid any sites that host our software as they are often malicious and are there to mislead to user.",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/nya.asami.ksign.png",
             "versions": [
                 {
                     "version": "1.5.1",
                     "date": "2025-12-18T06:21:59Z",
-                    "localizedDescription": "Hawwo everywan its been a while since last update so here's a small update for this time !\n\n\nWhat's Changed\n\n\n\n\nNotification when finished downloading in background (you can enable in App Features settings) \n\n\nButton that filled bundle ID with certificate's App ID\n\n\nadd share button to export in logs tab by @Am1nCmd in https://github.com/Nyasami/Ksign/pull/59\n\n\nremove support of ksign certificate file\n\n\nprefix / suffix for app name in signing config\n\n\nrefactored the IPA Downloader to just Downloads and new features\n\n\nsome UI changes and better UX\n\n\n\n\nNew Contributors\n\n\n\n\n@Am1nCmd made their first contribution in https://github.com/Nyasami/Ksign/pull/59\n\n\n\n\nFull Changelog\n: https://github.com/Nyasami/Ksign/compare/v1.5...v1.5.1",
+                    "localizedDescription": "Hawwo everywan its been a while since last update so here's a small update for this time !\nWhat's Changed\n\nNotification when finished downloading in background (you can enable in App Features settings) \nButton that filled bundle ID with certificate's App ID\nadd share button to export in logs tab by @Am1nCmd in https://github.com/Nyasami/Ksign/pull/59\nremove support of ksign certificate file\nprefix / suffix for app name in signing config\nrefactored the IPA Downloader to just Downloads and new features\nsome UI changes and better UX\n\nNew Contributors\n\n@Am1nCmd made their first contribution in https://github.com/Nyasami/Ksign/pull/59\n\nFull Changelog: https://github.com/Nyasami/Ksign/compare/v1.5...v1.5.1",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.5.1/Ksign.ipa",
                     "size": 14029179
                 },
                 {
                     "version": "1.5",
                     "date": "2025-10-11T20:16:06Z",
-                    "localizedDescription": "Hawwo everywan! The next big update is here, thank you for all your feature request!\n\n\nWhat's Changed\n\n\n\n\nBulk Signing (select multiple apps and click on the sign icon)\n\n\nKsign can be run in background now finally! (helpful with downloading ipas and installing them) \n\n\nLogs tab so you can see what's going on under the hood!\n\n\nAdded experiments signing option from Feather\n\n\nReset cache and storage in reset tab\n\n\nAbility to bundle default certificate with app\n\n\nAbility to edit text files and make a new one in file manager\n\n\nA few small UI changes\n\n\n\n\n\n\n\n\n[!TIP]\nIf you ever wanted to bundle a certificate with Ksign, you can unpack Ksign and adding certificate with example directory tree (with cert.txt is certificate password in plain text):\n\nts\nKsign.app\n|__ signing-assets\n     |__ example\n         |__ cert.p12\n         |__ cert.mobileprovision\n         |__ cert.txt\n     |__ example2\n         |__ cert.p12\n         |__ cert.mobileprovision\n         |__ cert.txt\n\nBundle a certificate cannot be easier as Ksign already has all the tools you need!\n\n\n\n\n\n\nFull Changelog\n: https://github.com/Nyasami/Ksign/compare/v1.4.1...v1.5",
+                    "localizedDescription": "Hawwo everywan! The next big update is here, thank you for all your feature request!\nWhat's Changed\n\nBulk Signing (select multiple apps and click on the sign icon)\nKsign can be run in background now finally! (helpful with downloading ipas and installing them) \nLogs tab so you can see what's going on under the hood!\nAdded experiments signing option from Feather\nReset cache and storage in reset tab\nAbility to bundle default certificate with app\nAbility to edit text files and make a new one in file manager\nA few small UI changes\n\n\n\n[!TIP]\nIf you ever wanted to bundle a certificate with Ksign, you can unpack Ksign and adding certificate with example directory tree (with cert.txt is certificate password in plain text):\nts\nKsign.app\n|__ signing-assets\n     |__ example\n         |__ cert.p12\n         |__ cert.mobileprovision\n         |__ cert.txt\n     |__ example2\n         |__ cert.p12\n         |__ cert.mobileprovision\n         |__ cert.txt\nBundle a certificate cannot be easier as Ksign already has all the tools you need!\n\n\nFull Changelog: https://github.com/Nyasami/Ksign/compare/v1.4.1...v1.5",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.5/Ksign.ipa",
                     "size": 14045394
                 },
                 {
                     "version": "1.4.1",
                     "date": "2025-08-20T01:31:25Z",
-                    "localizedDescription": "Hallo everywan! small update and a new app icon!\n\n\n\n\nWhat's Changed\n\n\n\n\nNew default app icon! This one can adapt to Dark Mode and Tint and way more cleaner than old one\n\n\nA new zip extractor \nZIPFoundation\n, you can choose to use this in app's Archive & Extraction settings if importing IPA doesnt work on Zip\n\n\nPlist Editor just got even better!\n\n\nContext menu for file manager is back and even better! (the hold on a file row menu)\n\n\nEdit toolbar is now on top right so ios 26 tabbar doesnt hid it\n\n\nMove/Export option is now use system picker instead\n\n\nA few UI changes\n\n\n\n\nFull Changelog\n: https://github.com/Nyasami/Ksign/compare/v1.4...v1.4.1",
+                    "localizedDescription": "Hallo everywan! small update and a new app icon!\n\nWhat's Changed\n\nNew default app icon! This one can adapt to Dark Mode and Tint and way more cleaner than old one\nA new zip extractor ZIPFoundation, you can choose to use this in app's Archive & Extraction settings if importing IPA doesnt work on Zip\nPlist Editor just got even better!\nContext menu for file manager is back and even better! (the hold on a file row menu)\nEdit toolbar is now on top right so ios 26 tabbar doesnt hid it\nMove/Export option is now use system picker instead\nA few UI changes\n\nFull Changelog: https://github.com/Nyasami/Ksign/compare/v1.4...v1.4.1",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.4.1/Ksign.ipa",
                     "size": 14008140
                 },
                 {
                     "version": "1.4",
                     "date": "2025-08-04T07:00:19Z",
-                    "localizedDescription": "Hallo everywan! A new update yay, a few big changes:\n\n\nWhat's Changed\n\n\n\n\nClick on \n.ksign\n files will \nimport to app automatically\n\n\nApps in App Store tab now has a \ndetailed view\n\n\nAdded \nonly modify\n option, you can find this in signing properties\n\n\nAdded \nrevoke\n check in certificates\n\n\nCleaned up and fixed some UI inconsistency in File Manager on ipads\n\n\nAdded \nLiquid Glass\n appearance\n\n\nAvoid the \nSigning Failed\n error upon signing a few apps\n\n\nCleaned up a bit UI\n\n\n\n\n\n\nAlso Ksign now has a AltStore repo, you can import the repo to any services supported AltSource at\nhttps://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/repo.json\n\n\n\n\nFull Changelog\n: https://github.com/Nyasami/Ksign/compare/v1.3.2...v1.4\n\n\nPreview\n\n",
+                    "localizedDescription": "Hallo everywan! A new update yay, a few big changes:\nWhat's Changed\n\nClick on .ksign files will import to app automatically\nApps in App Store tab now has a detailed view\nAdded only modify option, you can find this in signing properties\nAdded revoke check in certificates\nCleaned up and fixed some UI inconsistency in File Manager on ipads\nAdded Liquid Glass appearance\nAvoid the Signing Failed error upon signing a few apps\nCleaned up a bit UI\n\n\nAlso Ksign now has a AltStore repo, you can import the repo to any services supported AltSource at\nhttps://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/repo.json\n\nFull Changelog: https://github.com/Nyasami/Ksign/compare/v1.3.2...v1.4\nPreview\n",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.4/Ksign.ipa",
                     "size": 17579941
                 },
                 {
                     "version": "1.3.2",
                     "date": "2025-07-12T17:35:25Z",
-                    "localizedDescription": "Hello everyone, a new update no way! What's new in this version:\n\n\nWhat's Changed\n\n\n\n\nAdjust 'Show Dylibs' to include injected dylibs located in the .app directory by @brynts in https://github.com/Nyasami/Ksign-public/pull/27\n\n\nAdded selection in Library tab for bulk deletion\n\n\nFixed on automatically adding Tweaks in Tweaks folder\n\n\n\n\nNew Contributors\n\n\n\n\n@brynts made their first contribution in https://github.com/Nyasami/Ksign-public/pull/27\n\n\n\n\nFull Changelog\n: https://github.com/Nyasami/Ksign-public/compare/v1.3.1...v1.3.2",
+                    "localizedDescription": "Hello everyone, a new update no way! What's new in this version:\nWhat's Changed\n\nAdjust 'Show Dylibs' to include injected dylibs located in the .app directory by @brynts in https://github.com/Nyasami/Ksign-public/pull/27\nAdded selection in Library tab for bulk deletion\nFixed on automatically adding Tweaks in Tweaks folder\n\nNew Contributors\n\n@brynts made their first contribution in https://github.com/Nyasami/Ksign-public/pull/27\n\nFull Changelog: https://github.com/Nyasami/Ksign-public/compare/v1.3.1...v1.3.2",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.3.2/Ksign.ipa",
                     "size": 14686478
                 },
                 {
                     "version": "1.3.1",
                     "date": "2025-06-30T15:30:11Z",
-                    "localizedDescription": "Hello\n everyone, finally done with my finals hopefully i can pass it all, also here comes v1.3.1\nwhat's new in this version:\n- Added Delete after install feature - you can enable this in signing options\n- Add a new small icon under every app to indicate which repo it was from\n- Remake the Downloader\n- Added back the UI tint color customization\n- Added back option to change app icon\n- Updated Zsign to properly fix the unable to verify app integrity without replace the framework (thank you khcrysalis!)\n- Clean up a bit UI\n\n\nNothing much from v1.3, happy sideloading!",
+                    "localizedDescription": "Hello everyone, finally done with my finals hopefully i can pass it all, also here comes v1.3.1\nwhat's new in this version:\n- Added Delete after install feature - you can enable this in signing options\n- Add a new small icon under every app to indicate which repo it was from\n- Remake the Downloader\n- Added back the UI tint color customization\n- Added back option to change app icon\n- Updated Zsign to properly fix the unable to verify app integrity without replace the framework (thank you khcrysalis!)\n- Clean up a bit UI\nNothing much from v1.3, happy sideloading!",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.3.1/Ksign.ipa",
                     "size": 14807486
                 },
                 {
                     "version": "1.3",
                     "date": "2025-06-17T18:16:48Z",
-                    "localizedDescription": "It's been a long time, what's new in this version:\n- FIxed the \nUnable to install\n apps bug (Unable to verify integrity)\n- Brought back the \nTweaks\n folder which was removed in v1.2 - you can find this in App folder\n- New File importing method to Files tab which is now instant for any file sizes\n- Fixed issue when using IPA downloader would freeze at 100% \n- Fixed the bug that caused incorrect bundle identifier install with Sign & Install function\n- .ksign files are now works across any Ksign bundle\n- \nHigher Encryption\n on .ksign files\n\n\nThat's all, hopefully you guys can sideload more smoothly on this version, happy sideloading!",
+                    "localizedDescription": "It's been a long time, what's new in this version:\n- FIxed the Unable to install apps bug (Unable to verify integrity)\n- Brought back the Tweaks folder which was removed in v1.2 - you can find this in App folder\n- New File importing method to Files tab which is now instant for any file sizes\n- Fixed issue when using IPA downloader would freeze at 100% \n- Fixed the bug that caused incorrect bundle identifier install with Sign & Install function\n- .ksign files are now works across any Ksign bundle\n- Higher Encryption on .ksign files\nThat's all, hopefully you guys can sideload more smoothly on this version, happy sideloading!",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.3/Ksign.ipa",
                     "size": 10765213
                 },
@@ -223,7 +223,7 @@
                 {
                     "version": "1.2.0",
                     "date": "2025-05-26T09:47:32Z",
-                    "localizedDescription": "Version 1.2.0\n\n\nThis update fixed all the import bugs and others installing bugs, also adding some new features\n",
+                    "localizedDescription": "Version 1.2.0\nThis update fixed all the import bugs and others installing bugs, also adding some new features\n",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.2.0/Ksign.ipa",
                     "size": 10641633
                 }
@@ -234,41 +234,41 @@
             "bundleIdentifier": "com.hammerandchisel.discord",
             "developerName": "CloudySn0w",
             "subtitle": "\ud83d\udca7 BTLoader! The Future For iOS.",
-            "localizedDescription": "\ud83d\udca7 BTLoader\n\n\nTweak to inject \nRa1n\n into Discord and perform various tasks.\n\n\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\n\n\nInstallation\n\n\nThe latest builds can be found in the \nReleases\n tab.\n\n\nLegacy Of BTLoader\n\n\nRead about our history here at \nThe Legacy Of BTLoader\n.",
+            "localizedDescription": "\ud83d\udca7 BTLoader\nTweak to inject Ra1n into Discord and perform various tasks.\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\nInstallation\nThe latest builds can be found in the Releases tab.\nLegacy Of BTLoader\nRead about our history here at The Legacy Of BTLoader.",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.hammerandchisel.discord.png",
             "versions": [
                 {
                     "version": "305.0",
                     "date": "2025-11-17T22:58:47Z",
-                    "localizedDescription": "\u2705 | Download the latest stable build here.\n\n\nDownloads\n\n\n\n\nbound.ipa\n: BTLoader with Bound name and icon\n\n\ndiscord.ipa\n: BTLoader with original Discord name and icon\n\n\nDEB\n: Rootless package for jailbroken devices\n\n\n\n\nVersions\n\n\n\n\nDiscord: v305.0\n\n\nBTLoader: v1.0.1\n\n\n\n\nFeatures\n\n\n\n\nTrollStore compatibility  \n\n\nOptimized for size and performance\n\n",
+                    "localizedDescription": "\u2705 | Download the latest stable build here.\nDownloads\n\nbound.ipa: BTLoader with Bound name and icon\ndiscord.ipa: BTLoader with original Discord name and icon\nDEB: Rootless package for jailbroken devices\n\nVersions\n\nDiscord: v305.0\nBTLoader: v1.0.1\n\nFeatures\n\nTrollStore compatibility  \nOptimized for size and performance\n",
                     "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.0/bound.ipa",
                     "size": 99213527
                 },
                 {
                     "version": "303.0",
                     "date": "2025-11-03T23:29:45Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\n\n\nPS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!\n\n\nDownloads\n\n\n\n\nbound.ipa\n: BTLoader with Bound name and icon\n\n\ndiscord.ipa\n: BTLoader with original Discord name and icon\n\n\nDEB\n: Rootless package for jailbroken devices\n\n\n\n\nVersions\n\n\n\n\nDiscord: v303.0\n\n\nBTLoader: v1.0.1\n\n\n\n\nFeatures\n\n\n\n\nTrollStore compatibility  \n\n\nOptimized for size and performance\n\n",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\nPS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!\nDownloads\n\nbound.ipa: BTLoader with Bound name and icon\ndiscord.ipa: BTLoader with original Discord name and icon\nDEB: Rootless package for jailbroken devices\n\nVersions\n\nDiscord: v303.0\nBTLoader: v1.0.1\n\nFeatures\n\nTrollStore compatibility  \nOptimized for size and performance\n",
                     "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v303.0/bound.ipa",
                     "size": 95698547
                 },
                 {
                     "version": "301.0",
                     "date": "2025-10-14T21:32:57Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\n\n\nPS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!.\n\n\nDownloads\n\n\n\n\nbound.ipa\n: BTLoader with Bound name and icon\n\n\ndiscord.ipa\n: BTLoader with original Discord name and icon\n\n\nDEB\n: Rootless package for jailbroken devices\n\n\n\n\nVersions\n\n\n\n\nDiscord: v301.0\n\n\nBTLoader: v1.0.0\n\n\n\n\nFeatures\n\n\n\n\nTrollStore compatibility  \n\n\nOptimized for size and performance\n\n",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\nPS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!.\nDownloads\n\nbound.ipa: BTLoader with Bound name and icon\ndiscord.ipa: BTLoader with original Discord name and icon\nDEB: Rootless package for jailbroken devices\n\nVersions\n\nDiscord: v301.0\nBTLoader: v1.0.0\n\nFeatures\n\nTrollStore compatibility  \nOptimized for size and performance\n",
                     "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v301.0/bound.ipa",
                     "size": 94377178
                 },
                 {
                     "version": "297.0",
                     "date": "2025-09-15T19:50:59Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\n\n\nPS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular.\n\n\nDownloads\n\n\n\n\nbound.ipa\n: BTLoader with Bound name and icon\n\n\ndiscord.ipa\n: BTLoader with original Discord name and icon\n\n\nDEB\n: Rootless package for jailbroken devices\n\n\n\n\nVersions\n\n\n\n\nDiscord: v297.0\n\n\nBTLoader: v1.0.0\n\n\n\n\nFeatures\n\n\n\n\nTrollStore compatibility  \n\n\nOptimized for size and performance\n\n",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\nPS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular.\nDownloads\n\nbound.ipa: BTLoader with Bound name and icon\ndiscord.ipa: BTLoader with original Discord name and icon\nDEB: Rootless package for jailbroken devices\n\nVersions\n\nDiscord: v297.0\nBTLoader: v1.0.0\n\nFeatures\n\nTrollStore compatibility  \nOptimized for size and performance\n",
                     "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v297.0/bound.ipa",
                     "size": 93338979
                 },
                 {
                     "version": "294.0",
                     "date": "2025-08-26T16:32:50Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\n\n\nPS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.\n\n\nAlso I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.\n\n\nDownloads\n\n\n\n\nbound.ipa\n: BTLoader with Bound name and icon\n\n\ndiscord.ipa\n: BTLoader with original Discord name and icon\n\n\nDEB\n: Rootless package for jailbroken devices\n\n\n\n\nVersions\n\n\n\n\nDiscord: v294.0\n\n\nBTLoader: v1.0.0\n\n\n\n\nFeatures\n\n\n\n\nTrollStore compatibility  \n\n\nOptimized for size and performance\n\n",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\nPS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.\nAlso I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.\nDownloads\n\nbound.ipa: BTLoader with Bound name and icon\ndiscord.ipa: BTLoader with original Discord name and icon\nDEB: Rootless package for jailbroken devices\n\nVersions\n\nDiscord: v294.0\nBTLoader: v1.0.0\n\nFeatures\n\nTrollStore compatibility  \nOptimized for size and performance\n",
                     "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
                     "size": 93827160
                 }
@@ -285,112 +285,112 @@
                 {
                     "version": "0.7.4",
                     "date": "2025-11-28T20:33:01Z",
-                    "localizedDescription": "Ferrite v0.7.4 has been released.\n\n\nDownloading from releases? Get the zip file. The ipa file may not work!\n\n\nChangelog:\n\n\n\n\nFix encoding URLs with POST queries. The app was not percent encoding URLEncoded POST request bodies. Fix this to avoid errors from websites expecting these encoded strings.\n\n\nTemporarily disable liquid glass. Liquid glass breaks some parts of Ferrite's UI. Disable it for now and fix this in the future.\n\n\nMake TorBox a more prominent debrid option. TorBox is a way better service and API than RealDebrid at this point and should get more traction.\n\n",
+                    "localizedDescription": "Ferrite v0.7.4 has been released.\nDownloading from releases? Get the zip file. The ipa file may not work!\nChangelog:\n\nFix encoding URLs with POST queries. The app was not percent encoding URLEncoded POST request bodies. Fix this to avoid errors from websites expecting these encoded strings.\nTemporarily disable liquid glass. Liquid glass breaks some parts of Ferrite's UI. Disable it for now and fix this in the future.\nMake TorBox a more prominent debrid option. TorBox is a way better service and API than RealDebrid at this point and should get more traction.\n",
                     "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
                     "size": 93827160
                 },
                 {
                     "version": "0.7.3",
                     "date": "2024-11-28T04:37:03Z",
-                    "localizedDescription": "Ferrite v0.7.3 has been released.\n\n\nDownloading from releases? Get the zip file. The ipa file may not work!\n\n\nNotes: RealDebrid and AllDebrid's APIs have drastically changed. It is now impossible to retrieve if an item is cached within their database. Ferrite relies on this type of endpoint for rich display of instantly available magnets.\n\n\nThe workaround: A user's magnet library now serves as the instant availability cache. There is now a manual \nDownload to Debrid\n button on the context menu for each search result and bookmark so a user can manually queue a magnet for downloading. If the magnet is instantly available, it'll show the file contents as before and add the magnet to the user's instant availability cache (making the debrid badge green!).\n\n\nHere's a picture showing where this new button is located:\n\n\n\nAt this time, I do not recommend using RealDebrid or AllDebrid. However, the above workaround makes these services useable. This UI will improve with upcoming releases.\n\n\nChangelog:\n- Add a context menu button to manually cache a search result/bookmark to debrid\n- Adapt to RealDebrid and AllDebrid's API changes\n- Fix settings menu showing if a debrid is enabled or disabled",
+                    "localizedDescription": "Ferrite v0.7.3 has been released.\nDownloading from releases? Get the zip file. The ipa file may not work!\nNotes: RealDebrid and AllDebrid's APIs have drastically changed. It is now impossible to retrieve if an item is cached within their database. Ferrite relies on this type of endpoint for rich display of instantly available magnets.\nThe workaround: A user's magnet library now serves as the instant availability cache. There is now a manual Download to Debrid button on the context menu for each search result and bookmark so a user can manually queue a magnet for downloading. If the magnet is instantly available, it'll show the file contents as before and add the magnet to the user's instant availability cache (making the debrid badge green!).\nHere's a picture showing where this new button is located:\n\nAt this time, I do not recommend using RealDebrid or AllDebrid. However, the above workaround makes these services useable. This UI will improve with upcoming releases.\nChangelog:\n- Add a context menu button to manually cache a search result/bookmark to debrid\n- Adapt to RealDebrid and AllDebrid's API changes\n- Fix settings menu showing if a debrid is enabled or disabled",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.3/Ferrite-iOS_v0.7.3.ipa",
                     "size": 1616467
                 },
                 {
                     "version": "0.7.2",
                     "date": "2024-07-14T21:56:30Z",
-                    "localizedDescription": "Ferrite v0.7.2 has been released as a hotfix.\n\n\nDownloading from releases? Get the \nzip\n file. The ipa file may not work!\n\n\nChangelog:\n- Fix RealDebrid to adhere to their new API spec. Rich display for a user's cloud magnets is no longer supported due to these changes\n- Add some extra cleanup handlers for the debrid manager. This should fix some undefined errors.",
+                    "localizedDescription": "Ferrite v0.7.2 has been released as a hotfix.\nDownloading from releases? Get the zip file. The ipa file may not work!\nChangelog:\n- Fix RealDebrid to adhere to their new API spec. Rich display for a user's cloud magnets is no longer supported due to these changes\n- Add some extra cleanup handlers for the debrid manager. This should fix some undefined errors.",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.3/Ferrite-iOS_v0.7.3.ipa",
                     "size": 1616467
                 },
                 {
                     "version": "0.7.1",
                     "date": "2024-06-19T21:42:23Z",
-                    "localizedDescription": "Ferrite v0.7.1 has been released.\n\n\nThis is the last release for iOS 15\n\n\nDownloading from releases? Get the \nzip\n file. The ipa file may not work!\n\n\nChangelog:\n- Overhauled the internal logic for Debrid services\n- Added support for sources that include \"library-like\" listings via the {queryFirstLetter} param\n- Add TorBox and OffCloud support\n- Fixed seeder list with htmlParser\n- Add the ability to set request headers and body in a Plugin\n- Cleanup and fix bugs + UI issues",
+                    "localizedDescription": "Ferrite v0.7.1 has been released.\nThis is the last release for iOS 15\nDownloading from releases? Get the zip file. The ipa file may not work!\nChangelog:\n- Overhauled the internal logic for Debrid services\n- Added support for sources that include \"library-like\" listings via the {queryFirstLetter} param\n- Add TorBox and OffCloud support\n- Fixed seeder list with htmlParser\n- Add the ability to set request headers and body in a Plugin\n- Cleanup and fix bugs + UI issues",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
                     "size": 1671340
                 },
                 {
                     "version": "0.7.0",
                     "date": "2023-04-23T20:31:15Z",
-                    "localizedDescription": "Ferrite v0.7.0 has been released.\n\n\nChangelog:\n- Overhaul the app to support iOS 15 min version APIs\n- Add filters to the searchbar. These include sources, debrid options, debrid cache status, and sorting. The UI is inspired from GitHub's iOS app\n- Fix scope bar not showing up on iOS 16.4 and above\n- Switch plugin system to primarily use the YAML markup language. YAML is more flexible to work with compared to JSON files which can feel rigid. JSON can still be used, but YAML is the preferred plugin language and JSON is considered to be deprecated.\n- Add the ability to manually refresh library cloud and plugin views\n- Fix searching for some sources that use an API. I over-hardened the scraping system\n- Make search URL request timeouts configurable with the option to disable them if needed. This is helpful for slower networks and if a website gets a large amount of traffic and slows down result fetching.\n- Add about and website options for plugins. These supersede the baseURL parameters in sources\n\n\nVersions for 0.7 and up only support iOS 15",
+                    "localizedDescription": "Ferrite v0.7.0 has been released.\nChangelog:\n- Overhaul the app to support iOS 15 min version APIs\n- Add filters to the searchbar. These include sources, debrid options, debrid cache status, and sorting. The UI is inspired from GitHub's iOS app\n- Fix scope bar not showing up on iOS 16.4 and above\n- Switch plugin system to primarily use the YAML markup language. YAML is more flexible to work with compared to JSON files which can feel rigid. JSON can still be used, but YAML is the preferred plugin language and JSON is considered to be deprecated.\n- Add the ability to manually refresh library cloud and plugin views\n- Fix searching for some sources that use an API. I over-hardened the scraping system\n- Make search URL request timeouts configurable with the option to disable them if needed. This is helpful for slower networks and if a website gets a large amount of traffic and slows down result fetching.\n- Add about and website options for plugins. These supersede the baseURL parameters in sources\nVersions for 0.7 and up only support iOS 15",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
                     "size": 1671340
                 },
                 {
                     "version": "0.6.4",
                     "date": "2023-03-28T16:19:21Z",
-                    "localizedDescription": "v0.6.4 has been released as a hotfix\n\n\nThis version supports iOS 14\n\n\nChangelog:\n- Fix plugin install bug which crashes Ferrite on devices running iOS 14",
+                    "localizedDescription": "v0.6.4 has been released as a hotfix\nThis version supports iOS 14\nChangelog:\n- Fix plugin install bug which crashes Ferrite on devices running iOS 14",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
                     "size": 1671340
                 },
                 {
                     "version": "0.6.3",
                     "date": "2023-03-24T21:42:34Z",
-                    "localizedDescription": "Version 0.6.3 has been released as a hotfix. \n\n\nThis version supports iOS 14\n\n\nChangelog:\n- Fix plugin button appearance\n- Show what plugin list a plugin came from in the catalog before installing\n- Change how the install button looks and works (no longer have to tap the cell to install a plugin)\n- Change source settings to plugin options which shows the information for any installed plugin\n- Fix animation when showing plugin options sheet",
+                    "localizedDescription": "Version 0.6.3 has been released as a hotfix. \nThis version supports iOS 14\nChangelog:\n- Fix plugin button appearance\n- Show what plugin list a plugin came from in the catalog before installing\n- Change how the install button looks and works (no longer have to tap the cell to install a plugin)\n- Change source settings to plugin options which shows the information for any installed plugin\n- Fix animation when showing plugin options sheet",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
                     "size": 1671340
                 },
                 {
                     "version": "0.6.2",
                     "date": "2023-03-23T16:07:44Z",
-                    "localizedDescription": "Ferrite v0.6.2 has been released.\n\n\nChangelog:\n\n\n\n\nExternal playback support via Kodi has been added. Multiple servers can be used.\n\n\nActions now differentiate based on a user's OS\n\n\nAll fetching is done in parallel which increases the speed of grabbing results from various requests\n\n\nA logging window has been added to aggregate logs together in the event of issues (necessary for parallel fetching)\n\n\nThe autocorrect searchbar option has been properly fixed\n\n\nDefault actions have been fixed to include user-added and hardcoded actions\n\n\nThe Ferrite updater is now restricted to a minimum OS version (ex. v0.7 will be for iOS 15 and up which means that iOS 14 won't get update notifications)\n\n\nVarious iOS 14 fixes have been added to enhance the experience for users still on that version\n\n\n\n\nThis is the last release that supports iOS 14. Please update your iDevice to iOS 15 or higher for v0.7 and up!\n\nv0.6.2 will always be available in the releases page for those who use iOS 14.",
+                    "localizedDescription": "Ferrite v0.6.2 has been released.\nChangelog:\n\nExternal playback support via Kodi has been added. Multiple servers can be used.\nActions now differentiate based on a user's OS\nAll fetching is done in parallel which increases the speed of grabbing results from various requests\nA logging window has been added to aggregate logs together in the event of issues (necessary for parallel fetching)\nThe autocorrect searchbar option has been properly fixed\nDefault actions have been fixed to include user-added and hardcoded actions\nThe Ferrite updater is now restricted to a minimum OS version (ex. v0.7 will be for iOS 15 and up which means that iOS 14 won't get update notifications)\nVarious iOS 14 fixes have been added to enhance the experience for users still on that version\n\nThis is the last release that supports iOS 14. Please update your iDevice to iOS 15 or higher for v0.7 and up!\nv0.6.2 will always be available in the releases page for those who use iOS 14.",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
                     "size": 1671340
                 },
                 {
                     "version": "0.6.1",
                     "date": "2023-03-02T16:52:58Z",
-                    "localizedDescription": "Ferrite v0.6.1 has been released.\n\n\nChangelog:\n- Sources are now called \"Plugins\" since they encompass both Sources and Actions. Source Lists are now called \"Plugin Lists\"\n- Actions are here! These are user-programmable plugins that allow a user to open links (debrid or magnet) in the app of their choice. Actions can be installed from the plugins catalog in Ferrite\n- Refactored the UI to have greater consistency and fluidity (iOS 15/16)\n- Fixed some source parsing issues and made the parsers more efficient\n- Fixed plugin catalogs having problems when deleting/updating entries\n- Plugins now have tag support\n- subName has been added for aggregate sources that grab information from other websites\n- More bugs squashed and improvements",
+                    "localizedDescription": "Ferrite v0.6.1 has been released.\nChangelog:\n- Sources are now called \"Plugins\" since they encompass both Sources and Actions. Source Lists are now called \"Plugin Lists\"\n- Actions are here! These are user-programmable plugins that allow a user to open links (debrid or magnet) in the app of their choice. Actions can be installed from the plugins catalog in Ferrite\n- Refactored the UI to have greater consistency and fluidity (iOS 15/16)\n- Fixed some source parsing issues and made the parsers more efficient\n- Fixed plugin catalogs having problems when deleting/updating entries\n- Plugins now have tag support\n- subName has been added for aggregate sources that grab information from other websites\n- More bugs squashed and improvements",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.7.1/Ferrite-iOS_v0.7.1.ipa",
                     "size": 1671340
                 },
                 {
                     "version": "0.6.0",
                     "date": "2023-01-07T23:58:49Z",
-                    "localizedDescription": "Version 0.6.0 has been released\n\n\nChangelog:\n\n\n\n\n\n\nAdded support for AllDebrid and Premiumize. To switch between debrids, select the button on the top-right corner in library or search. This is also present while searching.\n\n\n\n\n\n\nAdded the ability to view, play, and edit a user's debrid cloud (torrents, downloads, items, etc) depending on the service\n\n\n\n\n\n\nLibrary is now searchable! Bookmarks, history, and a user's debrid cloud can be searched to find a specific query\n\n\n\n\n\n\nAdd more indications in the about view regarding which commit and build type a user is on (Stable, Nightly, or Debug)\n\n\n\n\n\n\nFurther improvements and bugfixes\n\n\n\n",
+                    "localizedDescription": "Version 0.6.0 has been released\nChangelog:\n\n\nAdded support for AllDebrid and Premiumize. To switch between debrids, select the button on the top-right corner in library or search. This is also present while searching.\n\n\nAdded the ability to view, play, and edit a user's debrid cloud (torrents, downloads, items, etc) depending on the service\n\n\nLibrary is now searchable! Bookmarks, history, and a user's debrid cloud can be searched to find a specific query\n\n\nAdd more indications in the about view regarding which commit and build type a user is on (Stable, Nightly, or Debug)\n\n\nFurther improvements and bugfixes\n\n",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.6.0/Ferrite-iOS_v0.6.0.ipa",
                     "size": 5377974
                 },
                 {
                     "version": "0.5.1",
                     "date": "2022-11-19T22:32:05Z",
-                    "localizedDescription": "Version 0.5.1 has been released as a hotfix.\n\n\nFixes an error where backup restoration from files does not create a prompt in Ferrite and causes the app to not open.\nAll other features are the same as the v0.5.0 release.\n\n\nDonations are welcome at: https://ko-fi.com/kingbri",
+                    "localizedDescription": "Version 0.5.1 has been released as a hotfix.\nFixes an error where backup restoration from files does not create a prompt in Ferrite and causes the app to not open.\nAll other features are the same as the v0.5.0 release.\nDonations are welcome at: https://ko-fi.com/kingbri",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.5.1/Ferrite-iOS_v0.5.1.ipa",
                     "size": 5212578
                 },
                 {
                     "version": "0.5.0",
                     "date": "2022-11-19T18:02:53Z",
-                    "localizedDescription": "Version 0.5.0 has been released.\n\n\nChangelog:\n\n\n\n\nAdded bookmarks and history functionality\n\n\nInformation about the played result is shown when selecting a player\n\n\nA limit has been added to search results to display a maximum of 4 lines\n\n\nReal debrid fetch and recache times have been improved to check if the media is cached instead of redownloading every time\n\n\nIf Real debrid decides to remove cache for media, Ferrite lets the user know of an API mismatch\n\n\nMassive UI improvements\n\n\nBackups support (uses .feb which is analogous to a JSON file)\n\n\nScraping errors now say which source is the problem\n\n\n\n\nDonations are welcome at: https://ko-fi.com/kingbri",
+                    "localizedDescription": "Version 0.5.0 has been released.\nChangelog:\n\nAdded bookmarks and history functionality\nInformation about the played result is shown when selecting a player\nA limit has been added to search results to display a maximum of 4 lines\nReal debrid fetch and recache times have been improved to check if the media is cached instead of redownloading every time\nIf Real debrid decides to remove cache for media, Ferrite lets the user know of an API mismatch\nMassive UI improvements\nBackups support (uses .feb which is analogous to a JSON file)\nScraping errors now say which source is the problem\n\nDonations are welcome at: https://ko-fi.com/kingbri",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.5.0/Ferrite-iOS_v0.5.0.ipa",
                     "size": 5212581
                 },
                 {
                     "version": "0.4.0",
                     "date": "2022-09-01T03:07:12Z",
-                    "localizedDescription": "Version 0.4.0 has been released.\n\n\nImportant: A reinstall is \nrequired\n for this version of Ferrite. This is due to a full rewrite of the underlying database.\n\n\nChangelog:\n- Sources now support the use of website JSON APIs (http get requests only!)\n- An in-app updater has been added to let users know when there's an app update and to view all previous versions\n- A loading indicator has been added for debrid because it takes time to queue up a video depending on the network connection\n- Fallback URLs can be added to a source if the existing URL fails. This does not work with the rssUrl and apiUrl parameters\n- Fix issues with iOS versions <14.5\n\n\nDonations are welcome at: https://ko-fi.com/kingbri",
+                    "localizedDescription": "Version 0.4.0 has been released.\nImportant: A reinstall is required for this version of Ferrite. This is due to a full rewrite of the underlying database.\nChangelog:\n- Sources now support the use of website JSON APIs (http get requests only!)\n- An in-app updater has been added to let users know when there's an app update and to view all previous versions\n- A loading indicator has been added for debrid because it takes time to queue up a video depending on the network connection\n- Fallback URLs can be added to a source if the existing URL fails. This does not work with the rssUrl and apiUrl parameters\n- Fix issues with iOS versions <14.5\nDonations are welcome at: https://ko-fi.com/kingbri",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.4.0/Ferrite-iOS_v0.4.0.ipa",
                     "size": 4807000
                 },
                 {
                     "version": "0.3.3",
                     "date": "2022-08-16T18:26:44Z",
-                    "localizedDescription": "Version 0.3.3 has been released.\n\n\nChangelog:\n- Add iOS 14 support\n- Fix iPad searchbar randomly closing on keypress\n- Fix the saving of modified source lists\n- Add more software improvements",
+                    "localizedDescription": "Version 0.3.3 has been released.\nChangelog:\n- Add iOS 14 support\n- Fix iPad searchbar randomly closing on keypress\n- Fix the saving of modified source lists\n- Add more software improvements",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.3.3/Ferrite-iOS_v0.3.3.ipa",
                     "size": 4669643
                 },
                 {
                     "version": "0.3.2",
                     "date": "2022-08-12T18:48:04Z",
-                    "localizedDescription": "Version 0.3.2 has been released.\n\n\nChangelog:\n- Add default actions for search results. These can be configured via settings.\n- Allow for self-hosted sources to be created\n- Fixup backend for searching and scraping to make the app smoother\n- Tell the user when there's no results from a search",
+                    "localizedDescription": "Version 0.3.2 has been released.\nChangelog:\n- Add default actions for search results. These can be configured via settings.\n- Allow for self-hosted sources to be created\n- Fixup backend for searching and scraping to make the app smoother\n- Tell the user when there's no results from a search",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.3.3/Ferrite-iOS_v0.3.3.ipa",
                     "size": 4669643
                 },
                 {
                     "version": "0.3.1",
                     "date": "2022-08-09T19:06:35Z",
-                    "localizedDescription": "Version 0.3.1 has been released.\n\n\nChangelog (includes v0.3.0)\n- Add RSS support for sources\n- Make source information prettier and allow users to choose the fetcher (scraping/RSS)\n- Editable source lists to preserve updates across different URLs\n- Add source update mechanisms when a developer releases a new version\n- New app icon!\n- Make sure searches only run one at a time\n- Alert a user when copying a link in the choice sheet\n- Other stuff that I probably forgot to mention",
+                    "localizedDescription": "Version 0.3.1 has been released.\nChangelog (includes v0.3.0)\n- Add RSS support for sources\n- Make source information prettier and allow users to choose the fetcher (scraping/RSS)\n- Editable source lists to preserve updates across different URLs\n- Add source update mechanisms when a developer releases a new version\n- New app icon!\n- Make sure searches only run one at a time\n- Alert a user when copying a link in the choice sheet\n- Other stuff that I probably forgot to mention",
                     "downloadURL": "https://github.com/Ferrite-iOS/Ferrite/releases/download/v0.3.3/Ferrite-iOS_v0.3.3.ipa",
                     "size": 4669643
                 }
@@ -401,20 +401,20 @@
             "bundleIdentifier": "com.jbdotparty.PancakeStore",
             "developerName": "jailbreakdotparty",
             "subtitle": "MuffinStore Jailed, but with a proper UI.",
-            "localizedDescription": "\n\nPancakeStore\n\n\nMuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\n\nLatest Release\n \u2022 \nSupport Server\n \u2022 \nWebsite\n \u2022 \nOriginal Project (by mineek)\n\n\n\n\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\n\n\n\nFeatures\n\n\n\n\nDowngrade most applications available on the App Store (you will need to input the link to the app store app).\n\n\n\n\nHow do I downgrade an application?\n\n\n\n\nThe application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n\n\nInstall PancakeStore using your preferred sideloading method.\n\n\nLog in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n\n\nIn most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n\n\nClick \"log in\" and go to the App Store.\n\n\nFind the application you're looking for, click the share button, and copy the link.\n\n\nGo back to PancakeStore and click the clipboard button.\n\n\nClick \"Downgrade App\" and wait patiently!\n\n\n\n\nTroubleshooting\n\n\n\n\nApp crashes when trying to log in:\n You likely input the wrong 2FA code. Kill the app from the app switcher and try again.\n\n\nApp doesn't progress when clicking \"log in\":\n You likely input the wrong Apple ID and/or Password. Kill the app from the app switcher and try again.\n\n\nI don't receive a 2FA code when clicking \"Authenticate\":\n Type six random numbers into the field and log in. This likely works because you had logged into MuffinStoreJailed or PancakeStore in the past, even on a different device.\n\n\nThe app crashes when I try to downgrade:\n You likely did not purchase (download) the app in the past. Download the app beforehand and remove it, or purchase it from another device. \n\n",
+            "localizedDescription": "\nPancakeStore\nMuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\nLatest Release \u2022 Support Server \u2022 Website \u2022 Original Project (by mineek)\n\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n\nDowngrade most applications available on the App Store (you will need to input the link to the app store app).\n\nHow do I downgrade an application?\n\nThe application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\nInstall PancakeStore using your preferred sideloading method.\nLog in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\nIn most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \nClick \"log in\" and go to the App Store.\nFind the application you're looking for, click the share button, and copy the link.\nGo back to PancakeStore and click the clipboard button.\nClick \"Downgrade App\" and wait patiently!\n\nTroubleshooting\n\nApp crashes when trying to log in: You likely input the wrong 2FA code. Kill the app from the app switcher and try again.\nApp doesn't progress when clicking \"log in\": You likely input the wrong Apple ID and/or Password. Kill the app from the app switcher and try again.\nI don't receive a 2FA code when clicking \"Authenticate\": Type six random numbers into the field and log in. This likely works because you had logged into MuffinStoreJailed or PancakeStore in the past, even on a different device.\nThe app crashes when I try to downgrade: You likely did not purchase (download) the app in the past. Download the app beforehand and remove it, or purchase it from another device. \n",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.jbdotparty.PancakeStore.png",
             "versions": [
                 {
                     "version": "1.0.1",
                     "date": "2025-12-26T16:26:45Z",
-                    "localizedDescription": "\n\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\n\n\n\nSupport Server\n \u2022 \nWebsite\n \u2022 \nOriginal Project (by mineek)\n\n\nUI Changes\n\n\n\n\nImplemented \nPartyUI\n.\n\n\nOther UI fixes.\n\n",
+                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nSupport Server \u2022 Website \u2022 Original Project (by mineek)\nUI Changes\n\nImplemented PartyUI.\nOther UI fixes.\n",
                     "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
                     "size": 777601
                 },
                 {
                     "version": "1.0",
                     "date": "2025-12-20T20:14:48Z",
-                    "localizedDescription": "\n\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\n\n\n\nSupport Server\n \u2022 \nWebsite\n \u2022 \nOriginal Project (by mineek)\n\n\nfirst release lol, probably will be the only one unless there's some major issue or something. read the \nreadme\n for instructions.",
+                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nSupport Server \u2022 Website \u2022 Original Project (by mineek)\nfirst release lol, probably will be the only one unless there's some major issue or something. read the readme for instructions.",
                     "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
                     "size": 751441
                 }

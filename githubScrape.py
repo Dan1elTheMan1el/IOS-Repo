@@ -18,7 +18,7 @@ for repo_info in scraping:
     name = repo_info["name"]
     author = data["owner"]["login"] if "owner" in data and "login" in data["owner"] else "Unknown"
     subtitle = data["description"]
-    localizedDescription = soup.get_text(separator="\n")
+    localizedDescription = soup.get_text()
     versions = []
 
     print("Getting latest release...")
@@ -37,7 +37,7 @@ for repo_info in scraping:
         versions.append({
             "version": version,
             "date": date,
-            "localizedDescription": html_body.get_text(separator="\n"),
+            "localizedDescription": html_body.get_text(),
             "downloadURL": downloadURL,
             "size": size
         })

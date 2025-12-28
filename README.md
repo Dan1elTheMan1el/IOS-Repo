@@ -17,3 +17,4 @@
 - [Ksign](https://github.com/Nyasami/Ksign)
 - [Bound](https://github.com/CloudySn0w/BTLoader)
 - [Ferrite](https://github.com/Ferrite-iOS/Ferrite)
+- [PancakeStore](https://github.com/jailbreakdotparty/PancakeStore)
