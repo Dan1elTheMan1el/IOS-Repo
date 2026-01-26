@@ -426,6 +426,23 @@
                     "size": 751441
                 }
             ]
+        },
+        {
+            "name": "ByeTunes",
+            "bundleIdentifier": "com.EduAlexxis.MusicManager",
+            "developerName": "EduAlexxis",
+            "subtitle": "The first app of its kind: seamless, on-device music and ringtone injection for iOS. Bypass iTunes and manage your native library directly. Auto-fetch metadata, organize playlists, and keep your files clean. The true local music experience is here.",
+            "localizedDescription": "ByeTunes \ud83c\udfb5\nSay goodbye to iTunes sync!\nByeTunes is a native iOS app that lets you inject music (MP3, M4A, FLAC, WAV) and ringtones directly into your device's media library\u2014without needing a computer connection for every sync. It communicates directly with the iOS media database, giving you the power to manage your music on your terms.\n\u2728 Features\n\nDirect Music Injection: Add songs to your Apple Music library without a PC.\nRingtone Manager: Inject custom ringtones (.m4r and .mp3 auto-conversion).\nPlaylist Support: Create and manage playlists on the fly.\nNo Computer Needed (after setup): Once paired, you're free!\nMetadata Editing: Auto-fetched from iTunes or Deezer.\n\n\ud83d\udee0 Compilation Instructions\nTo build ByeTunes yourself, you'll need a Mac with Xcode.\nPrerequisites\n\nXcode: Version 15+ recommended.\niOS Device: Running iOS 17.0 or later.\n\n\u26a0\ufe0f The \"Missing Reference\"\nByeTunes relies on a proprietary FFI wrapper for libimobiledevice to talk to the iOS internal file system. These files are NOT included in this repository for licensing/size reasons.\nTo compile the app, you need to obtain these two files and place them in the MusicManager/ directory:\n\nlibidevice_ffi.a (Static Library)\nidevice.h (Header File)\n\nYou can obtain these files from: https://github.com/jkcoxson/idevice\nIf you don't have these files, the project will not compile.\nBuild Steps\n\nClone the repo:\n    bash\n    git clone https://github.com/EduAlexxis/ByeTunes.git\n    cd ByeTunes\nAdd the missing libraries:\nCopy libidevice_ffi.a and idevice.h into the MusicManager/ folder.\n\n\nOpen MusicManager.xcodeproj in Xcode.\nSwitch the Signing Team to your own Apple ID.\nBuild & Run on your device!\n\n\ud83d\udcf1 How to Use\n\nPairing:\nOn first launch, you'll see an \"Import Pairing File\" screen.\nYou need to get a pairing file.\nExport this file from your computer and Airdrop/Save it to your iPhone.\nImport it into ByeTunes.\n\n\nAdd Music:\nTap \"Add Songs\" and select files from your Files app.\nHit \"Inject to Device\" and watch the magic happen.\n\n\nRingtones:\nGo to the Ringtones tab, add your file, and inject!\n\n\n\n\ud83d\udcdd Notes\n\nSigned Apps: If you install this via a signing service (Signulous, AltStore, etc.), the app includes a fix (asCopy: true) to ensure file importing works correctly without crashing.\nBackup: Always good to have a backup of your music library before messing with database injection!\n\n\ud83d\udc1b Support & Bug Reporting\nFound a bug? We'd love to fix it!\n\nReport Issues: Open a ticket on GitHub Issues.\nJoin the Community: Chat with us on Discord.\nAttach Debug Logs:\nIf you are experiencing injection failures, please use the Debug Release provided in the GitHub Releases.\nThis version includes a \"Debug Logs\" screen in Settings where you can copy the app logs.\nPlease attach these logs to your issue report\u2014they help us solve problems much faster!\n\n\n\n\nCreated with \u2764\ufe0f by EduAlexxis",
+            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.EduAlexxis.MusicManager.png",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2026-01-25T23:13:41Z",
+                    "localizedDescription": "Initial release, Enjoy!",
+                    "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v1.0/ByeTunes-Debugger.ipa",
+                    "size": 23754320
+                }
+            ]
         }
     ],
     "news": [
