@@ -166,10 +166,10 @@
             "versions": [
                 {
                     "version": "beta",
-                    "date": "2026-01-27T12:25:36Z",
-                    "localizedDescription": "Commit: `feat: bulk install (#88)\nfix: not unselect after done selecting` (8082ed9556f00a2e00a3ed70904a651f946bfc93)\nNew in this build (Compared to v1.5.1):\n\nfeat: bulk install (#88) (8082ed9)\nci: fix broken body (ae7b211)\nci: fix some inconsistencies (5901150)\nfeat: optimized for iOS 26 (#87) (ca93efb)\nci: detailed beta release description (1802de5)\nci: make nightly build instead (7b1af69)\nci: fix submodule (49b03f5)\nci: automated beta build (d8521be)\nfix: url scheme (51dc1bb)\nfix: less strict iconURL parsing (e874e3e)\nfeat: use BGContinuedProcessingTask for 26 instead of audio hack (5172084)\nfix(NimbleKit): also handle empty display name in info.plist (52b2eaf)\ndocs: add CONTRIBUTING.md (dcc8908)\nchore: fix swiftui import conflict with xcode 26 build (37a96de)\nchore (lang): update German, Vietnamese translation and add missing strings (#76) (3af4696)\nchore: update repo (7f90fad)\n\nCommit SHA: 8082ed9556f00a2e00a3ed70904a651f946bfc93",
+                    "date": "2026-01-30T00:54:39Z",
+                    "localizedDescription": "Commit: chore(lang): update German translation (#89) (d120db77f36a4ee1bbd99f2a83b5b96942636fe9)\nNew in this build (Compared to v1.5.1):\n\nchore(lang): update German translation (#89) (d120db7)\nfeat: bulk install (#88) (8082ed9)\nci: fix broken body (ae7b211)\nci: fix some inconsistencies (5901150)\nfeat: optimized for iOS 26 (#87) (ca93efb)\nci: detailed beta release description (1802de5)\nci: make nightly build instead (7b1af69)\nci: fix submodule (49b03f5)\nci: automated beta build (d8521be)\nfix: url scheme (51dc1bb)\nfix: less strict iconURL parsing (e874e3e)\nfeat: use BGContinuedProcessingTask for 26 instead of audio hack (5172084)\nfix(NimbleKit): also handle empty display name in info.plist (52b2eaf)\ndocs: add CONTRIBUTING.md (dcc8908)\nchore: fix swiftui import conflict with xcode 26 build (37a96de)\nchore (lang): update German, Vietnamese translation and add missing strings (#76) (3af4696)\nchore: update repo (7f90fad)\n\nCommit SHA: d120db77f36a4ee1bbd99f2a83b5b96942636fe9",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/beta/Ksign.ipa",
-                    "size": 14013253
+                    "size": 14074302
                 },
                 {
                     "version": "1.5.1",
@@ -453,8 +453,8 @@
                     "version": "1.0.1",
                     "date": "2026-01-27T18:36:54Z",
                     "localizedDescription": "Added static lyrics support\nFixed ios 17/18 support\nAdded experimental ios 16 support\nAdded manual edit for metadata\nAdded support for native Glass Ui Nav Bar on ios 26\nAdded support for importing folders and sub-folders.\nImproved first launch instructions\nVarious bugs & code optimization.",
-                    "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v1.0.1/ByeTunes.ipa",
-                    "size": 11964849
+                    "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v1.0.1/ByeTunes-Debug.ipa",
+                    "size": 12007604
                 },
                 {
                     "version": "1.0",
