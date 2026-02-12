@@ -245,11 +245,11 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.hammerandchisel.discord.png",
             "versions": [
                 {
-                    "version": "313.0",
-                    "date": "2026-01-28T15:34:11Z",
-                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\nPS: I\u2019m reiterating this. This release WILL have the plugin setting page issue for older plugins. I thought some of you wanted a newer version so I made a build. \u203c\ufe0f\u203c\ufe0f\nDownloads\n\nbound.ipa: BTLoader with Bound name and icon\ndiscord.ipa: BTLoader with original Discord name and icon\nDEB: Rootless package for jailbroken devices\n\nVersions\n\nDiscord: v313.0\nBTLoader: v1.0.2\n\nFeatures\n\nTrollStore compatibility  \nOptimized for size and performance\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v313.0/bound.ipa",
-                    "size": 95683987
+                    "version": "315.0",
+                    "date": "2026-02-11T17:57:17Z",
+                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\n\u26a0\ufe0f PS: Just reminding everyone again. This testing release still has the known issue with plugin settings pages on some plugins. I know some of you have been asking for a newer version anyway. So I put together this testing build for you once again. \u26a0\ufe0f\nDownloads\n\nbound.ipa: BTLoader with Bound name and icon\ndiscord.ipa: BTLoader with original Discord name and icon\nDEB: Rootless package for jailbroken devices\n\nVersions\n\nDiscord: v315.0\nBTLoader: v1.0.2\n\nFeatures\n\nTrollStore compatibility  \nOptimized for size and performance\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v315.0/bound.ipa",
+                    "size": 95112829
                 },
                 {
                     "version": "305.1",
