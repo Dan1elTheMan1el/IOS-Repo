@@ -45,5 +45,10 @@
         "bundleID": "com.EduAlexxis.MusicManager",
         "name": "ByeTunes",
         "iconURL": "https://raw.githubusercontent.com/EduAlexxis/ByeTunes/refs/heads/main/MusicManager/Assets.xcassets/AppIcon.appiconset/Icon-iOS-Default-1024x1024%401x.png"
-    }
+    },
+    {
+        "github": "getzemani63/sumee-lite",
+        "bundleID": "GetzemaniCruz.sumee.lite",
+        "name": "SUMEE! Lite",
+        "iconURL": "https://raw.githubusercontent.com/getzemani63/sumee-lite/refs/heads/main/sumee/Assets.xcassets/AppIcon.appiconset/Group%20223.png"
 ]
