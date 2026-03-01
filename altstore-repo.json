@@ -457,6 +457,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.EduAlexxis.MusicManager.png",
             "versions": [
                 {
+                    "version": "1.0.2",
+                    "date": "2026-02-28T22:05:04Z",
+                    "localizedDescription": "ByeTunes v1.0.2 - Lyrics Fetching & iOS Compatibility Hardening\nAdded a \u201cFetch Lyrics\u201d toggle to automatically pull lyrics via the LRCLIB API.\nAdded a lyrics preview/editor when editing song metadata before injection.\nImproved metadata cleaning to remove tags, contributor text, and extra line breaks.\nUpdated the injection engine to auto-detect iOS version and prevent database corruption.\nAdded console log and database export to main ipa file.",
+                    "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v1.0.2/ByeTunes.ipa",
+                    "size": 12021006
+                },
+                {
                     "version": "1.0.1",
                     "date": "2026-01-27T18:36:54Z",
                     "localizedDescription": "Added static lyrics support\nFixed ios 17/18 support\nAdded experimental ios 16 support\nAdded manual edit for metadata\nAdded support for native Glass Ui Nav Bar on ios 26\nAdded support for importing folders and sub-folders.\nImproved first launch instructions\nVarious bugs & code optimization.",
