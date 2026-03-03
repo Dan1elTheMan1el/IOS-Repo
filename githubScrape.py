@@ -9,7 +9,7 @@ readMe = open("resources/README_template.txt").read()
 
 myAppTable = ""
 for app in myApps["apps"]:
-    myAppTable += f"|<img src=\"{app["iconURL"]}\" alt=\"{app['name']}\" width=\"100\" height=\"100\" style=\"border-radius: 20px\">|[{app['name']}](https://github.com/{app['github']})|{app['versions'][0]['version']}|\n"
+    myAppTable += f"|<img src=\"{app['iconURL']}\" alt=\"{app['name']}\" width=\"100\" height=\"100\" style=\"border-radius: 20px\">|[{app['name']}](https://github.com/{app['github']})|{app['versions'][0]['version']}|\n"
 readMe = readMe.replace("# MY APPS TABLE", myAppTable)
 
 scrapedAppTable = ""
