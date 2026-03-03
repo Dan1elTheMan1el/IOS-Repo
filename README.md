@@ -8,13 +8,21 @@
 </a>
 
 ## My Apps:
-- [LiveRedirector](https://github.com/Dan1elTheMan1el/LiveRedirect)
+||Name|Version|
+|-|-|-|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/refs/heads/main/DynamicRedirect%20Extension/images/icon-256.png" alt="LiveRedirect" width="100" height="100" style="border-radius: 20px">|[LiveRedirect](https://github.com/Dan1elTheMan1el/LiveRedirect)|1.1|
+
 
 ## Auto scraped:
-- [Pocket Poster](https://github.com/leminlimez/Pocket-Poster)
-- [Get More Ram](https://github.com/hugeBlack/GetMoreRam)
-- [RedditFilter](https://github.com/level3tjg/RedditFilter)
-- [Ksign](https://github.com/Nyasami/Ksign)
-- [Bound](https://github.com/CloudySn0w/BTLoader)
-- [Ferrite](https://github.com/Ferrite-iOS/Ferrite)
-- [PancakeStore](https://github.com/jailbreakdotparty/PancakeStore)
+||Name|Version|
+|-|-|-|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png" alt="Pocket Poster" width="100" height="100" style="border-radius: 20px">|[Pocket Poster](https://github.com/leminlimez/Pocket-Poster)|3.0|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png" alt="Get More Ram" width="100" height="100" style="border-radius: 20px">|[Get More Ram](https://github.com/hugeBlack/GetMoreRam)|nightly|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.reddit.Reddit.png" alt="Reddit Filter" width="100" height="100" style="border-radius: 20px">|[Reddit Filter](https://github.com/level3tjg/RedditFilter)|2025.37.0-1.1.8|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/nya.asami.ksign.png" alt="Ksign" width="100" height="100" style="border-radius: 20px">|[Ksign](https://github.com/Nyasami/Ksign)|beta|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.hammerandchisel.discord.png" alt="BTLoader (Discord)" width="100" height="100" style="border-radius: 20px">|[BTLoader (Discord)](https://github.com/CloudySn0w/BTLoader)|317.0|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/me.kingbri.ferrite.png" alt="Ferrite" width="100" height="100" style="border-radius: 20px">|[Ferrite](https://github.com/Ferrite-iOS/Ferrite)|0.7.4|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.jbdotparty.PancakeStore.png" alt="PancakeStore" width="100" height="100" style="border-radius: 20px">|[PancakeStore](https://github.com/jailbreakdotparty/PancakeStore)|1.1|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.EduAlexxis.MusicManager.png" alt="ByeTunes" width="100" height="100" style="border-radius: 20px">|[ByeTunes](https://github.com/EduAlexxis/ByeTunes)|1.0.2|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/GetzemaniCruz.sumee.lite.png" alt="SUMEE! Lite" width="100" height="100" style="border-radius: 20px">|[SUMEE! Lite](https://github.com/getzemani63/sumee-lite)|1.0.5|
+|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.kdt.livecontainer.png" alt="LiveContainer + SideStore" width="100" height="100" style="border-radius: 20px">|[LiveContainer + SideStore](https://github.com/LiveContainer/LiveContainer)|3.7.2|

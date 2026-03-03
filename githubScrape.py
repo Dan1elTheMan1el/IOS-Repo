@@ -3,9 +3,16 @@ import json
 import markdown
 from bs4 import BeautifulSoup
 
-myApps = json.load(open("my-apps.json"))
-scraping = json.load(open("scraping.json"))
+myApps = json.load(open("resources/my-apps.json"))
+scraping = json.load(open("resources/scraping.json"))
+readMe = open("resources/README_template.txt").read()
 
+myAppTable = ""
+for app in myApps["apps"]:
+    myAppTable += f"|<img src=\"{app["iconURL"]}\" alt=\"{app['name']}\" width=\"100\" height=\"100\" style=\"border-radius: 20px\">|[{app['name']}](https://github.com/{app['github']})|{app['versions'][0]['version']}|\n"
+readMe = readMe.replace("# MY APPS TABLE", myAppTable)
+
+scrapedAppTable = ""
 for repo_info in scraping:
     print(f"Scraping {repo_info['name']}...")
     repo = repo_info["github"]
@@ -64,6 +71,12 @@ for repo_info in scraping:
     }
 
     myApps["apps"].append(app)
+    scrapedAppTable += f"|<img src=\"{iconURL}\" alt=\"{name}\" width=\"100\" height=\"100\" style=\"border-radius: 20px\">|[{name}](https://github.com/{repo})|{versions[0]['version']}|\n"
+readMe = readMe.replace("# AUTO SCRAPED TABLE", scrapedAppTable)
 
 print("Saving altstore-repo.json...")
 json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
+
+print("Saving README.md...")
+with open("README.md", "w") as f:
+    f.write(readMe)
