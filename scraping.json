@@ -51,5 +51,11 @@
         "bundleID": "GetzemaniCruz.sumee.lite",
         "name": "SUMEE! Lite",
         "iconURL": "https://raw.githubusercontent.com/getzemani63/sumee-lite/refs/heads/main/sumee/Assets.xcassets/AppIcon.appiconset/Group%20223.png"
+    },
+    {
+        "github": "LiveContainer/LiveContainer",
+        "bundleID": "com.kdt.livecontainer",
+        "name": "LiveContainer + SideStore",
+        "iconURL": "https://i.imgur.com/6LxK2Qf_d.png?maxwidth=1520"
     }
 ]
