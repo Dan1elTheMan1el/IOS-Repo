@@ -57,5 +57,11 @@
         "bundleID": "com.kdt.livecontainer",
         "name": "LiveContainer + SideStore",
         "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.kdt.livecontainer.png"
+    },
+    {
+        "github": "YangJiiii/EnsWilde",
+        "bundleID": "com.yangjiii.EnsWilde",
+        "name": "EnsWilde",
+        "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/be10a7d93b70df3b40057f869e6cc82de92bc2f0/MyApp_Dark_1024.png"
     }
 ]
