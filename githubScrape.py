@@ -76,14 +76,12 @@ for repo_info in scraping:
             for asset in release["assets"]["links"]:
                 if asset["name"].endswith(".ipa"):
                     downloadURL = asset["direct_asset_url"]
-                    size = None
                     break
             versions.append({
                 "version": version,
                 "date": date,
                 "localizedDescription": html_body.get_text(),
                 "downloadURL": downloadURL,
-                "size": size
             })
     else:
         print(f"Unknown repo type for {repo_info['name']}")
