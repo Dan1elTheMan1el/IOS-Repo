@@ -82,6 +82,7 @@ for repo_info in scraping:
                 "date": date,
                 "localizedDescription": html_body.get_text(),
                 "downloadURL": downloadURL,
+                "size": 0
             })
     else:
         print(f"Unknown repo type for {repo_info['name']}")
