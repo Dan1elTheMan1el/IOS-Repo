@@ -30,7 +30,7 @@ for repo_info in scraping:
 
         author = data["owner"]["login"] if "owner" in data and "login" in data["owner"] else "Unknown"
         subtitle = data["description"]
-        localizedDescription = soup.get_text()
+        localizedDescription = soup.get_text().strip()
 
         print("Getting latest release...")
         releases = requests.get(f"https://api.github.com/repos/{repo}/releases").json()
@@ -62,7 +62,7 @@ for repo_info in scraping:
         soup = BeautifulSoup(html, 'html.parser')
 
         subtitle = data["description"]
-        localizedDescription = soup.get_text()
+        localizedDescription = soup.get_text().strip()
 
         print("Getting latest release...")
         releases = requests.get(f"https://{host}/api/v4/projects/{quote_plus(path.lstrip('/'))}/releases").json()
