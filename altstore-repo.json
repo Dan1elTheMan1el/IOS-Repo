@@ -242,7 +242,7 @@
             "bundleIdentifier": "com.hammerandchisel.discord",
             "developerName": "CloudySn0w",
             "subtitle": "\ud83d\udca7 BTLoader! The Future For iOS.",
-            "localizedDescription": "\ud83d\udca7 BTLoader\nTweak to inject Ra1n into Discord and perform various tasks.\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\nInstallation\nThe latest builds can be found in the Releases tab.\nLegacy Of BTLoader\nRead about our history here at The Legacy Of BTLoader.",
+            "localizedDescription": "\ud83d\udca7 BTLoader\nThis program is now archived, I now forbid anyone related to the Kettu / Rain project from using my changes to the original fork BunnyTweak.\nInstallation\nThe latest builds can be found in the Releases tab.\nLegacy Of BTLoader\nRead about our history here at The Legacy Of BTLoader.",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.hammerandchisel.discord.png",
             "versions": [
                 {
