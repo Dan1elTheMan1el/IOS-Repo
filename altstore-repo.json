@@ -799,6 +799,65 @@
                     "size": 0
                 }
             ]
+        },
+        {
+            "name": "JESSI",
+            "bundleIdentifier": "com.baconmania.jessi",
+            "developerName": "Baconium",
+            "subtitle": "JESSI (Java Edition Servers Suck on Ios) is a jailed app for ios 14+ that runs minecraft servers directly on device!",
+            "localizedDescription": "JESSI\n\nJava Edition Servers Suck on iOS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasic Information \u2022\n  LiveContainer \u2022\n  Features \u2022\n  Build / Misc\n\nIf you would like support, want to request a feature, or just talk to other JESSI users you should join the discord: https://discord.gg/aZ9HbYXKur\nBasic Information\nJESSI is an iOS app that runs Minecraft: Java Edition servers natively on iOS, targeting iOS 14+. JESSI runs on both jailed and jailbroken iOS, only requiring JIT to do so.\nJESSI was designed specifically to be as easy to use as possible, even if you have never hosted a Minecraft server before. The UI is simple to understand and use, making JESSI the best beginner friendly option to host a minecraft server.\nTutorials for installing JESSI can be found in the wiki for this repo. More tutorials for specific features will be coming shortly, as well as video tutorials!\nLiveContainer\nWhile this repo won't directly give you a guide on how to use/install LiveContainer, it should be noted that JESSI has full compatibility with LiveContainer. All you need to do is install JESSI inside of LiveContainer, then launch it with JIT.\nFeatures\nJESSI is still being actively developed, and plenty of more features will come. Here's a list of some of JESSI's most important features:\n\nAbility to run minecraft servers (duh)\nBuilt in JVM downloader, pick between Java 8, 17, and 21 (or download all of them!)\nServer memory allocation slider\nEasy to use server creator, with support for several server softwares\nA file manager that allows you to easily manage several servers\nNetwork tunneling via playit.gg and UPnP support\nIntegrated mod, modpack, resource pack, and datapack downloading via Modrinth and curseforge\nKeep alive, run the server in the background even with the screen off\nServer config GUI\n\nBuilding/Miscellaneous extra info\nIf you would like to build JESSI yourself, it's pretty simple. Install Xcode and Xcode CLI, then run scripts/build-ipa.sh\nThere are some limitations that we're currently running into for jailed iOS, that we're not sure are solvable. The main one is that the JVM must run in the same process as the app itself. Because of this, when the JVM is killed in any way, the app is also killed. So, at least for now, if you stop a server or create a forge/neoforge server in the server setup, the app will crash after the java process ends. You will not lose any data from a crash occuring this way, and in fact Crash Reporter on iOS doesn't even detect it as a crash. This is solvable by running the JVM in a seperate process, unfortunately this functionality is limited to TrollStore devices for the time being\nWe're open to feedback and suggestions for features, so if you have any ideas on how JESSI could be improved feel free to contact us in the discord server. Thank you for using JESSI!",
+            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.baconmania.jessi.png",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2026-03-12T10:05:11Z",
+                    "localizedDescription": "there haven't been many changes since the release candidate, it's only really been a few minor bug fixes. Since this is the 1.0 release, here's the list of most important features in the app:\n\nAbility to run minecraft servers (duh)\nBuilt in JVM downloader, pick between Java 8, 17, and 21 (or download all of them!)\nServer memory allocation slider\nEasy to use server creator, with support for several server softwares\nA file manager that allows you to easily manage several servers\nNetwork tunneling via playit.gg and UPnP support\nIntegrated mod, modpack, resource pack, and datapack downloading via Modrinth and curseforge\nKeep alive, run the server in the background even with the screen off\nServer config GUI\n\nthank you to all of the beta testers!",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.0/JESSI.ipa",
+                    "size": 9263080
+                },
+                {
+                    "version": "rc",
+                    "date": "2026-03-04T21:55:48Z",
+                    "localizedDescription": "Changelog:\n\nProper TrollStore support, TrollStore devices will now spawn the JVM in a seperate process, meaning you can freely stop/start the server without the app closing\nKeep Alive, JESSI can now run in the background, even in LiveContainer or if the screen is off!\nUI improvements and bugfixes\nThere is now a built in tutorial in the app! On first app launch, you will be given a welcome message and be prompted to take a tour around the app\nJVM's will automatically download via backup mirrors if necessary\nInstallation guides have been added to the github page under the wiki (the guide for ios 16.7/17.0.1-17.3.1 has not been written yet as I'm working on a separate app for JIT enabling on those versions, and that app has not been finished yet)\nSome easter eggs have been added :eyes: \nRemoved Herobrine\n",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/rc/JESSI.ipa",
+                    "size": 9255289
+                },
+                {
+                    "version": "b5",
+                    "date": "2026-02-23T20:46:26Z",
+                    "localizedDescription": "Changelog:\n\nTXM devices on iOS 26 are now supported! (note that 26.4 betas have broken jit temporarily on all devices, including non TXM)\nEasy modpack, resource pack, and data pack installation\nCurseforge support\nOverhauled launch UI\nServer properties editor\nSeveral code improvements\nMinor UI enhancements\nSeveral miscellaneous bugfixes\n",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/b5/JESSI.ipa",
+                    "size": 7976762
+                },
+                {
+                    "version": "super-beta",
+                    "date": "2026-02-23T20:08:22Z",
+                    "localizedDescription": "latest beta build\nautomatically built from main.\ncommit: a7c843a5ae3c94daaffb1f177560b3c2c9545a49\nrun: #18\nchanges\n\nupdate readme for 1.0 (a7c843a)\nMerge pull request #25 from rooootdev/main (637afd7)\nstrcasestr bullshit (c337494)\nremove retardedness (0c16c10)\nadd logging so i know what THE FUCK is broken (b72ead3)\nuh fix caseing issues (55db373)\nfix finally hopefully probably maybe not (5cee3a2)\nfix it again (eb54616)\nfix maybe? (b5fdd2c)\nfix shit (9590a46)\nFix IPA file naming and update release notes (2142726)\nMerge branch 'Baconium:main' into main (0a5af70)\nfix livecontainer detect maybe hopefully (472d857)\nadd an option to run the JVM in process when installed via trollstore (4f08bd6)\nMerge pull request #24 from rooootdev/main (b89fb81)\ndo stuff and add mirror (104ddb8)\nadd mirrors for JVM's (55d04b9)\nfix txm (again) (3ee0737)\neaster eggs (8cdaf64)\nminor UI bugfixes (ffe4613)\n\n\ninstall\ntrollstore\nhttps://github.com/Baconium/JESSI/releases/download/super-beta/JESSI.ipa\naltstore or any other sideloading platform\nimport the .ipa directly from this release page.",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/super-beta/JESSI-1.ipa",
+                    "size": 7931849
+                },
+                {
+                    "version": "b4",
+                    "date": "2026-02-10T06:21:33Z",
+                    "localizedDescription": "Changelog:\n\nIntegrated mod installation via Modrinth (thank you roooot)\nPlayit.gg support (thank you again roooot)\nUPnP support (untested, likely broken)\nFile manager/text editor UI overhaul\nServer creation menu UI overhaul\nPaperMC support (if you have issues with it, please do not contact the PaperMC devs, contact me instead)\nVarious UI improvements throughout the app\nRemoved Herobrine\n",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/b4/JESSI.ipa",
+                    "size": 7823073
+                },
+                {
+                    "version": "b3",
+                    "date": "2026-02-02T10:34:59Z",
+                    "localizedDescription": "Changelog:\n\niOS 14, 15, and 26 are now supported! iOS 26 support on A15/M2 or newer is untested, and is unlikely to work. if it doesn't work, try enabling/disabling TXM support in settings\nJVM's are no longer shipped in the ipa, cutting down the filesize by 96%! you can choose exactly which java versions you want to download directly in the app now\nImproved memory slider and memory estimation\nAdditional useful info in settings\nFixed the UI on iPadOS\nRemoved Herobrine\n\nif you haven't already, join the discord for devlogs, announcements, and to report bugs!\ndiscord.gg/aZ9HbYXKur",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/b3/JESSI.ipa",
+                    "size": 4227137
+                },
+                {
+                    "version": "b2",
+                    "date": "2026-01-25T09:33:38Z",
+                    "localizedDescription": "This is the first release of JESSI on github! if you would like to download an older build, you can find it in the discord announcements channel. Here's a list of new features:\n\nAutomatic JIT detection\nCustom launch arguments\nSystem memory info\nFixed SideStore/iLoader support\nMild code cleanup\n",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/b2/jessiB2.ipa",
+                    "size": 89686932
+                }
+            ]
         }
     ],
     "news": [
