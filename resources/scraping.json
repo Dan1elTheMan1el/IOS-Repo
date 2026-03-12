@@ -69,5 +69,11 @@
         "bundleID": "com.stossy11.MeloNX",
         "name": "MeloNX",
         "iconURL": "https://git.ryujinx.app/uploads/-/system/project/avatar/93/nxgradientpng.png"
+    },
+    {
+        "github": "Baconium/JESSI",
+        "bundleID": "com.baconmania.jessi",
+        "name": "JESSI",
+        "iconURL": "https://raw.githubusercontent.com/rooootdev/JESSI/main/gay2_electricboogaloo.png"
     }
 ]
