@@ -40,11 +40,14 @@ for repo_info in scraping:
             date = release["published_at"]
             markdown_body = markdown.markdown(release["body"])
             html_body = BeautifulSoup(markdown_body, 'html.parser')
+            downloadURL = ""
             for asset in release["assets"]:
                 if asset["browser_download_url"].endswith(".ipa"):
                     downloadURL = asset["browser_download_url"]
                     size = asset["size"]
                     break
+            if downloadURL == "":
+                continue
             versions.append({
                 "version": version,
                 "date": date,
@@ -73,10 +76,13 @@ for repo_info in scraping:
             date = release["released_at"]
             markdown_body = markdown.markdown(release["description"])
             html_body = BeautifulSoup(markdown_body, 'html.parser')
+            downloadURL = ""
             for asset in release["assets"]["links"]:
                 if asset["name"].endswith(".ipa"):
                     downloadURL = asset["direct_asset_url"]
                     break
+            if downloadURL == "":
+                continue
             versions.append({
                 "version": version,
                 "date": date,
