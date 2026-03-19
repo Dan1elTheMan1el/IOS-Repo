@@ -816,13 +816,6 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.baconmania.jessi.png",
             "versions": [
                 {
-                    "version": "macOSbeta",
-                    "date": "2026-03-18T19:02:03Z",
-                    "localizedDescription": "consider this release as a beta build for macOS support, it isn't tested super well but it does work. instead of installing JVM's in the app and running them in process, it simply uses JVM's installed on your Mac already. There's no reason to use this over just running the java -jar [minecraft server jar].jar command in your terminal other than just providing a nice GUI. should have feature parity with the TrollStore version for iOS.\nthe app is not notarized, so you'll have to manually trust it in settings",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
-                    "size": 12773718
-                },
-                {
                     "version": "1.0",
                     "date": "2026-03-12T10:05:11Z",
                     "localizedDescription": "there haven't been many changes since the release candidate, it's only really been a few minor bug fixes. Since this is the 1.0 release, here's the list of most important features in the app:\n\nAbility to run minecraft servers (duh)\nBuilt in JVM downloader, pick between Java 8, 17, and 21 (or download all of them!)\nServer memory allocation slider\nEasy to use server creator, with support for several server softwares\nA file manager that allows you to easily manage several servers\nNetwork tunneling via playit.gg and UPnP support\nIntegrated mod, modpack, resource pack, and datapack downloading via Modrinth and curseforge\nKeep alive, run the server in the background even with the screen off\nServer config GUI\n\nthank you to all of the beta testers!",
