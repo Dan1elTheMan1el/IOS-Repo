@@ -444,10 +444,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-03-20T16:06:02Z",
-                    "localizedDescription": "Commit: 47fe8684414c15f2c64048fc4837a4a71747864d\nMessage: Bump version & fix icon border radius in sorting view\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-03-21T07:42:33Z",
+                    "localizedDescription": "Commit: d4354b01cea6b37e7857ae0e79ad2c31e1a663c9\nMessage: Move multitask options to a separate view\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34811414
+                    "size": 36614237
                 },
                 {
                     "version": "3.7.2",
