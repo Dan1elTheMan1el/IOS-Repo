@@ -1,11 +1,5 @@
 [
     {
-        "github": "leminlimez/Pocket-Poster",
-        "bundleID": "com.lemin.Pocket-Poster",
-        "name": "Pocket Poster",
-        "iconURL": "https://raw.githubusercontent.com/leminlimez/Pocket-Poster/refs/heads/main/Pocket%20Poster/Assets.xcassets/AppIcon.appiconset/pocket_poster.png"
-    },
-    {
         "github": "hugeBlack/GetMoreRam",
         "bundleID": "com.stos.Entitlement",
         "name": "Get More Ram"
