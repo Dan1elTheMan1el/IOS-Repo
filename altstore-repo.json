@@ -37,51 +37,6 @@
             ]
         },
         {
-            "name": "Pocket Poster",
-            "bundleIdentifier": "com.lemin.Pocket-Poster",
-            "developerName": "leminlimez",
-            "subtitle": "Custom PosterBoard Wallpapers for iOS 17-26.1",
-            "localizedDescription": "Pocket Poster\nCustom PosterBoard Wallpapers for iOS 17+\n\n\n\n  \u00a0\u00a0\u00a0\n  \n\n\n\nGetting Started\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\nDownload Nugget on your computer and plug in your phone.\nThen, navigate to the Settings page and click the Pocket Poster Helper button. \nInside Pocket Poster, click the Detect button inside of settings.\nCommunity-made wallpapers can be found on the official Cowabun.ga site.\nJoin the Cowabunga Discord Server for additional help.\nCredits\n\nTranslations crowdsourced using POEditor. Thank you everyone who assisted in the translation effort!\nPosterRestore for their help with PosterBoard\ndootskyre for the fallback shortcut\nNathan and DuyKhanhTran for the exploit\nSerStars for creating the website",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png",
-            "versions": [
-                {
-                    "version": "3.0",
-                    "date": "2025-08-29T21:35:36Z",
-                    "localizedDescription": "Features\n\nAdded an in-app explore page for finding and downloading wallpapers\nAdded custom CarPlay wallpapers (will not work on iOS 26.0)\nPreliminary iOS 16 support (not all wallpapers will work)\nImproved certain error messages\n\nBug Fixes\n\nFixed the aspect ratio/rotation of imported custom videos\nFixed the update API not being called correctly\nFixed issues with some alerts not popping up\nOther various app stability improvements\n",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
-                    "size": 13686800
-                },
-                {
-                    "version": "2.0.2",
-                    "date": "2025-07-14T19:56:32Z",
-                    "localizedDescription": "\nChanged how the app hash is gotten (Requires Nugget v6.1.1 or newer)\nPocket Poster now prompts when there is an update available\nReset Collections button now falls back to the tutorial screen from v1.0 on iOS 17.0\nAdded new languages:\nBulgarian\nChinese (simplified)\nFrench (LU)\nItalian\n",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.2/Pocket_Poster.ipa",
-                    "size": 13551473
-                },
-                {
-                    "version": "2.0.1",
-                    "date": "2025-06-30T01:52:10Z",
-                    "localizedDescription": "\nFixed a bug where the app hash would be pasted incorrectly\n",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.1/Pocket.Poster.ipa",
-                    "size": 13531471
-                },
-                {
-                    "version": "2.0",
-                    "date": "2025-06-23T17:30:12Z",
-                    "localizedDescription": "This version is outdated, you can find the latest version here.\nFeatures\n\nAdded video wallpapers! Select videos from your camera roll and use them as wallpapers.\nThe \"Reset Collections\" button now works automatically\nAdded translations for 21 new languages!\nAvailable languages: Arabic, Arabic (Saudi Arabia), Arabic (Egypt), Chinese (Traditional), Czech, Dutch, French, French (Belgium), French (Canada), French (Switzerland), German, Hungarian, Japanese, Korean, Polish, Russian, Spanish, Spanish (Mexico), Thai, Turkish, Vietnamese\nThank you to all the amazing translators who helped make this project more accessible! This would not have been possible without you!\nIf you would like to help translate, you can join the effort over on POEditor\nImproved the UI\nPrepared for CarPlay hash (coming in v3.0)\n\nBug Fixes\n\nImproved backend handling of the app\nFixed problems with alert popups not showing\nImproved error messages\nImproved cache clean up\nFixed memory leak when applying that would lead to a crash\n",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0/Pocket.Poster.ipa",
-                    "size": 13530628
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-06-08T16:14:08Z",
-                    "localizedDescription": "\nInitial Release\nOnly .tendies files are currently supported. Configuration-based tendies will not work, however those are rare.\n\nNote: You will need Nugget v5.2.3 or newer to get the app hash.",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v1.0/Pocket_Poster.ipa",
-                    "size": 13385000
-                }
-            ]
-        },
-        {
             "name": "Get More Ram",
             "bundleIdentifier": "com.stos.Entitlement",
             "developerName": "hugeBlack",

@@ -16,7 +16,6 @@
 ## Auto scraped:
 ||Name|Version|
 |-|-|-|
-|<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png" alt="Pocket Poster" width="100" height="100" style="border-radius: 20px">|[Pocket Poster](https://github.com/leminlimez/Pocket-Poster)|3.0|
 |<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png" alt="Get More Ram" width="100" height="100" style="border-radius: 20px">|[Get More Ram](https://github.com/hugeBlack/GetMoreRam)|nightly|
 |<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.reddit.Reddit.png" alt="Reddit Filter" width="100" height="100" style="border-radius: 20px">|[Reddit Filter](https://github.com/level3tjg/RedditFilter)|2025.37.0-1.1.8|
 |<img src="https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/nya.asami.ksign.png" alt="Ksign" width="100" height="100" style="border-radius: 20px">|[Ksign](https://github.com/Nyasami/Ksign)|beta|
