@@ -399,10 +399,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-03-21T07:42:33Z",
-                    "localizedDescription": "Commit: d4354b01cea6b37e7857ae0e79ad2c31e1a663c9\nMessage: Move multitask options to a separate view\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-03-25T10:25:30Z",
+                    "localizedDescription": "Commit: 59dd5653a23080f88cd586dacf977fa51bf215ec\nMessage: Fix Run in LC2 ignored multitask choice, fix hidden apps from LCGuestURLSchemes\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 36614237
+                    "size": 36614022
                 },
                 {
                     "version": "3.7.2",
