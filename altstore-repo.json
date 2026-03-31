@@ -694,6 +694,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.baconmania.jessi.png",
             "versions": [
                 {
+                    "version": "1.0.1",
+                    "date": "2026-03-30T23:25:32Z",
+                    "localizedDescription": "Changelog:\nJava 25 support (required for minecraft 26.1+)",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.0.1/JESSI.ipa",
+                    "size": 9284359
+                },
+                {
                     "version": "1.0",
                     "date": "2026-03-12T10:05:11Z",
                     "localizedDescription": "there haven't been many changes since the release candidate, it's only really been a few minor bug fixes. Since this is the 1.0 release, here's the list of most important features in the app:\n\nAbility to run minecraft servers (duh)\nBuilt in JVM downloader, pick between Java 8, 17, and 21 (or download all of them!)\nServer memory allocation slider\nEasy to use server creator, with support for several server softwares\nA file manager that allows you to easily manage several servers\nNetwork tunneling via playit.gg and UPnP support\nIntegrated mod, modpack, resource pack, and datapack downloading via Modrinth and curseforge\nKeep alive, run the server in the background even with the screen off\nServer config GUI\n\nthank you to all of the beta testers!",
@@ -717,7 +724,7 @@
                 {
                     "version": "super-beta",
                     "date": "2026-02-23T20:08:22Z",
-                    "localizedDescription": "latest beta build\nautomatically built from main.\ncommit: 8109727947ab913dfdb9c13502b4cd8eb1bddb6f\nrun: #20\nchanges\n\nUpdate build instructions for iOS and macOS (8109727)\nMerge branch 'feature/macos-build-runtime-support' (35d25da)\ncomment update (db2cb3b)\nadd macos build support (bc6c9a0)\nyeah (daf63a7)\nAdd macOS build/runtime support with optional Java 8 (4dabc3f)\nupdate readme for 1.0 (a7c843a)\nMerge pull request #25 from rooootdev/main (637afd7)\nstrcasestr bullshit (c337494)\nremove retardedness (0c16c10)\nadd logging so i know what THE FUCK is broken (b72ead3)\nuh fix caseing issues (55db373)\nfix finally hopefully probably maybe not (5cee3a2)\nfix it again (eb54616)\nfix maybe? (b5fdd2c)\nfix shit (9590a46)\nFix IPA file naming and update release notes (2142726)\nMerge branch 'Baconium:main' into main (0a5af70)\nfix livecontainer detect maybe hopefully (472d857)\nadd an option to run the JVM in process when installed via trollstore (4f08bd6)\n\n\ninstall\ntrollstore\nhttps://github.com/Baconium/JESSI/releases/download/super-beta/JESSI.ipa\naltstore or any other sideloading platform\nimport the .ipa directly from this release page.",
+                    "localizedDescription": "latest beta build\nautomatically built from main.\ncommit: 7315d7a78808520cb3495361343471fa62812e26\nrun: #21\nchanges\n\nadd java 25 support (7315d7a)\nUpdate build instructions for iOS and macOS (8109727)\nMerge branch 'feature/macos-build-runtime-support' (35d25da)\ncomment update (db2cb3b)\nadd macos build support (bc6c9a0)\nyeah (daf63a7)\nAdd macOS build/runtime support with optional Java 8 (4dabc3f)\nupdate readme for 1.0 (a7c843a)\nMerge pull request #25 from rooootdev/main (637afd7)\nstrcasestr bullshit (c337494)\nremove retardedness (0c16c10)\nadd logging so i know what THE FUCK is broken (b72ead3)\nuh fix caseing issues (55db373)\nfix finally hopefully probably maybe not (5cee3a2)\nfix it again (eb54616)\nfix maybe? (b5fdd2c)\nfix shit (9590a46)\nFix IPA file naming and update release notes (2142726)\nMerge branch 'Baconium:main' into main (0a5af70)\nfix livecontainer detect maybe hopefully (472d857)\n\n\ninstall\ntrollstore\nhttps://github.com/Baconium/JESSI/releases/download/super-beta/JESSI.ipa\naltstore or any other sideloading platform\nimport the .ipa directly from this release page.",
                     "downloadURL": "https://github.com/Baconium/JESSI/releases/download/super-beta/JESSI-1.ipa",
                     "size": 7931849
                 },
