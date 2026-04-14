@@ -122,10 +122,10 @@
             "versions": [
                 {
                     "version": "beta",
-                    "date": "2026-04-06T14:56:04Z",
-                    "localizedDescription": "Commit: fix: bad translation causes app to crashes (bcb64b531b9bd22dcf3777c1c40ca07ad3dfa9f4)\nNew in this build (Compared to v1.5.1):\n\nfix: bad translation causes app to crashes (bcb64b5)\nfeat: actual install progress polling (7f260b4)\nfix: configuration state in BulkSigning not using shared signing config (1ded733)\nfeat: idevice installation method (#96) (c81da59)\nfix(UI): might be cleaner this way (2617cd4)\nchore(lang): update German translation (#89) (d120db7)\nfeat: bulk install (#88) (8082ed9)\nci: fix broken body (ae7b211)\nci: fix some inconsistencies (5901150)\nfeat: optimized for iOS 26 (#87) (ca93efb)\nci: detailed beta release description (1802de5)\nci: make nightly build instead (7b1af69)\nci: fix submodule (49b03f5)\nci: automated beta build (d8521be)\nfix: url scheme (51dc1bb)\nfix: less strict iconURL parsing (e874e3e)\nfeat: use BGContinuedProcessingTask for 26 instead of audio hack (5172084)\nfix(NimbleKit): also handle empty display name in info.plist (52b2eaf)\ndocs: add CONTRIBUTING.md (dcc8908)\nchore: fix swiftui import conflict with xcode 26 build (37a96de)\nchore (lang): update German, Vietnamese translation and add missing strings (#76) (3af4696)\nchore: update repo (7f90fad)\n\nCommit SHA: bcb64b531b9bd22dcf3777c1c40ca07ad3dfa9f4",
+                    "date": "2026-04-13T10:37:36Z",
+                    "localizedDescription": "Commit: chore(lang): update VIetnamese translation (a7f08e38b17be1bb31703a5cfae35aac1209f73a)\nNew in this build (Compared to v1.5.1):\n\nchore(lang): update VIetnamese translation (a7f08e3)\nfix: bad translation causes app to crashes (bcb64b5)\nfeat: actual install progress polling (7f260b4)\nfix: configuration state in BulkSigning not using shared signing config (1ded733)\nfeat: idevice installation method (#96) (c81da59)\nfix(UI): might be cleaner this way (2617cd4)\nchore(lang): update German translation (#89) (d120db7)\nfeat: bulk install (#88) (8082ed9)\nci: fix broken body (ae7b211)\nci: fix some inconsistencies (5901150)\nfeat: optimized for iOS 26 (#87) (ca93efb)\nci: detailed beta release description (1802de5)\nci: make nightly build instead (7b1af69)\nci: fix submodule (49b03f5)\nci: automated beta build (d8521be)\nfix: url scheme (51dc1bb)\nfix: less strict iconURL parsing (e874e3e)\nfeat: use BGContinuedProcessingTask for 26 instead of audio hack (5172084)\nfix(NimbleKit): also handle empty display name in info.plist (52b2eaf)\ndocs: add CONTRIBUTING.md (dcc8908)\nchore: fix swiftui import conflict with xcode 26 build (37a96de)\nchore (lang): update German, Vietnamese translation and add missing strings (#76) (3af4696)\nchore: update repo (7f90fad)\n\nCommit SHA: a7f08e38b17be1bb31703a5cfae35aac1209f73a",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/beta/Ksign.ipa",
-                    "size": 16155348
+                    "size": 16156457
                 },
                 {
                     "version": "1.5.1",
@@ -406,10 +406,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-04-04T06:14:24Z",
-                    "localizedDescription": "Commit: 6607ad4fcf5a58dd48df2d5a4c7e82755c2b332a\nMessage: fix ss+lc nightly repo description\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-04-13T02:15:25Z",
+                    "localizedDescription": "Commit: 2c42f6303375983dea24c43f1a7458fc924e22c9\nMessage: Fix #1275\nAdd MultitaskSpecified key to LCAppInfo.plist\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34540268
+                    "size": 34602249
                 },
                 {
                     "version": "3.7.2",
@@ -580,115 +580,115 @@
         {
             "name": "MeloNX",
             "bundleIdentifier": "com.stossy11.MeloNX",
-            "developerName": "Stossy11",
-            "subtitle": "A Nintendo Switch Emulator based on Ryujinx for iOS ",
+            "developerName": "Ryujinx Administrator",
+            "subtitle": "A Nintendo Switch Emulator based on Ryujinx for iOS",
             "localizedDescription": "MeloNX\n\n    MeloNX enables Nintendo Switch game emulation on iOS using Ryujinx as a base.\n  \n\n    MeloNX is an iOS Nintendo Switch emulator based on Ryujinx, written primarily in C# and Swift. Designed to bring accurate performance and a user-friendly interface to iOS, MeloNX makes Switch games accessible on Apple devices.\n    Developed from the ground up, MeloNX is open-source and available on Github under the GPLv3 license.\n  \n\nFAQ\nWhere's the prod.keys file?/Where can I download [game]?\nWe do not support piracy, It is forbidden to request copyrighted content \n(Firmware/Games/Keys/Shaders) on our repositories or on the MeloNX Discord.\nDo I need a Switch to use this emulator?\nMeloNX emulator is capable of running many homebrew applications, and can be a crucial tool in the development and debugging of homebrew applications and games. To play commercial games, you will need access to a Switch compatible with custom firmware (CFW), which will enable you to dump your system firmware, keys and legally purchased games.\nHow can I dump my firmware/games/keys?\nFirst, you need to hack your Nintendo Switch, which you can learn how to do here: https://nh-server.github.io/switch-guide/.\nOnce you have hacked your Switch, backed up your keys and dumped your firmware, you may follow these guides to dump keys, updates and DLC, firmware and games:\nKeys\nGames, Updates and DLC\nFirmware\nInfo\n\nA Paid Developer account or TrollStore may be needed for specific devices (Read about Entitlements below)\nMeloNX REQUIRES JIT and CANNOT run without it.\nRecommended iPhone: iPhone 15 Pro+ (8/12GB RAM both have the same memory limit of 6GB)\nRecommended iPad: iPad Pro 5th+ 128GB+ (8GB RAM) / 1TB+ (16GB RAM) or iPad Air 5+ (8GB RAM)\nLowest Compatible Device (Paid Developer Account): iPhone 6s (iOS 15)\nLowest Compatible Device (Free Developer Account): iPhone 12\n\nEntitlements\n\nEntitlements are the underlying security permissions that allow an app to access specific features of your device\n\nMeloNX can use 2 Entitlements:\nIncreased Memory Limit:\n- This allows MeloNX to be able to use the most amount of ram apple lets us.\nExtended Virtual Addressing:\n- This allows MeloNX to be able to ask iOS for more memory / RAM then actually available.\n- Extended Virtual Addressing is a PAID entitlement, TrollStore also gives this entitlement.\nIncreased Memory Limit is required for all devices.\nExtended Virtual Addressing is required for specific devices which don't allow us to ask the RAM we need without the Extended Virtual Addressing entitlement.\nThose Devices include:\niPads with less than 8GB of RAM.\niPhones with less than 4GB of RAM.\nDiscord Server\nWe have a discord server!\n- https://discord.gg/HjCDPTpC3W\nHow to install\nRecommended Guide (Plumeimpactor)\n\nSideStore is recommended (optional) for an on-device Sideloader, and should be installed prior performing this install.\n\nMake sure to read the FAQ and Info before continuing.\n1. Sideload Application\nDownload and install MeloNX using PlumeImpactor on a computer.\n- Download MeloNX From Releases\n- Open PlumeImpactor > Click Settings > Click Login\n- Login with the same Apple ID you are using for SideStore (or AltStore).\n- Import the MeloNX .ipa you downloaded earlier.\n- Plug in your iDevice.\n- Select your iDevice from the dropdown at the top of the window.\n- Click Install.\n2. Load Into SideStore (Optional)\nTo have MeloNX show inside SideStore (or AltStore), You must re-install it:\n- Open SideStore on your iDevice\n- Select the My Apps tab > Tap the + button.\n- Select the MeloNX .ipa (You may need to download it again.)\n- Wait for it to Sideload, then it should show up Inside SideStore.\n- Now You can Refresh MeloNX and Update it without needing a computer.\n4. Setup Files\n\nAdd Encryption Keys and Firmware using the file picker inside MeloNX,\nInformation for where to get these files are here\n\n5. Enable JIT\n\nEnable JIT using your preferred method, on iOS 26 StikDebug is required.\n\nPaid Developer Account (Legacy)\nMake sure to read the FAQ and Info before continuing.\n1. Sideload MeloNX\nDownload and install MeloNX using your preferred Apple ID (NOT CERT) sideloader:\n- Download MeloNX from Releases\n2. Enable Memory Entitlement\n\nVisit Apple Developer Identifiers.\nLocate MeloNX and enable the following entitlements:\nIncreased Memory Limit\nExtended Virtual Addressing\nIncreased Debugging Memory Limit\n\n3. Reinstall MeloNX\n\nDelete existing MeloNX installation\nSideload MeloNX again\nVerify Increased Memory Limit is enabled in app\n\n4. Setup Files\n\nAdd Encryption Keys and Firmware using the file picker inside MeloNX\nInformation for where to get these files are here\n\n5. Enable JIT\n\nEnable JIT using your preferred method, on iOS 26 StikDebug is required.\n\nFree Developer Account (Legacy, On-Device)\n\nSideStore is recommended to Sideload MeloNX.\n\nMake sure to read the FAQ and Info before continuing.\nThe Entitlement App is *NOT needed for AltStore Classic***\n- You may skip Step 2 and Step 3\n1. Sideload Applications\nDownload and install both apps using your preferred APPLE ID sideloader:\n- MeloNX: Download from Releases\n- Entitlement App: Download IPA\n2. Enable Memory Entitlement\n\nIf the Entitlement / GetMoreRam app isn't working correctly, then try the new Plumeimpactor method.\n- Open the Entitlement app > Settings\n- Sign in with the same Apple ID you used to Sideload MeloNX.\n- Go to App IDs > tap Refresh\n- Select MeloNX (e.g., \"com.stossy11.MeloNX.XXXXXX\")\n- Tap Add Increased Memory Limit\n\n3. Reinstall MeloNX\n\nDelete existing MeloNX installation\nSideload MeloNX again\nVerify Increased Memory Limit is enabled in app\n\n4. Setup Files\n\nAdd Encryption Keys and Firmware using the file picker inside MeloNX\nInformation for where to get these files are here\n\n5. Enable JIT\n\nEnable JIT using your preferred method. We recommend StikDebug.\n\nFeatures\n- Audio\nAudio output is entirely supported, audio input (microphone) isn't supported.\nWe use C# wrappers for OpenAL, and SDL2 & libsoundio as fallbacks.\n- CPU\nThe CPU emulator, ARMeilleure, emulates an ARMv8 CPU and currently has support for most 64-bit ARMv8 and some of the ARMv7 (and older) instructions, including partial 32-bit support.\nIt translates the ARM code to a custom IR, performs a few optimizations, and turns that into x86 code.\nThere are three memory manager options available depending on the user's preference, leveraging both software-based (slower) and host-mapped modes (much faster).\nThe fastest option (host, unchecked) is set by default.\nRyujinx also features an optional Profiled Persistent Translation Cache, which essentially caches translated functions so that they do not need to be translated every time the game loads.\nThe net result is a significant reduction in load times (the amount of time between launching a game and arriving at the title screen) for nearly every game.\nNOTE: This feature is enabled by default, You must launch the game at least twice to the title screen or beyond before performance improvements are unlocked on the third launch!\nThese improvements are permanent and do not require any extra launches going forward.\n- GPU\nThe GPU emulator emulates the Switch's Maxwell GPU using Metal (via MoltenVK) APIs through a custom build of Silk.NET.\n- Input\nWe currently have support for keyboard, touch input, JoyCon input support, and nearly all MFI controllers.\nMotion controls are natively supported in most cases, however JoyCons do not have motion support due to an iOS limitation.\nRumble is also natively supported in most cases.\n- DLC & Modifications\nMeloNX supports DLC + Game Update Add-ons.\nMods (romfs, exefs, and runtime mods such as cheats) are unsupported; but may work. \n- Configuration\nThe emulator has settings for enabling or disabling logging, remapping controllers, resolution settings, Shader Cache and more.\nNotice\nThis project does not distribute, include, or endorse any copyrighted or pirated content. The software is provided for legitimate and lawful use.\nUsers are solely responsible for ensuring that any copyrighted material they use with this software (including, but not limited to, ROMs, cryptographic keys, and firmware) is obtained legally and in accordance with applicable law. The developers disclaim all responsibility for any misuse of the software or for any legal consequences resulting from the use of illegally obtained content.\nAny third-party distribution of this emulator bundled with copyrighted content (including, but not limited to, ROMs, cryptographic keys, and firmware) is done without permission and is not associated with orendorsed by this project.\nNintendo Switch is a trademark of Nintendo Co., Ltd.\nNintendo is a trademark of Nintendo Co., Ltd.\nPok\u00e9mon is a trademark of Nintendo/Creatures Inc./Game Freak Inc.\nAnimal Crossing is a trademark of Nintendo Co., Ltd.\nThis project is an independent, third-party work and is not affiliated with, endorsed by, or associated with Nintendo Co., Ltd., any of its subsidiaries, or any other console manufacturer or game and/or game publisher.\nLicense\nThis software is licensed under the terms of the GPLv3 license.\nThis project makes use of code authored by the libvpx project, licensed under BSD and the ffmpeg project, licensed under LGPLv3.\nSee LICENSE.txt and THIRDPARTY.md for more details.\nCredits\n\nRyujinx the base of MeloNX (Thank you Ryubing!)\nLibHac is used for our file-system.\nAmiiboAPI is used in our Amiibo emulation.\nldn_mitm is used for one of our available multiplayer modes.\nShellLink is used for Windows shortcut generation.",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.stossy11.MeloNX.png",
             "versions": [
                 {
                     "version": "2.3.1",
-                    "date": "2026-03-01T10:04:46.000Z",
+                    "date": "2026-03-01T09:58:14Z",
                     "localizedDescription": "What's New\n\nFix Freezing Issues\nFix Joystick being in the incorrect spot\nBrand New Logging System\nFix Setup not finishing correctly\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/1824/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.3.1/MeloNX.ipa",
+                    "size": 94207474
                 },
                 {
                     "version": "2.3",
-                    "date": "2026-02-28T11:35:40.237Z",
+                    "date": "2026-02-28T10:52:40Z",
                     "localizedDescription": "What's New\nPerformance & Stability\n\nFixed issues causing games to drop to low FPS\nFixed game freezing and general stability issues\nFixed crashes related to touch input\nAdded Main Thread Hang Watchdog\nAdded option to disable Main Thread Hang Watchdog\nOptimized JIT compiler\nIncreased JIT cache region size\nFixed multiple JIT cache region issues on iOS 18\nUpdated JIT cache management (including improvements for newer iOS versions)\nGeneral JIT cache updates and optimizations\nLowered Max Push Descriptor Sets to 8\nClamped mipmap levels to improve rendering stability with lower resolutions\n\nController & Input\n\nRewrote joystick system (UIKit-based)\nUpdated Virtual Controller\nAdded D-Pad joystick emulation (D-Pad now acts like a joystick)\nOptimized controller handling to reduce heavy calls on every button press\nUpdated on-screen and physical controller handling (reduces delay and freezing)\nFully fixed motion support with supported physical controllers\nEnabled rumble support for all controllers (including Virtual Controller)\nUpdated six-axis motion support\nFixed stick buttons always showing in portrait\nFixed - button not working on controllers\nFixed input in Settings allowing unintended horizontal scrolling\n\nAudio\n\nCompletely reworked audio backend\nAdded built-in music for Setup and Main Menu\nAdded shuffle option for background music\n\nFile Management\n\nAdded alert when failing to import ROMs\nFixed importing game updates\nFixed File Importer not working with game updates\nFixed Mod Manager\nRestored support for opening the MeloNX folder from setup\n\nUI & UX\n\nMigrated to the UIKit lifecycle\nMoved Performance HUD below the screen in portrait mode\nFixed Performance HUD not appearing during AirPlay\nFixed Pause/Play option not updating correctly after exiting the app\nFixed issue preventing selection of app icons\nAdded new app icon\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/1823/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.3/MeloNX.ipa",
+                    "size": 94210994
                 },
                 {
                     "version": "2.2",
-                    "date": "2025-12-27T07:37:40.450Z",
+                    "date": "2025-12-27T07:13:59Z",
                     "localizedDescription": "What's New\nImportant\n- Complete UI and Controller Handling Rewrite.\nUpdates\n\nUpdated iOS 26 JIT to be faster and map on-launch. \nMenu Button enabled by default.\nC# Trimming from Partial > Full. (Fixes Super Mario 3D All-Stars and other game launchers for A14 / M1 (Non-TXM) and below on iOS 26 and all devices on iOS 18)\nAll settings options now have information.\nDLC and Update Manager can now import more then 1 at a time.\nWaiting for JIT View.\nJIT Indicator turns orange instead of green when Increased Memory Limit is not enabled.\nPausing now pauses the entire game and audio instead of only the renderer.\nRename \"Games\" tab to \"Library\".\n\n\nFixes\n\nAutoJIT (Automatic JIT Enabling) on iOS 26 or when using Certificates.\nDetection for iOS 26 TXM (A15 / M2+) JIT. (Fix JIT showing that its enabled when its not)\nFile Picker with Certificates when picking folders. \nCheats (Thank you to @bxymartin for bringing this to my attention). \nCrashing issues with notifications, changing volume, leaving app, etc.\nSkip Setup.\nBorders when using AirPlay.\nFix Touch not working when using Virtual Controller.\nSplatoon 2/3.\nFix Super Mario Wonder (and other games that use profile images).\nRandom Crashes in Super Mario 3D World.\nFix crash when launching Metroid Prime 4.\nURL Schemes enabling JIT.\n\n\nAdditions\n\nController Configuration in-game.\nMultiple Library View Options (List, Grid, Compact Grid, etc).\nBrand New App Icons.\nController Support in List Library View.\nMod Manager.\nAlternate Frontend Support with URL Schemes (SUMEE and Manic support).\nTouch Rework with Multi-Touch Support.\n\nLiquid Glass UI and App Icons.\n\n\nBackground Music.\n\nNew Crash Alert (ft. Sad Mac).\nUI Shader Cache Loading Bar.\nRemove \"New\" UI.\nLink to Install Guide when Increased Memory Limit Entitlement is not enabled.\nGlobal Virtual Controller Layout Editor.\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/1593/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.2/MeloNX.ipa",
+                    "size": 64919190
                 },
                 {
                     "version": "2.1",
-                    "date": "2025-11-02T13:17:43.000Z",
+                    "date": "2025-11-02T12:38:36Z",
                     "localizedDescription": "What's New\nUpdates\n\nUpdated Motion for BackBone Controllers  \nUpdated Mods to improve support  \nUpdated Device / OS Detection  \nUpdated MoltenVK  \nUpdated iOS 15 UI  \nUpdated Memory management to reduce RAM usage  \n\n\nFixes\n\nFixed file importer when using a certificate  \nFixed games crashing due to internet issues (e.g., DOOM 2016)  \nFixed Unreal Engine games flickering or showing broken graphics  \nFixed various games including The Witcher 3, Silksong, Assassin's Creed, Spyro 1\u20133, Crash 4, and others  \nFixed Sonic Frontiers  \nFixed iOS 16 support  \nFixed Cheats (thank you @UmiAoi)  \nFixed UI lockups  \nFixed iOS 26 / iPadOS 26 external monitor and AirPlay support  \n\n\nAdditions\n\nAdded iOS 26 support for both TXM and Non-TXM devices  \nAdded macOS features  \nAdded Controller Layout Editor and Global Virtual Controller Layout  \nAdded Clear Shader Cache and Clear All Shader Cache buttons  \nAdded new Emulation Display UI option  \nAdded Internet support (non-Nintendo servers)  \nAdded LAN Mode Multiplayer (supports Ryujinx forks, MeloNX, and stock Switches)  \nAdded ldn_mitm Multiplayer (supports Ryujinx forks, MeloNX, and modded Switches)  \nAdded Profile Configuration  \nAdded Controller Type setting  \nAdded Custom ROM directory (not compatible with cloud storage)  \nAdded Controller Reconnection  \nAdded Extended Virtual Addressing Entitlement Detection  \nAdded LiveContainer (not recommended) Detection and Integration  \nAdded arm64 device support (when using TrollStore)  \nAdded Updated Performance HUD  \nAdded Proper File Picker Fix  \nAdded Certificate mention in Setup  \nAdded Increased Memory Entitlement Alert on game launch  \nAdded Full SDK20 and REV15 / Firmware 20 support  \n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/1249/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.1/MeloNX.ipa",
+                    "size": 57118399
                 },
                 {
                     "version": "2.0.1",
-                    "date": "2025-07-14T08:06:42.716Z",
+                    "date": "2025-06-13T01:40:24Z",
                     "localizedDescription": "What's New\n\nUE Games: Fixes the bug in the last release that causes Unreal Engine games to show a black screen or have colour issues.\nVirtual Controller Button: Fixes bug where buttons don't properly register clicks.\nLaunch Crash: Fixes the bug where the app crashes on any game launch with System.PlatformNotSupportedException\nFix TimeZones: Fixes the bug where time in-games aren't reflected properly\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.0.1/MeloNX.ipa",
+                    "size": 61021673
                 },
                 {
                     "version": "1.8.0",
-                    "date": "2025-07-14T08:05:52.433Z",
+                    "date": "2025-06-12T21:03:22Z",
                     "localizedDescription": "What's New\nMajor Performance and Stability Improvements\nWe've made significant under-the-hood changes to dramatically boost both performance and overall stability. Expect faster load times, smoother gameplay, and reduced crashes across the board.\nImproved Game Compatibility\n\nSubstantial compatibility upgrades across many titles.  \nUnreal Engine games no longer display a black screen\u2014games now render with texture flickering.\nFixed \"Player 1 to Handheld\" option \u2013 You can now play titles that previously wouldn't let you go past a controller screen, such as the Pok\u00e9mon games!\n\n\nEnhanced Experience and Features\n\nAll-New Main Menu UI \u2013 A refreshed, modern design for easier navigation.\nMotion Controls \u2013 Works seamlessly with both physical controllers and iPhone/iPad gyroscopes.\nRumble Support \u2013 Feel the game with controller vibration feedback.\nRevamped Settings UI \u2013 Streamlined layout for better usability.\nPer-Game Settings \u2013 Customize controls and options for each title individually.\nNew Virtual Controller \u2013 Rebuilt from the ground up for better responsiveness and customization.\n\n\nFixes and Improvements\n\nFixed Metal HUD toggle not working as intended.\nCrash Detection on Launch \u2013 Automatically detects launch-time crashes and displays helpful prompts.\nSystem Time Fix \u2013 In-game time now syncs correctly with your device.\nEnhanced Logging \u2013 Now includes device model and entitlement info for easier debugging.\nAuto StikDebug \u2013 Automatically enables advanced debugging tools.\nUpdated and Fixed DLC / Update Manager \u2013 Improved handling of game updates and downloadable content for smoother management.\n\n\nNew Settings Options\n\nButton Hold Toggle \u2013 Tap once to simulate holding a button when using the Virtual Controller.\nShow Stick Buttons - Shows L3 and R3 on when using the Virtual Controller.\nVirtual Controller Opacity \u2013 Adjust the transparency of on-screen controls.\nDisable Touch Screen \u2013 Optional setting to prevent accidental input.\nSwap Face Buttons (Physical Controller) \u2013 Swaps ABXY layout to match your preferred controller scheme.\nBlack Screen on AirPlay (Light Mode) \u2013 Prevents unwanted screen mirroring visuals.\nLocation Access (Optional) \u2013 Prevents app suspension in the background. (Location data is not collected or transmitted.)\nApp Icon Switcher \u2013 Choose from alternate app icons to personalize your Home Screen.\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/590/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.8.0/MeloNX.ipa",
+                    "size": 61022098
                 },
                 {
                     "version": "1.7.0",
-                    "date": "2025-07-14T08:03:41.586Z",
+                    "date": "2025-03-20T10:33:28Z",
                     "localizedDescription": "Changelog\n\nUpdated JitStreamer Implementation\nMove MeloNX Core off the Main Thread\nImplement new JIT detection method\nRemove \"MVK: Pre-fill Metal Command Buffers\" Setting\nRewritten Virtual Controller\nJIT Checkmark on Main Menu\nAdd Wait For VPN when using JitStreamer\nRewrite DLC and Update Manager\nFix Firmware Button in Setup\nRename RyujinxKeyboard to RyujinxHelper\nUpdate RyujinxHelper\nFix get_current_fps() crash on some devices\nFix Controller Applet Alerts\nBetter Performance\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/589/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.7.0/MeloNX.ipa",
+                    "size": 52731658
                 },
                 {
                     "version": "1.6.0",
-                    "date": "2025-07-14T08:02:23.000Z",
+                    "date": "2025-03-13T06:18:42Z",
                     "localizedDescription": "Changelog\n\nFix Controller Mapping\nFix Updates and DLCs (PR #21)\nFix Metal HUD\nAdd Metal HUD Option in settings\nImplement New Version Alert (PR #20)\nImplement JIT Cache Regions into NoWXCache\nBetter Performance\nUpdates MoltenVK\nFix some Visual Issues in games\nFix Super Mario 3D World (and other games that may suffer from the same issue)\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/588/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.6.0/MeloNX.ipa",
+                    "size": 52682854
                 },
                 {
                     "version": "1.5.0",
-                    "date": "2025-07-14T08:01:25.000Z",
+                    "date": "2025-03-08T22:10:37Z",
                     "localizedDescription": "One of the biggest updates yet!\nChangelog\n\nUpdate to the latest Ryujinx Core!\nBetter Performance\nMore Game Compatibility\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/587/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.5.0/MeloNX.ipa",
+                    "size": 54006362
                 },
                 {
                     "version": "1.4.0",
-                    "date": "2025-07-14T07:58:46.183Z",
+                    "date": "2025-03-06T01:09:38Z",
                     "localizedDescription": "Changelog\n\nRewrite Display Code (SDL isn't used for display anymore)\nAdd New Onboarding / Setup\nBetter Performance\nRemove \"SDL Window\" option in settings\nFix JIT Cache Regions\nFix how JIT is detected in Settings\nFix ABYX being swapped on controller.\nSettings are now a config.json file\nFix Performance Overlay not showing when Virtual Controller is hidden\nAdd displaying logs when Loading or in-game\nFix Launching games from outside of the roms folder\nAdd Waiting for JIT popup\nFix spesific Games\nAdded Back Herobrine (\"You were supposed to be the hero, Bryan\") \n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/586/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.4.0/MeloNX.ipa",
+                    "size": 71888063
                 },
                 {
                     "version": "1.3.0",
-                    "date": "2025-07-14T07:56:03.000Z",
+                    "date": "2025-03-01T10:06:09Z",
                     "localizedDescription": "Changelog\n\nAdd JIT Cache Regions to Software Page Table \nFix most controllers (GCController wrapper, PR #6)\nAdd DLC Manager (DLC manager implemented, PR #11)\nAdd Update Manager (Added title update functionality, PR #7)\nAdd Handheld input\nAdd Device and Device OS Version to information\nRewrote JIT Acquisition tester to include all iOS ver support\nBetter Performance\nRemoved SDL Window option\nAdded back iOS 15 support (untested)\nRemoved Herobrine\n\n(Please note that the pull requests still point to the old git server as the prs didn't move to the Ryubing gitlab server but the changes are in this release)",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/584/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.3.0/MeloNX.ipa",
+                    "size": 71775655
                 },
                 {
                     "version": "1.2.1",
-                    "date": "2025-07-14T07:53:27.852Z",
+                    "date": "2025-02-16T20:40:56Z",
                     "localizedDescription": "Changelog\n\nFix Game Updates\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/583/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.2.1/MeloNX.ipa",
+                    "size": 71718243
                 },
                 {
                     "version": "1.2.0",
-                    "date": "2025-07-14T07:52:29.516Z",
+                    "date": "2025-02-16T06:29:09Z",
                     "localizedDescription": "Changelog\n\nInformation Section in Settings\nEntitlement Checker\nDevice Memory in Information Section\nMoved JIT Acquisition to Information Section \nLanguage and Region Settings\nOn-Screen Controller Scale\nGame Updates\nGame Update Manager\nBetter Performance\n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/582/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.2.0/MeloNX.ipa",
+                    "size": 71712076
                 },
                 {
                     "version": "1.1.0",
-                    "date": "2025-07-14T07:50:34.408Z",
+                    "date": "2025-02-13T01:56:20Z",
                     "localizedDescription": "Changelog\n\nAdd \"MVK: Synchronous Queue Submits\" option in Settings\nFixes Software Keyboard\nAdds \"Disable PTC\" Option\nFix the controllers going Vertical.\nFix Airplay Metal HUD\nAdd \"Disable VSync\" Option\nFix Spelling Mistake (\"Aquired\" > \"Acquired\")\nSet Version in-app to 1.1.0 \n",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/581/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.1.0/MeloNX.ipa",
+                    "size": 70510805
                 },
                 {
                     "version": "1.0.0",
-                    "date": "2025-07-14T07:47:14.000Z",
+                    "date": "2025-02-12T07:19:51Z",
                     "localizedDescription": "First Release :))) (version in-app is 0.0.8)",
-                    "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
-                    "size": 0
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/1.0.0/MeloNX.ipa",
+                    "size": 61021673
                 }
             ]
         },

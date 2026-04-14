@@ -59,10 +59,10 @@
         "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/be10a7d93b70df3b40057f869e6cc82de92bc2f0/MyApp_Dark_1024.png"
     },
     {
-        "gitlab": "https://git.ryujinx.app/melonx/emu",
+        "gitlab": "https://git.ryujinx.app/projects/MeloNX",
         "bundleID": "com.stossy11.MeloNX",
         "name": "MeloNX",
-        "iconURL": "https://git.ryujinx.app/uploads/-/system/project/avatar/93/nxgradientpng.png"
+        "iconURL": "https://git.ryujinx.app/repo-avatars/8792e6f959c8510ea07369fbf1201f3a2a947c24f76ecd3a1ba1fe14e130e523"
     },
     {
         "github": "Baconium/JESSI",

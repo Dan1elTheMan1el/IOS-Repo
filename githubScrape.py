@@ -58,9 +58,9 @@ for repo_info in scraping:
     elif "gitlab" in repo_info:
         host = urlparse(repo_info["gitlab"]).netloc
         path = urlparse(repo_info["gitlab"]).path
-        data = requests.get(f"https://{host}/api/v4/projects/{quote_plus(path.lstrip('/'))}").json()
+        data = requests.get(f"https://{host}/api/v1/repos/{path.lstrip('/')}").json()
 
-        readme = requests.get(data['readme_url'].replace("/blob/", "/raw/")).text
+        readme = requests.get(f"https://{host}/api/v1/repos/{path.lstrip('/')}/media/README.md").text
         html = markdown.markdown(readme)
         soup = BeautifulSoup(html, 'html.parser')
 
@@ -68,18 +68,19 @@ for repo_info in scraping:
         localizedDescription = soup.get_text().strip()
 
         print("Getting latest release...")
-        releases = requests.get(f"https://{host}/api/v4/projects/{quote_plus(path.lstrip('/'))}/releases").json()
-        author = releases[0]["author"]["name"] if "author" in releases[0] and "name" in releases[0]["author"] else "Unknown"
+        releases = requests.get(f"https://{host}/api/v1/repos/{path.lstrip('/')}/releases").json()
+        author = releases[0]["author"]["full_name"] if "author" in releases[0] and "full_name" in releases[0]["author"] else "Unknown"
 
         for release in releases:
             version = release["tag_name"].lstrip("v")
-            date = release["released_at"]
-            markdown_body = markdown.markdown(release["description"])
+            date = release["published_at"]
+            markdown_body = markdown.markdown(release["body"])
             html_body = BeautifulSoup(markdown_body, 'html.parser')
             downloadURL = ""
-            for asset in release["assets"]["links"]:
+            for asset in release["assets"]:
                 if asset["name"].endswith(".ipa"):
-                    downloadURL = asset["direct_asset_url"]
+                    downloadURL = asset["browser_download_url"]
+                    size = asset["size"]
                     break
             if downloadURL == "":
                 continue
@@ -88,7 +89,7 @@ for repo_info in scraping:
                 "date": date,
                 "localizedDescription": html_body.get_text(),
                 "downloadURL": downloadURL,
-                "size": 0
+                "size": size
             })
     else:
         print(f"Unknown repo type for {repo_info['name']}")
