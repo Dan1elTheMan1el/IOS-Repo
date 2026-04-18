@@ -406,10 +406,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-04-13T02:15:25Z",
-                    "localizedDescription": "Commit: 2c42f6303375983dea24c43f1a7458fc924e22c9\nMessage: Fix #1275\nAdd MultitaskSpecified key to LCAppInfo.plist\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-04-17T14:00:05Z",
+                    "localizedDescription": "Commit: 83d5bde7bac151544e704ff7e3668a6337959287\nMessage: implement #1194\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34602249
+                    "size": 34603773
                 },
                 {
                     "version": "3.7.2",
