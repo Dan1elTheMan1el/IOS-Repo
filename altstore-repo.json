@@ -413,10 +413,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-04-25T15:59:22Z",
-                    "localizedDescription": "Commit: 0e833c787b0b412462b8dea9c0583f88f2f4ec7b\nMessage: perload UIKit when applying idfv hook\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-05-01T07:36:25Z",
+                    "localizedDescription": "Commit: a9bfe930b22be5975cf03fdfdea1f569a7835957\nMessage: update issue template & bump version\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34604132
+                    "size": 34607513
                 },
                 {
                     "version": "3.7.2",
