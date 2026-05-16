@@ -413,10 +413,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-05-05T08:45:05Z",
-                    "localizedDescription": "Commit: 809bd652b2916bedd46c121b2e43cb07648942d7\nMessage: remove url scheme check\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-05-15T11:34:18Z",
+                    "localizedDescription": "Commit: f6273e342bb02ef27d10647d0c371b1f625946c8\nMessage: bump version\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34608739
+                    "size": 34612861
                 },
                 {
                     "version": "3.7.2",
