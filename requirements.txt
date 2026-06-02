@@ -1,3 +1,5 @@
 requests
 markdown
 beautifulsoup4
+cloudscraper
+# playwright  # uncomment if you need Cloudflare bypass (pip install playwright && playwright install chromium)
