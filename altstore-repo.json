@@ -420,10 +420,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-05-31T03:10:20Z",
-                    "localizedDescription": "Commit: 52ffabab8db86746b184d209b400c8c8880379b1\nMessage: Fix #1379\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-06-06T16:36:32Z",
+                    "localizedDescription": "Commit: dec80172ef857ee8f1cd326d8610d8ebc2fe0c5b\nMessage: Fix isLCSchemeInUse\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34593558
+                    "size": 34608619
                 },
                 {
                     "version": "3.7.2",
