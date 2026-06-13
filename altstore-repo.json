@@ -326,6 +326,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.jbdotparty.PancakeStore.png",
             "versions": [
                 {
+                    "version": "1.2",
+                    "date": "2026-06-12T05:52:23Z",
+                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nBackend Changes\n\nPancakeStore has been fixed again. Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\nImproved error handling. The app should no longer abruptly exit when things go wrong.\nAuto-clean. The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\n\nAdded Features\n\nShare Extension. PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\nExport IPA. You can export the IPA after the app has been downgraded. Probably useful for research or archival.\n\nThank you everybody for your patience and support!",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
+                    "size": 1936006
+                },
+                {
                     "version": "1.1",
                     "date": "2026-02-27T02:18:24Z",
                     "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nSupport Server \u2022 Website \u2022 Original Project (by mineek)\nBackend Changes\n\nPancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\n\nUI Updates\n\nAdded a proper UI for iPads.\nCleaned up multiple components, updated PartyUI.\nAdded a settings page.\nCode reorganization.\n\nQoL Improvements\n\nWhen the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\nAdded more information about the app while it's downgrading.\n",
@@ -420,10 +427,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-06-07T08:33:10Z",
-                    "localizedDescription": "Commit: 2bb1f7e9055611892f3077662195e44c93f76887\nMessage: Bump version & update translation\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-06-12T10:12:33Z",
+                    "localizedDescription": "Commit: 6106eed6fbcb5bfc607191afaf5c9d823d51a2aa\nMessage: bump version\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34614112
+                    "size": 34614520
                 },
                 {
                     "version": "3.7.2",
