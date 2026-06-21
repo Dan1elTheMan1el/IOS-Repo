@@ -434,10 +434,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-06-12T10:12:33Z",
-                    "localizedDescription": "Commit: 6106eed6fbcb5bfc607191afaf5c9d823d51a2aa\nMessage: bump version\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-06-20T02:17:54Z",
+                    "localizedDescription": "Commit: 4de9e47255056fc2132217894352d151611bcaae\nMessage: Fix #1402, #870, #844: use alternative scene creation and keyboard focus fix APIs for 17.4+\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 34614520
+                    "size": 34614863
                 },
                 {
                     "version": "3.7.2",
