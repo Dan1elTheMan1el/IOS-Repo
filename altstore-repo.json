@@ -122,10 +122,10 @@
             "versions": [
                 {
                     "version": "beta",
-                    "date": "2026-05-25T14:25:55Z",
-                    "localizedDescription": "Commit: chore: update repo (90983ce25d739525616fc6b3153bf94af5e0cd8b)\nNew in this build (Compared to v1.6):\n\nchore: update repo (90983ce)\n\nCommit SHA: 90983ce25d739525616fc6b3153bf94af5e0cd8b",
+                    "date": "2026-06-22T11:11:30Z",
+                    "localizedDescription": "Commit: chore: update sources (20125c902cd8e0257101c65955d8be2e031a0ed5)\nNew in this build (Compared to v1.6):\n\nchore: update sources (20125c9)\nchore: remove piracy sources (61b9e95)\nchore: update repo (90983ce)\n\nCommit SHA: 20125c902cd8e0257101c65955d8be2e031a0ed5",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/beta/Ksign.ipa",
-                    "size": 16230290
+                    "size": 16231017
                 },
                 {
                     "version": "1.6",
