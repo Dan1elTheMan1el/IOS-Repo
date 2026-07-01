@@ -326,6 +326,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.jbdotparty.PancakeStore.png",
             "versions": [
                 {
+                    "version": "1.2.2",
+                    "date": "2026-07-01T02:08:51Z",
+                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nChanges\n\nImproved URL handling. Authentication was broken for some people due to my poor choices in programming the URL handling. Now it should be more reliable hopefully. Brazil fix\nImproved buttons. The buttons have been bugged for a while where you have to tap on the text for them to work, now they should be normal. Shoutout to everybody whose problems were solved by \"you have to tap the text\".\nMinor project updates. The version number now says 1.2.2 instead of 1.2.1. Also some small codebase cleanup.\n\nThank you everybody for your patience and support! Working slowly to make things more stable, hopefully less impatient complaints make their way to us...",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.2/PancakeStore_v1.2.2.ipa",
+                    "size": 3099981
+                },
+                {
                     "version": "1.2.1",
                     "date": "2026-06-26T23:43:46Z",
                     "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nChanges\n\nFix authentication. We'll see how long this lasts.\nAdd link to information about sign-in issues. Maybe people will read? No, they probably won't...\nMinor project updates. The version number now says 1.2.1 instead of 1.2.\n\nThank you everybody for your patience and support! Unless you weren't. I'm tired please just don't spam us with issues when it breaks",
