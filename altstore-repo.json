@@ -46,10 +46,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2025-03-31T04:27:11Z",
+                    "date": "2026-07-07T04:00:40Z",
                     "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
-                    "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/Entitlement.ipa",
-                    "size": 2613093
+                    "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/GetMoreRam.ipa",
+                    "size": 631066
                 }
             ]
         },
