@@ -122,10 +122,10 @@
             "versions": [
                 {
                     "version": "beta",
-                    "date": "2026-07-04T04:36:25Z",
-                    "localizedDescription": "Commit: `feat: remove \"UIDesignRequiresCompatibility\" key for force Liquid Glass (#129)\nalso removed the background to looks better for Liquid Glass` (ae5dc7dcbdab276d768ceaf3727ae2673eff230a)\nNew in this build (Compared to v1.6):\n\nfeat: remove \"UIDesignRequiresCompatibility\" key for force Liquid Glass (#129) (ae5dc7d)\nchore: bump to v1.6.1 (7069768)\nchore: update sources (20125c9)\nchore: remove piracy sources (61b9e95)\nchore: update repo (90983ce)\n\nCommit SHA: ae5dc7dcbdab276d768ceaf3727ae2673eff230a",
+                    "date": "2026-07-14T20:15:52Z",
+                    "localizedDescription": "Commit: feat: disable liquid glass for apps on ios 26 (03a3a9c86897d79f9faf8106037b9971841d56a0)\nNew in this build (Compared to v1.6):\n\nfeat: disable liquid glass for apps on ios 26 (03a3a9c)\nchore: update star history (5d83bcb)\nfeat: remove \"UIDesignRequiresCompatibility\" key for force Liquid Glass (#129) (ae5dc7d)\nchore: bump to v1.6.1 (7069768)\nchore: update sources (20125c9)\nchore: remove piracy sources (61b9e95)\nchore: update repo (90983ce)\n\nCommit SHA: 03a3a9c86897d79f9faf8106037b9971841d56a0",
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/beta/Ksign.ipa",
-                    "size": 16230474
+                    "size": 16231234
                 },
                 {
                     "version": "1.6",
@@ -455,10 +455,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-07-13T05:00:58Z",
-                    "localizedDescription": "Commit: 22c7b1d1cd3961018bf881bba6ee5e1c8e661a24\nMessage: support new sidestore\nThis is a nightly release created automatically with GitHub Actions workflow.\n\n[!WARNING]\nthe built-in sidestore is currently broken and using it may lead to data loss. Please download the last working version from https://github.com/LiveContainer/LiveContainer/actions/runs/29105466912 while we are fixing this issue.\nStandalone LiveContainer users are not affected.\n",
-                    "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
-                    "size": 4703737
+                    "date": "2026-07-14T05:17:02Z",
+                    "localizedDescription": "Commit: f31f91493fc56c87f790654fb74fba445d75fea4\nMessage: Don't show diasable toggle for TweakLoader.dylib\nThis is a nightly release created automatically with GitHub Actions workflow.\n\n[!NOTE]\nThe previous SideStore related issue should be resolved. If you are on the affected version (3.7.13), please reinstall LiveContainer+SideStore directly from supported side loaders. After that please check JIT-Less Mode Diagnose -> Entitlement file and check if keychain-access-groups is correct. If you've updated LiveContainer2 or 3 in 3.7.13 please also update them in LiveContainer to 3.7.14 and do the same check.\nStandalone LiveContainer users are not affected.\n",
+                    "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
+                    "size": 35401850
                 },
                 {
                     "version": "3.7.2",
