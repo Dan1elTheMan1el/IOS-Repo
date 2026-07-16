@@ -46,10 +46,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-07-07T04:00:40Z",
+                    "date": "2026-07-15T02:25:06Z",
                     "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/GetMoreRam.ipa",
-                    "size": 631066
+                    "size": 634370
                 }
             ]
         },
@@ -455,10 +455,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-07-14T05:17:02Z",
-                    "localizedDescription": "Commit: f31f91493fc56c87f790654fb74fba445d75fea4\nMessage: Don't show diasable toggle for TweakLoader.dylib\nThis is a nightly release created automatically with GitHub Actions workflow.\n\n[!NOTE]\nThe previous SideStore related issue should be resolved. If you are on the affected version (3.7.13), please reinstall LiveContainer+SideStore directly from supported side loaders. After that please check JIT-Less Mode Diagnose -> Entitlement file and check if keychain-access-groups is correct. If you've updated LiveContainer2 or 3 in 3.7.13 please also update them in LiveContainer to 3.7.14 and do the same check.\nStandalone LiveContainer users are not affected.\n",
+                    "date": "2026-07-15T02:26:56Z",
+                    "localizedDescription": "Commit: c2f30175822a9e15c4c55d06e776512750f3d526\nMessage: Should fix #1450\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 35401850
+                    "size": 35401631
                 },
                 {
                     "version": "3.7.2",
