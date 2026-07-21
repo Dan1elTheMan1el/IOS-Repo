@@ -642,6 +642,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.stossy11.MeloNX.png",
             "versions": [
                 {
+                    "version": "2.5",
+                    "date": "2026-07-19T10:17:35Z",
+                    "localizedDescription": "What's New\nCore & Controllers\n\nLaggy/Glitching Audio Fixes \nFix Race Conditions in TickSource\nAdd VSync FPS Target\nUpdate Unbound Presenting\nRevert Descriptor Set Updates\nAdd GPU PresentCopyCompute Path\nAdd Timeout for WaitingForValue in BufferedQuery\nAdd Back Exit Button (works the same as 2.3.1)\nFix Cheats\nFix Super XCI Support\nFix Saves\n\nUI/UX\n\nUpdate Setup Screen \nAdd continuing without title.keys\nFix Importing Mods\nFix crashing when importing firmware.\nAdd Firmware & Keys Importing Error Handling\nFix Updates/DLCs\nFix URL Schemes and Auto JIT\nUpdate No JIT View\nAdd Extended Virtual Addressing entitlement Checker\nAdd Emulation Crashed Alert\nFix AirPlay\n",
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.5/MeloNX.ipa",
+                    "size": 48655413
+                },
+                {
                     "version": "2.4",
                     "date": "2026-07-10T02:18:07Z",
                     "localizedDescription": "What's New\nArchitecture & Controllers\n\nComplete App & Core Rewrite based on Ryubing \nJIT Cache Improvements\nExperimental HD Rumble support\nKeyboard Mapping\niOS 26.6/27 Support\nImproved Per-Game Settings\nUpdate to SDL3 from SDL2\nRemove Herobrine & Implemented Pluey\n\nUI/UX\n\nThemes\nFixed In-Game Keyboard Support\nBrand New In-Game Config Button\nUpdated Mod, Update & DLC Manager\nBrand New Settings Page\nBrand New Setup View with Changelog\nBrand New Customizable Performance Overlay\nUpdated No JIT View\nUpdated App Icon Switcher\n\nPerformance & Game Fixes\n\nUpdated MacroHLE/Jit/Interpreter Implementation\nExperimental Asynchronous Shader Generation\nFixed Games which launch others on 26+ TXM\nUpdate Descriptor Set Handling\n",
