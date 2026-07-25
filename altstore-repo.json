@@ -455,10 +455,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-07-22T02:18:46Z",
-                    "localizedDescription": "Commit: 7cd16ea2c42dca282217ca8aba4dcadbbf66af63\nMessage: Implement #1460, update issue template, bump version\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-07-24T12:31:37Z",
+                    "localizedDescription": "Commit: 5727a3b3666a0217664169defd0e5f6a75d85d28\nMessage: Fix #1459 avoid sending UIApplicationWillResignActiveNotification twice, #942 regresses\nSwitching to the new API causes some issues (#1459, reintroduces #942). It turns out the new API includes deactivationReasons in the diff now for some reason, which causes UIApplicationWillResignActiveNotification to be triggered twice.\n->  0x1a9b7f5a8 <+920>: bl     0x1a9be7380    ; objc_msgSend$diffFromSettings:toSettings:\n(lldb) bt\n* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 9.1\n  * frame #0: 0x00000001a9b7f5a8 FrontBoard`-[FBScene _applySettingsUpdateWithCompletion:] + 920\n    frame #1: 0x00000001a9b7ccb0 FrontBoard`-[FBScene _joinUpdate:block:completion:] + 1460\n    frame #2: 0x00000001a9b7d570 FrontBoard`-[FBScene scene:didUpdateSettings:] + 496\n    frame #3: 0x00000001a3faf4a4 FrontBoardServices`-[FBSSceneObserver scene:didUpdateSettings:] + 160\n...\n(lldb) po $x0\n<FBSSceneSettingsDiff: 0x1147c4f80; UIApplicationSceneSettings> {\n    subclassSettings = <BSSettingsDiff: 0x114145ec0> {\n        deactivationReasons = controlCenter;\n    };\n}\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 35444929
+                    "size": 35448963
                 },
                 {
                     "version": "3.8.0",
