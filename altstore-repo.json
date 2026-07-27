@@ -326,6 +326,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.jbdotparty.PancakeStore.png",
             "versions": [
                 {
+                    "version": "1.3",
+                    "date": "2026-07-26T06:57:39Z",
+                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nLocalizations\nWe've added full localization for the following languages:\n- Russian (#2, @ezn1hero)\n- German (@rooootdev)\n- Chinese, Simplified (#3, @trollstorex)\nTranslations have been a goal for a long time, and we're very excited in taking the first steps to implement them.\nAt the moment, we have not arranged a system to widely crowdsource translations for our projects, so translations will be on a one-off individually-contributed basis. This will hopefully change in the short future.\nChanges\n\nFixed authentication again again again. If you were running into \"failed to get pod\" errors, they should be resolved now.\nSome UI changes. UI is cleaner now i think...? I know some changes were done to it. Should be more better now.\nMinor project updates. Surprisingly, the version number now says 1.3 instead of 1.2.2. If anybody predicts and leaks the next version number I'm going to be very upset.\n\nThank you everybody for your patience and support! Attention has been on some other projects for a bit, but we do have plenty more features to add to PancakeStore still. Stay tuned for all that.\nHappy downgrading!",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.3/PancakeStore_v1.3.ipa",
+                    "size": 5965008
+                },
+                {
                     "version": "1.2.2",
                     "date": "2026-07-01T02:08:51Z",
                     "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nChanges\n\nImproved URL handling. Authentication was broken for some people due to my poor choices in programming the URL handling. Now it should be more reliable hopefully. Brazil fix\nImproved buttons. The buttons have been bugged for a while where you have to tap on the text for them to work, now they should be normal. Shoutout to everybody whose problems were solved by \"you have to tap the text\".\nMinor project updates. The version number now says 1.2.2 instead of 1.2.1. Also some small codebase cleanup.\n\nThank you everybody for your patience and support! Working slowly to make things more stable, hopefully less impatient complaints make their way to us...",
@@ -455,10 +462,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-07-24T12:31:37Z",
-                    "localizedDescription": "Commit: 5727a3b3666a0217664169defd0e5f6a75d85d28\nMessage: Fix #1459 avoid sending UIApplicationWillResignActiveNotification twice, #942 regresses\nSwitching to the new API causes some issues (#1459, reintroduces #942). It turns out the new API includes deactivationReasons in the diff now for some reason, which causes UIApplicationWillResignActiveNotification to be triggered twice.\n->  0x1a9b7f5a8 <+920>: bl     0x1a9be7380    ; objc_msgSend$diffFromSettings:toSettings:\n(lldb) bt\n* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 9.1\n  * frame #0: 0x00000001a9b7f5a8 FrontBoard`-[FBScene _applySettingsUpdateWithCompletion:] + 920\n    frame #1: 0x00000001a9b7ccb0 FrontBoard`-[FBScene _joinUpdate:block:completion:] + 1460\n    frame #2: 0x00000001a9b7d570 FrontBoard`-[FBScene scene:didUpdateSettings:] + 496\n    frame #3: 0x00000001a3faf4a4 FrontBoardServices`-[FBSSceneObserver scene:didUpdateSettings:] + 160\n...\n(lldb) po $x0\n<FBSSceneSettingsDiff: 0x1147c4f80; UIApplicationSceneSettings> {\n    subclassSettings = <BSSettingsDiff: 0x114145ec0> {\n        deactivationReasons = controlCenter;\n    };\n}\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-07-27T01:45:23Z",
+                    "localizedDescription": "Commit: 6bf1baeeaf34b0b936d4032b39d9d5a4db9736e9\nMessage: Fix crash when certificate is not imported\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 35448963
+                    "size": 35498807
                 },
                 {
                     "version": "3.8.0",
