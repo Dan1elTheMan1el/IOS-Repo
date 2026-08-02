@@ -469,10 +469,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-07-27T01:45:23Z",
-                    "localizedDescription": "Commit: 6bf1baeeaf34b0b936d4032b39d9d5a4db9736e9\nMessage: Fix crash when certificate is not imported\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-08-01T16:49:32Z",
+                    "localizedDescription": "Commit: ac2186e2558ad7cacc6b5a2970b92ce5d4d0d60c\nMessage: Fix context menu\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 35498807
+                    "size": 35651781
                 },
                 {
                     "version": "3.8.0",
