@@ -469,10 +469,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-08-06T07:12:43Z",
-                    "localizedDescription": "Commit: 4f257534c5384d75fdee4c1dc664c44d06199736\nMessage: update pbxproj & license info\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-08-08T16:48:39Z",
+                    "localizedDescription": "Commit: fe4c0ea7607322f7a2c7aa3111d7082054b14c8b\nMessage: Fix #1506 by removing the iOS 26 liquid glass search bar because it's causing issue and Apple themselves abandoned it.\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 35928707
+                    "size": 35915794
                 },
                 {
                     "version": "3.8.0",
