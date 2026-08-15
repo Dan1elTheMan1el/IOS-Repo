@@ -469,10 +469,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-08-12T04:17:32Z",
-                    "localizedDescription": "Commit: b8f2401f95d445fc5ab3698677828feb5d24e038\nMessage: Fix #1515\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-08-14T10:51:46Z",
+                    "localizedDescription": "Commit: 7e356bc3ab0e05584977281937da9308740b997b\nMessage: use window scene to determine if the device has a notch\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 36111465
+                    "size": 32361860
                 },
                 {
                     "version": "3.8.0",
