@@ -469,10 +469,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-08-16T06:16:52Z",
-                    "localizedDescription": "Commit: c635b526357807b41bd124f185bea63abdff0652\nMessage: update sidestore support\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-08-22T13:23:36Z",
+                    "localizedDescription": "Commit: 1a87ea9a0f2c9c5de1747d7f519e22aeeaefe4a0\nMessage: Fix #1528\nThis is a nightly release created automatically with GitHub Actions workflow.\n\n[!CAUTION]\nThis version of SideStore will delete your previous activate certificate and sign out your Apple ID after updating from version < 3.8.7.\nIf you want to continue signing apps with old certificate, be sure to export it first before updating. You may save it by opening SideStore -> Settings -> Certificate Management (if it loads forever, enable airplane mode and reopen sidestore)-> Hold your current certificate -> tap Export Certificate -> tap Export full (.p12) -> choose a password -> save the certificate\nThen after updating, Do not sign in first, go to Certificate Management -> tap the top right Import button -> select the exported certificate and enter the password -> Hold the imported certificate -> tap Activate -> sign out your account and re-sign in\nIf you are already signed in and SideStore asks you to resign, perform the resign and re-import SideStore certificate in LiveContainer.\nStandalone LiveContainer users are not affected. But please also perform the same procedure if you plan to upgrade SideStore.\n",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 32402527
+                    "size": 33023780
                 },
                 {
                     "version": "3.8.0",
