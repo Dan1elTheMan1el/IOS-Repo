@@ -656,6 +656,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.stossy11.MeloNX.png",
             "versions": [
                 {
+                    "version": "2.6",
+                    "date": "2026-08-26T14:22:48Z",
+                    "localizedDescription": "What's New\nCore\n\nBrand new Audio Backend\nUpdate AirPlay Support\nFix Firmware Importing\nUpdate TXM detection\nFix ldn_mitm\nUpdate Texture Clearing / Auto Delete Cache\nACNH Black Background Fix (https://github.com/Ryubing/Issues/issues/476)\nAsync Shader Generation Fixes\nFix Argument Buffer env variable\nRemoved Herobrine\n\nUI/UX & Extras\n\nRAM Tester Integration\n3D Cartridge View and Animations (Controller Navigable)\nAdd Clear All Shader Cache Button\nAdd Copying Launch Deep Link\nFix Saving Game Icon\nFile Picker Fixes\n",
+                    "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.6/MeloNX.ipa",
+                    "size": 48811519
+                },
+                {
                     "version": "2.5",
                     "date": "2026-07-19T10:17:35Z",
                     "localizedDescription": "What's New\nCore & Controllers\n\nLaggy/Glitching Audio Fixes \nFix Race Conditions in TickSource\nAdd VSync FPS Target\nUpdate Unbound Presenting\nRevert Descriptor Set Updates\nAdd GPU PresentCopyCompute Path\nAdd Timeout for WaitingForValue in BufferedQuery\nAdd Back Exit Button (works the same as 2.3.1)\nFix Cheats\nFix Super XCI Support\nFix Saves\n\nUI/UX\n\nUpdate Setup Screen \nAdd continuing without title.keys\nFix Importing Mods\nFix crashing when importing firmware.\nAdd Firmware & Keys Importing Error Handling\nFix Updates/DLCs\nFix URL Schemes and Auto JIT\nUpdate No JIT View\nAdd Extended Virtual Addressing entitlement Checker\nAdd Emulation Crashed Alert\nFix AirPlay\n",
