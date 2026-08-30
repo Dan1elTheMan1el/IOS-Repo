@@ -318,58 +318,6 @@
             ]
         },
         {
-            "name": "PancakeStore",
-            "bundleIdentifier": "com.jbdotparty.PancakeStore",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "(EoL/Non-functional) iOS app downgrader based off of MuffinStore Jailed. Supports iOS 16.4 and later.",
-            "localizedDescription": "EoL Notice\nPancakeStore is officially EoL (End-of-Life) as of 8/22/2026.\nApple has implemented server-side changes to the iTunes API that's used in PancakeStore, as well as other popular tools such as ipatool, which primarily include SEP-based device attestation. What this means, in short, is that PancakeStore will not work ever again unless someone figures out an alternative route for downgrading apps, or successfully re-implements the attestation logic (both of which are very difficult).\nIn the event that this occurs, or a new method for downgrading apps is discovered and made, we will update PancakeStore.Until then, consider the project EoL.\nThank you all for all of your support of this tool, and we apologize that things have to halt like this.\n\u2764\ufe0f\n\n\n\n\n\nPancakeStore\niOS app downgrader based off of MuffinStore Jailed.\nSupports iOS 16.4 and later.\nDiscord Server \u2022 Our Website\n\n\n[!WARNING]\nLogging in may break at random due to Apple's constant server-side changes. If login fails, make sure that you're on the latest version of PancakeStore. Do NOT open any issues or ask for support regading logins. It will not speed up the process of fixing authentication.\n\nBefore you continue...\n\nNot only is authentication unstable, but there is no guarantee that user data will be retained when downgrading! Use this tool at your own risk.\n\nInstallation\nPlease make sure that the following requirements are met:\n- Your device is running iOS 16.4 or later.\n- You have an Apple ID with 2FA enabled (highly recommended to be the one your iDevice is signed in with).\n- You have a sideloading method of your choice to install this tool. Almost all methods of sideloading, including TrollStore and LiveContainer, are supported.\nUsage\nThe target app must meet the following requirements:\n- This app has been purchased from the App Store with the same Apple ID you're using to log in.\n- The app isn't installed on your device (offloading works).\n- The app actually has vaild versions to downgrade to (some don't, so keep this in mind).\n\nDo NOT ask for support if a specific app can't be downgraded or crashes on launch. There is nothing we can do about this.\n\nTroubleshooting\n\n\"Failed to get pod\" error: This usually means that logging in will be impossible on this Apple ID, or that a server-side change has broke authentication. Please don't open any issues or ask for support if you get this error.\n\"Safari can't open the page\" error: Go to Settings > Apps > Safari, and under \"Privacy & Security,\" disable \"Not Secure Connection Warning.\" Also ensure that you don't have any VPN or DNS settings that might be affecting this.\n\nCredits\n\nMineek: Created the original project.\nskadz108: Project maintainer, backend developer, and various authentication fixes.\nlunginspector: Frontend manager and QoL improvements.\n\nTranslators\n\nIsacucho: Spanish\ngerda: Russian\nrooootdev: German\nTrollStoreX: Chinese (Simplified)\nneonmodder123: Arabic\nJurre: Dutch\nMineTurtlee: Vietnamese\nnxtcoreee3: Swedish, Romanian, and Norwegian\nfil: Italian",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.jbdotparty.PancakeStore.png",
-            "versions": [
-                {
-                    "version": "1.3.1",
-                    "date": "2026-07-27T08:58:47Z",
-                    "localizedDescription": "\nEoL Notice\nPancakeStore is officially EoL (End-of-Life) as of 8/22/2026.\nApple has implemented server-side changes to the iTunes API that's used in PancakeStore, as well as other popular tools such as ipatool, which primarily include SEP-based device attestation. What this means, in short, is that PancakeStore will not work ever again unless someone figures out an alternative route for downgrading apps, or successfully re-implements the attestation logic (both of which are very difficult).\nIn the event that this occurs, or a new method for downgrading apps is discovered and made, we will update PancakeStore.Until then, consider the project EoL.\nThank you all for all of your support of this tool, and we apologize that things have to halt like this.\n\u2764\ufe0f\n\nOriginal release notes\nThis update mainly focuses on localizations, but we recommend updating nonetheless.\nLocalizations\nWe've added full localization for the following languages:\n- Spanish (@isacucho)\n- Arabic (@neonmodder123)\n- Dutch (@jurre111)\n- Vietnamese (@MineTurtlee)\n- Italian (@tiziodied)\n- Swedish (@nxtcoreee3)\n- Romanian (@nxtcoreee3)\n- Norwegian (@nxtcoreee3)\nAs you can see, lots more languages compared to just over a day ago. We are very thankful for all of our volunteer translators for their contributions and assistance.\nChanges\n\nAdded new Translators section to the Credits list.\nVery minor backend adjustments.\n\nThank you everybody for your patience and support!\nHappy downgrading!",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.3.1/PancakeStore_v1.3.1.ipa",
-                    "size": 3130839
-                },
-                {
-                    "version": "1.3",
-                    "date": "2026-07-26T06:57:39Z",
-                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nLocalizations\nWe've added full localization for the following languages:\n- Russian (@gerdaroot, #2)\n- German (@rooootdev)\n- Chinese, Simplified (@TrollStoreX, #3)\nTranslations have been a goal for a long time, and we're very excited in taking the first steps to implement them.\nAt the moment, we have not arranged a system to widely crowdsource translations for our projects, so translations will be on a one-off individually-contributed basis. This will hopefully change in the short future.\nChanges\n\nFixed authentication again again again. If you were running into \"failed to get pod\" errors, they should be resolved now.\nSome UI changes. UI is cleaner now i think...? I know some changes were done to it. Should be more better now.\nMinor project updates. Surprisingly, the version number now says 1.3 instead of 1.2.2. If anybody predicts and leaks the next version number I'm going to be very upset.\n\nThank you everybody for your patience and support! Attention has been on some other projects for a bit, but we do have plenty more features to add to PancakeStore still. Stay tuned for all that.\nHappy downgrading!",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.3/PancakeStore_v1.3.ipa",
-                    "size": 5965008
-                },
-                {
-                    "version": "1.2.2",
-                    "date": "2026-07-01T02:08:51Z",
-                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nChanges\n\nImproved URL handling. Authentication was broken for some people due to my poor choices in programming the URL handling. Now it should be more reliable hopefully. Brazil fix\nImproved buttons. The buttons have been bugged for a while where you have to tap on the text for them to work, now they should be normal. Shoutout to everybody whose problems were solved by \"you have to tap the text\".\nMinor project updates. The version number now says 1.2.2 instead of 1.2.1. Also some small codebase cleanup.\n\nThank you everybody for your patience and support! Working slowly to make things more stable, hopefully less impatient complaints make their way to us...",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.2/PancakeStore_v1.2.2.ipa",
-                    "size": 3099981
-                },
-                {
-                    "version": "1.2.1",
-                    "date": "2026-06-26T23:43:46Z",
-                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nChanges\n\nFix authentication. We'll see how long this lasts.\nAdd link to information about sign-in issues. Maybe people will read? No, they probably won't...\nMinor project updates. The version number now says 1.2.1 instead of 1.2.\n\nThank you everybody for your patience and support! Unless you weren't. I'm tired please just don't spam us with issues when it breaks",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.1/PancakeStore_v1.2.1.ipa",
-                    "size": 3105584
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-06-12T05:52:23Z",
-                    "localizedDescription": "\n[!NOTE]\nPancakeStore is currently broken due to server changes by Apple. These issues occur frequently, are relatively unpredictable, and can only be solved by working around the new changes in the code. We do not have the time to fix these always, so if the current build is giving you issues while logging in, unfortunately there is nothing we can do. Please do not ask us for support or alternatives.\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nDiscord Server \u2022 Website \u2022 Original Project (by mineek)\nBackend Changes\n\nPancakeStore has been fixed again. Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\nImproved error handling. The app should no longer abruptly exit when things go wrong.\nAuto-clean. The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\n\nAdded Features\n\nShare Extension. PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\nExport IPA. You can export the IPA after the app has been downgraded. Probably useful for research or archival.\n\nThank you everybody for your patience and support!",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
-                    "size": 1936006
-                },
-                {
-                    "version": "1.1",
-                    "date": "2026-02-27T02:18:24Z",
-                    "localizedDescription": "\n[!WARNING]\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nSupport Server \u2022 Website \u2022 Original Project (by mineek)\nBackend Changes\n\nPancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\n\nUI Updates\n\nAdded a proper UI for iPads.\nCleaned up multiple components, updated PartyUI.\nAdded a settings page.\nCode reorganization.\n\nQoL Improvements\n\nWhen the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\nAdded more information about the app while it's downgrading.\n",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.1/PancakeStore_v1.1.ipa",
-                    "size": 1132982
-                }
-            ]
-        },
-        {
             "name": "ByeTunes",
             "bundleIdentifier": "com.EduAlexxis.MusicManager",
             "developerName": "EduAlexxis",
@@ -469,10 +417,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-08-24T14:54:28Z",
-                    "localizedDescription": "Commit: 2d092098cae6ef6d98eefe3943927f81d925e527\nMessage: Directly download sidestore from SideStore team's repo\nThis is a nightly release created automatically with GitHub Actions workflow.\n\n[!CAUTION]\nThis version of SideStore will delete your previous activate certificate and sign out your Apple ID after updating from version < 3.8.7.\nIf you want to continue signing apps with old certificate, be sure to export it first before updating. You may save it by opening SideStore -> Settings -> Certificate Management (if it loads forever, enable airplane mode and reopen sidestore)-> Hold your current certificate -> tap Export Certificate -> tap Export full (.p12) -> choose a password -> save the certificate\nThen after updating, Do not sign in first, go to Certificate Management -> tap the top right Import button -> select the exported certificate and enter the password -> Hold the imported certificate -> tap Activate -> sign out your account and re-sign in\nIf you are already signed in and SideStore asks you to resign, perform the resign and re-import SideStore certificate in LiveContainer.\nStandalone LiveContainer users are not affected. But please also perform the same procedure if you plan to upgrade SideStore.\n",
+                    "date": "2026-08-29T23:34:07Z",
+                    "localizedDescription": "Commit: 48b69a1cca4f23a14c1f54f32578e614003cb940\nMessage: Rework 32bit handlers, fix JIT check\nLiveContainer is intended to support third party 32-bit emulators aswell, but we don't have a stable specification for it right now.\nOh also did I mention I had to fix an 'infoleak' cause some person does not like it\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 36675792
+                    "size": 38144557
                 },
                 {
                     "version": "3.8.0",
