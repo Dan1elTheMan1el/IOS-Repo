@@ -425,9 +425,9 @@
                 {
                     "version": "nightly",
                     "date": "2026-08-30T14:53:24Z",
-                    "localizedDescription": "Commit: 12b1f782d760a43f47c9f7f77f1c270f7d888aac\nMessage: Fix Error in compatibility flow by hardcoding SDK spoof to 11 if lower\nThis is a nightly release created automatically with GitHub Actions workflow.",
-                    "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 38144515
+                    "localizedDescription": "Commit: 12b1f782d760a43f47c9f7f77f1c270f7d888aac\nMessage: Fix Error in compatibility flow by hardcoding SDK spoof to 11 if lower\nThis is a nightly release created automatically with GitHub Actions workflow.\n\n[!NOTE]\nThe LiveContainer+SideStore IPA is pulled because it may cause data loss and have issue signing LC+SS itself, rendering built-in SideStore being unable to open. Before this issue is fixed, you may download the last working ipa here: https://github.com/LiveContainer/LiveContainer/actions/runs/32741278966\n",
+                    "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa",
+                    "size": 4740733
                 },
                 {
                     "version": "3.8.0",
