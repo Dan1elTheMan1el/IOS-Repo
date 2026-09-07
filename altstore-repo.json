@@ -424,10 +424,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-09-05T08:56:27Z",
-                    "localizedDescription": "Commit: 8ca6ea52485ed33e795e70ce6d3cf42872771f0e\nMessage: use lc's own sidestore build again & bump version\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-09-06T09:06:53Z",
+                    "localizedDescription": "Commit: 12377cf3b91d51739a33f14a302e5f522b238593\nMessage: only show LiveProcess Entitlements for lc1\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 32324004
+                    "size": 32347071
                 },
                 {
                     "version": "3.8.0",
