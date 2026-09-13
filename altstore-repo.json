@@ -46,10 +46,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-07-15T02:25:06Z",
+                    "date": "2026-09-12T14:39:53Z",
                     "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/GetMoreRam.ipa",
-                    "size": 634370
+                    "size": 2305445
                 }
             ]
         },
@@ -424,10 +424,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-09-09T02:45:28Z",
-                    "localizedDescription": "Commit: 3afa9eb9a53625e9b8bd8b932e5785fd716ad5ae\nMessage: Show warning for incorrect app group when built-in sidestore exists\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-09-13T01:45:38Z",
+                    "localizedDescription": "Commit: e55609bab48a2b0551ddb5c0574497826e39680f\nMessage: Fix #1600\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 32423485
+                    "size": 32573145
                 },
                 {
                     "version": "3.8.0",
