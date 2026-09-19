@@ -424,10 +424,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-09-13T01:45:38Z",
-                    "localizedDescription": "Commit: e55609bab48a2b0551ddb5c0574497826e39680f\nMessage: Fix #1600\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-09-18T23:13:08Z",
+                    "localizedDescription": "Commit: 4dbe0f9a626de801184a42c0be8d2cb105058e3d\nMessage: Update litehook: add arm64e_x1 dsc suffix\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 32573145
+                    "size": 35926202
                 },
                 {
                     "version": "3.8.0",
