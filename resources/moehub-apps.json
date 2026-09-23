@@ -1,0 +1,27 @@
+{
+    "name": "Moe's App Hub",
+    "iconURL": "https://moe.mohkg1017.pro/static/moeapps.webp",
+    "website": "https://moe.mohkg1017.pro",
+    "apps": [
+        {
+            "name": "Instagram",
+            "bundleID": "com.burbn.instagram"
+        },
+        {
+            "name": "Soundcloud",
+            "bundleID": "com.soundcloud.TouchApp"
+        },
+        {
+            "name": "Twitter",
+            "bundleID": "com.twitter.twitter"
+        },
+        {
+            "name": "YouTube",
+            "bundleID": "com.google.ios.youtube"
+        },
+        {
+            "name": "Spotify",
+            "bundleID": "com.spotify.client"
+        }
+    ]
+}
