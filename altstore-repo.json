@@ -520,6 +520,13 @@
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.baconmania.jessi.png",
             "versions": [
                 {
+                    "version": "1.1.2",
+                    "date": "2026-10-06T07:24:52Z",
+                    "localizedDescription": "changelog:\n\nproper jailbreak support! jailbroken users can now install JESSI via a package manager instead of having to install TrollStore/TrollStore Lite\nPumpkinMC support (still requires JIT)\nPumpkinMC plugin downloading support\nPumpkinMC plugin permission manager\nJIT enabler now probes for a loopback VPN connection rather than relying on LocalDevVPN\n",
+                    "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.1.2/JESSI.ipa",
+                    "size": 12168815
+                },
+                {
                     "version": "1.1.1",
                     "date": "2026-10-02T03:30:11Z",
                     "localizedDescription": "this is just a hotfix to fix a couple of issues. changelog:\n\nfixed playit codesigning issues (again)\npaper servers now download plugins from the mod manager rather than fabric mods\n",
@@ -564,7 +571,7 @@
                 {
                     "version": "super-beta",
                     "date": "2026-02-23T20:08:22Z",
-                    "localizedDescription": "latest beta build\nautomatically built from main.\ncommit: ecd0fae2f3af729cec8cd8b4d890f939a5435dab\nrun: #44\nchanges\n\njessi 1.1.2 etas0n (ecd0fae)\nfix links in readme (b4492a5)\nfix source workflow (48960af)\nadd another  tag (the goat) (b6d9af0)\nmove some stuff back to where its supposed to be (whoops) (bbd98c7)\nalright fuck you asshole, just dont center yourself I guess. I hate you markdown (1f125c6)\nfix centering (fd27060)\nadd nightly support to workflow (a41d6da)\nfix sources (7be422d)\ncentering divs is fun (dcefe27)\nguhhhh (71b3e97)\nMerge pull request #32 from burneracct07/main (bdd93fd)\nfix build-ipa.yml (ed23084)\nadd pumpkinmc support (7c18561)\nadd pumpkinmc support (18374fa)\nDrop that 'also' in the readme (cd51c11)\nHoly crap that image was humongous (cae90df)\nNew workflow for updating the source file (7df2609)\nUpdate readme for AltSource stuff (638e4fa)\nupdate livecontainer info in readme (a4b586f)\n\n\ninstall\ntrollstore\nhttps://github.com/Baconium/JESSI/releases/download/super-beta/JESSI.ipa\naltstore or any other sideloading platform\nimport the .ipa directly from this release page.",
+                    "localizedDescription": "latest beta build\nautomatically built from main.\ncommit: 49a4959f0d3bf14bd597400e8994277ac675ca7f\nrun: #46\nchanges\n\nfix source image to use the proper jessi icon (49a4959)\nfix plugin support for pumpkin and add general loopback vpn connection support instead of just checking for localdevvpn (thanks kyoukawa for pointing out the old system was shit) (17b88e7)\njessi 1.1.2 etas0n (ecd0fae)\nfix links in readme (b4492a5)\nfix source workflow (48960af)\nadd another  tag (the goat) (b6d9af0)\nmove some stuff back to where its supposed to be (whoops) (bbd98c7)\nalright fuck you asshole, just dont center yourself I guess. I hate you markdown (1f125c6)\nfix centering (fd27060)\nadd nightly support to workflow (a41d6da)\nfix sources (7be422d)\ncentering divs is fun (dcefe27)\nguhhhh (71b3e97)\nMerge pull request #32 from burneracct07/main (bdd93fd)\nfix build-ipa.yml (ed23084)\nadd pumpkinmc support (7c18561)\nadd pumpkinmc support (18374fa)\nDrop that 'also' in the readme (cd51c11)\nHoly crap that image was humongous (cae90df)\nNew workflow for updating the source file (7df2609)\n\n\ninstall\ntrollstore\nhttps://github.com/Baconium/JESSI/releases/download/super-beta/JESSI.ipa\naltstore or any other sideloading platform\nimport the .ipa directly from this release page.",
                     "downloadURL": "https://github.com/Baconium/JESSI/releases/download/super-beta/JESSI-1.ipa",
                     "size": 7931849
                 },
