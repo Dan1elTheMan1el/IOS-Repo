@@ -338,10 +338,10 @@
             "versions": [
                 {
                     "version": "nightly",
-                    "date": "2026-11-08T09:11:51Z",
-                    "localizedDescription": "Commit: 9d6ea09b05afa2c8fc537c372795a294db631311\nMessage: Support for built-in jit enablers, ram donors, helper process etc\nThis is a nightly release created automatically with GitHub Actions workflow.",
+                    "date": "2026-11-15T14:10:09Z",
+                    "localizedDescription": "Commit: b7cfda60c39933a94d616f2a358ac2e48fd4e5cd\nMessage: don't load source until source view is opened, implement #1726, bump version\nThis is a nightly release created automatically with GitHub Actions workflow.",
                     "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-                    "size": 23752778
+                    "size": 23754976
                 },
                 {
                     "version": "3.8.0",
